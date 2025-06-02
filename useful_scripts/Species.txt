@@ -1414,3 +1414,13 @@ Terapagos
 TerapagosTerastal
 TerapagosStellar
 Pecharunt
+StarmieMega  
+ArticunoMega  
+ZapdosMega  
+MoltresMega  
+DragoniteMega  
+CrobatMega  
+BellossomMega  
+RhyperiorMega  
+ElectivireMega  
+MagmortarMega  

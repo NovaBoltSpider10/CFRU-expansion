@@ -820,9 +820,24 @@ enum
 #define ITEM_UNREMARKABLE_TEACUP 0x304
 #define ITEM_MASTERPIECE_TEACUP 0x305
 #define ITEM_TERA_ORB 0x306
+#define ITEM_BUTTERFRITE          0x307
+#define ITEM_MACHAMPITE           0x308
+#define ITEM_GENGARITE_X          0x309
+#define ITEM_STARMITE             0x30A
+#define ITEM_LAPRASITE            0x30B
+#define ITEM_ARTICUNITE           0x30C
+#define ITEM_ZAPDOSITE            0x30D
+#define ITEM_MOLTRESITE           0x30E
+#define ITEM_DRAGONITITE          0x30F
+#define ITEM_CROBATITE            0x310
+#define ITEM_BELLOSSOMITE         0x311
+#define ITEM_RHYPERIORITE         0x312
+#define ITEM_ELECTIVIRITE         0x313
+#define ITEM_MAGMORTARITE         0x314
+
 enum
 {
-	ITEM_FREE_SPACE1 = 0x307, //These are reserved for future use
+	ITEM_FREE_SPACE1 = 0x314, //These are reserved for future use
 	ITEM_FREE_SPACE2,
 	ITEM_FREE_SPACE3,
     ITEM_SHINY_SPACE1,
