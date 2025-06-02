@@ -14,6 +14,8 @@ build/*
 *.ss2
 *.ss3
 *.toml
+*.vscode
+hex.py
 Multi Target Moves Plan.txt
 generatedrepoints
 *__pycache__

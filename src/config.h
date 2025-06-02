@@ -259,8 +259,8 @@ enum //These vars need to be one after the other (hence the enum)
 #define HOOPA_CHANGE_IN_PC //Hoopa-Unbound will revert to confined form when placed in or withdrawn from a box
 #define SHAYMIN_CHANGE_IN_PC //Shaymin-Sky will revert to sky from when placed in or withdrawn from a box
 #define HIGH_PITCH_MEGA_PRIMAL_CRY //Mega Pokemon cries will be higher pitched. This is useful if you're using the base form cries for Mega Evolutions
-#define CUSTOM_MULTICHOICE //Adds JPAN's custom multichoice menus (see documentation)
-#define SCROLLING_MULTICHOICE //Enables scrolling multichoice menus by using special 0x158.
+//#define CUSTOM_MULTICHOICE //Adds JPAN's custom multichoice menus (see documentation)
+//#define SCROLLING_MULTICHOICE //Enables scrolling multichoice menus by using special 0x158.
 //#define REPLACE_SOME_VANILLA_SPECIALS //Replaces the sp07C, sp07D, sp09E, sp156, sp18B, & the Coins scripting commands with modified versions. Breaks vanilla FR compatability.
 #define REPLACE_ASH_WEATHER_WITH_WHITE_SANDSTORM //Replaces the falling ash weather effect with a white version of the sandstorm weather effect
 #define ONLY_CHECK_ITEM_FOR_HM_USAGE //Allows HMs to be used if the HM is the Bag, and as long as there is a Pokemon in the party that can learn the HM
@@ -334,7 +334,7 @@ enum //These vars need to be one after the other (hence the enum)
 #define FASTER_HEALTHBOX_CHANGE //The healthbar increases/decreases at a somewhat constant rate for all Pokemon
 #define ENCOUNTER_MUSIC_BY_CLASS //Plays music when a trainer spots the player based on the trainer class rather than the value set in the trainer data.
 #define OKAY_WITH_AI_SUICIDE //The AI is allowed to use self-destructing moves
-#define HEALTHBAR_TYPE_ICONS //Pokemon types will always be shown next to the healthbar
+//#define HEALTHBAR_TYPE_ICONS //Pokemon types will always be shown next to the healthbar
 #define TEAM_PREVIEW_TRIGGER //The player will be given an option to see the party Pokemon from enemies in trainer battles by pressing L
 #define FLAG_IN_BATTLE_TEAM_PREVIEW 0xA00 //Enables or disables the Team Preview trigger button
 #define FLAG_ALWAYS_SHOW_LAST_BALL 0xA01 //Enables or disables the last Pokeball used trigger button
