@@ -786,7 +786,6 @@ gMoveAnimations:
 .word ANIM_DRAGON_ENERGY
 .word ANIM_ASTRAL_BARRAGE
 .word ANIM_GLACIAL_LANCE
-.word ANIM_TERA_BLAST
 .word ANIM_DIRE_CLAW
 .word ANIM_PSYSHIELD_BASH
 .word ANIM_POWER_SHIFT
@@ -1013,6 +1012,7 @@ gMoveAnimations:
 .word ANIM_SNOWSCAPE
 .word ANIM_SPICYEXTRACT
 .word ANIM_SPINOUT
+.word ANIM_TERA_BLAST
 .word ANIM_TIDYUP
 .word ANIM_TORCHSONG
 .word ANIM_TRAILBLAZE
@@ -29960,42 +29960,7 @@ ANIM_SNOWSCAPE:
 .pool
 @Credits to Matteo
 ANIM_SPICYEXTRACT:
-    loadparticle ANIM_TAG_POISON_BUBBLE
-    SetBlends 0x080C
-    launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_POISON_BUBBLE 0x0 0xC 0xC 0x061D @;Orange
-    playsound2 0xb3 SOUND_PAN_ATTACKER
-    pokespritetoBG bank_target 
-    launchtemplate APPLE_ACID_LAUNCH TEMPLATE_TARGET | 2, 0x6 0x14 0x0 0x28 0x1 0x0 0x0  
-    playsound2 0x77 SOUND_PAN_ATTACKER 
-    pause 0x5 
-    launchtemplate APPLE_ACID_LAUNCH TEMPLATE_TARGET | 2, 0x6 0x14 0x0 0x28 0x1 0x18 0x0  
-    playsound2 0x77 SOUND_PAN_ATTACKER 
-    pause 0x5 
-    launchtemplate APPLE_ACID_LAUNCH TEMPLATE_TARGET | 2, 0x6 0x14 0x0 0x28 0x1 0xffe8 0x0  
-    playsound2 0x77 SOUND_PAN_ATTACKER 
-    pause 0x5
-    launchtask AnimTask_pal_fade 0xa 0x5 0x4 0x1 0x0 0x8 0x1F
-    pause 0xA
-    launchtask AnimTask_move_bank_2 0x5 0x5 bank_target 0x2 0x0 0xa 0x1
-    launchtemplate APPLE_ACID_DRIP TEMPLATE_TARGET | 2, 0x5 0x0 0xffea 0x0 0xf 0x37  
-    playsound2 0x75 SOUND_PAN_TARGET 
-    pause 0xa 
-    launchtemplate APPLE_ACID_DRIP TEMPLATE_TARGET | 2, 0x5 0xffe6 0xffe8 0x0 0xf 0x37  
-    playsound2 0x75 SOUND_PAN_TARGET 
-    pause 0xa 
-    launchtemplate APPLE_ACID_DRIP TEMPLATE_TARGET | 2, 0x5 0xf 0xffe5 0x0 0xf 0x32  
-    playsound2 0x75 SOUND_PAN_TARGET 
-    pause 0xa 
-    launchtemplate APPLE_ACID_DRIP TEMPLATE_TARGET | 2, 0x5 0xfff1 0xffef 0x0 0xa 0x2d  
-    playsound2 0x75 SOUND_PAN_TARGET 
-    pause 0xa 
-    launchtemplate APPLE_ACID_DRIP TEMPLATE_TARGET | 2, 0x5 0x1b 0xffea 0x0 0xf 0x32  
-    playsound2 0x75 SOUND_PAN_TARGET 
-    pause 0x6
-    launchtask AnimTask_pal_fade 0xa 0x5 0x4 0x1 0x8 0x0 0x1F
-    waitanimation 
-    pokespritefromBG bank_target 
-    resetblends
+    goto ANIM_BLUEFLARE
     endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

@@ -15658,19 +15658,19 @@ const struct BattleMove gBattleMoves[] =
 	},
 
 	[MOVE_SPICYEXTRACT] =
-    {	
-		.effect = EFFECT_DEFENSE_DOWN_2,
-		.power = 0,
-		.type = TYPE_GRASS,
+    {
+		.effect = EFFECT_SUPERPOWER,
+		.power = 120,
+		.type = TYPE_FIRE,
 		.accuracy = 100,
-		.pp = 15,
+		.pp = 5,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
-		.flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.split = SPLIT_STATUS,
-		.z_move_power = 0,
-		.z_move_effect = Z_EFFECT_SPATK_UP_2,
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 190,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
 	},
 
 	[MOVE_SPINOUT] =

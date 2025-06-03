@@ -4144,6 +4144,7 @@ BS_182_Superpower:
 	jumpifmove MOVE_DRAGONASCENT CloseCombatBS
 	jumpifmove MOVE_HEADLONGRUSH CloseCombatBS
 	jumpifmove MOVE_ARMORCANNON CloseCombatBS
+	jumpifmove MOVE_SPICYEXTRACT CloseCombatBS
 	jumpifmove MOVE_HAMMERARM HammerArmBS
 	jumpifmove MOVE_ICEHAMMER HammerArmBS
 	jumpifmove MOVE_CLANGINGSCALES ClangingScalesBS
