@@ -361,7 +361,7 @@ enum //These vars need to be one after the other (hence the enum)
 #define MULTIPLE_PREMIER_BALLS_AT_ONCE //Comment out if you don't want the player received a Premier ball for every 10 Poke Balls purchased (only 1 no matter how many over 10 balls the player buys)
 #define ENABLE_MULTIPLE_PURCHASE_REWARDS // Premium Quantity based rewards with a custom item : reward : quantity system (check src/item.c for table). Remeber the above line will not be useful now!
 #define EXPANDED_NEW_ITEMS //Expands items table and add new items util gen 9.
-#define SHOWPOKEPIC_WITHOUT_UGLY_BOX //Fixes the ShowPokePic command to only show Pokemon sprite and not a box with it
+//#define SHOWPOKEPIC_WITHOUT_UGLY_BOX //Fixes the ShowPokePic command to only show Pokemon sprite and not a box with it
 #define CHANGE_ITEM_STORAGE_GRAPHIC //if uncommented, will change pc item storage to Swsh style (background modificable)
 #define FLAG_KEPT_LEVEL_CAP_ON 0xA04 // For level caps, to be used with FLAG_HARD_LEVEL_CAP
 #define FLAG_HARD_LEVEL_CAP 0xA05 // Enables level caps
