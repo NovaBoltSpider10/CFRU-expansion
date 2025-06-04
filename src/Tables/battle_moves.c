@@ -10892,18 +10892,18 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_QUASH] =
 	{
-		.effect = EFFECT_INSTRUCT_AFTER_YOU_QUASH,
-		.power = 0,
-		.type = TYPE_DARK,
+		.effect = EFFECT_QUICK_ATTACK,
+		.power = 80,
+		.type = TYPE_FLYING,
 		.accuracy = 100,
-		.pp = 15,
+		.pp = 5,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
-		.priority = 0,
-		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-		.z_move_power = 0,
-		.split = SPLIT_STATUS,
-		.z_move_effect = Z_EFFECT_SPD_UP_1
+		.priority = 2,
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 160,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
 	},
 
 	[MOVE_HAPPYHOUR] =
@@ -11131,19 +11131,19 @@ const struct BattleMove gBattleMoves[] =
 	},
 
 	[MOVE_TEATIME] =
-	{	//ANIM TODO
-		.effect = EFFECT_TEATIME, //EFFECT TODO
-		.power = 0,
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
+	{
+		.effect = EFFECT_PSYCH_UP,
+		.power = 100,
+		.type = TYPE_GHOST,
+		.accuracy = 100,
 		.pp = 10,
 		.secondaryEffectChance = 0,
-		.target = MOVE_TARGET_USER,
+		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
-		.flags = 0,
-		.split = SPLIT_STATUS,
-		.z_move_power = 0,
-		.z_move_effect = Z_EFFECT_ALL_STATS_UP_1,
+		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 175,
+		.split = SPLIT_SPECIAL,
+		.z_move_effect = 0
 	},
 
 	[MOVE_OCTOLOCK] =

@@ -15964,20 +15964,7 @@ ANIM_INSTRUCT:
 .pool
 @Credits to Lixdel
 ANIM_QUASH:
-	loadparticle ANIM_TAG_ASSURANCE_HAND  @hand
-	loadBG1 BG_DARK
-	waitbgfadein
-	setblends 0x80c
-	playsound2 0x7f SOUND_PAN_TARGET
-	launchtemplate QUASH_ARMHIT TEMPLATE_TARGET | 0x3, 0x3 0x0 0xffe0 0xf
-	pause 0x13
-	playsound2 0xC5 SOUND_PAN_ATTACKER
-	launchtask AnimTask_SquishTarget 0x2 0x0
-	waitanimation
-	pokespritefromBG bank_target
-	resetblends
-	loaddefaultBG
-	waitbgfadein
+	goto ANIM_SUPERSONIC_SKYSTRIKE
 	endanimation
 
 .align 2
@@ -16466,7 +16453,7 @@ DREEPY_MISSILE: objtemplate ANIM_TAG_DREEPY ANIM_TAG_DREEPY OAM_OFF_32x32 gAnimC
 .pool
 @Credits to -
 ANIM_TEATIME:
-	goto 0x81cb40e @ANIM_MILKDRINK
+	goto ANIM_G_MAX_TERROR
 	endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -27962,7 +27949,6 @@ ANIM_G_MAX_TERROR:
 	launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_RAZOR_SHELL 0x0 0xA 0xA 0x7CBF @;Pink
 	launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_VERTICAL_HEX 0x2 0xA 0xA 0x5C05 @;Royal Blue
 	launchtask AnimTask_pal_fade 0xa 0x5 PAL_BG 0x1 0x0 0xE 0x0 @;Black
-	launchtask AnimTask_DynamaxGrowth 0x5 0x1 0x1
 	launchtemplate PHANTASM_OBJ_1 TEMPLATE_ATTACKER | 2, 0x5, -30, -40,  30, -10, 40 @;Top left - Top Right
 	launchtemplate PHANTASM_OBJ_2 TEMPLATE_ATTACKER | 2, 0x5, -40, -10,   0, -30, 40 @;Middle left - Top
 	launchtemplate PHANTASM_OBJ_3 TEMPLATE_ATTACKER | 2, 0x5, -30,  20,  20,  10, 40 @;Bottom left - Bottom Right

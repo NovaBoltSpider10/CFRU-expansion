@@ -1007,7 +1007,7 @@ The user helps the\ntarget and makes it\nuse its move right\nafter the user.
 The user instructs\nthe target to use\nthe target's last\nmove again.
 
 #org @DESC_QUASH
-The user suppresses\nthe target and makes\nits move go last.
+The Ultimate Move.
 
 #org @DESC_HAPPYHOUR
 Using Happy Hour\ndoubles the amount\nof prize money\nreceived after\nbattle.
@@ -1052,7 +1052,7 @@ The user scatters\nmagic powder that\nchanges the target\ninto a Psychic-type.
 The user attacks\ntwice. If there\nare two targets,\neach is hit once.
 
 #org @DESC_TEATIME
-All Pok\emon on the\nfield have teatime.\nEach Pok\emon eats\nits held Berry.
+The Ultimate Move.
 
 #org @DESC_OCTOLOCK
 The user traps the\nfoe and makes its\nDefense and Sp. Def\nfall each turn.
