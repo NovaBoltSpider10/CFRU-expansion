@@ -389,7 +389,7 @@ void SetMoveEffect(bool8 primary, u8 certain)
 				{
 					gBattleCommunication[MOVE_EFFECT_BYTE] = (Random() % 3);
 
-					if (gCurrentMove == MOVE_DIRECLAW)
+					if (gCurrentMove == MOVE_DIRECLAW || gCurrentMove == MOVE_DOODLE)
 					{
 						gBattleCommunication[MOVE_EFFECT_BYTE] += MOVE_EFFECT_SLEEP; //Sleep, Poison, Paralysis
 						

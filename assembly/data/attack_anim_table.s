@@ -26417,7 +26417,6 @@ ANIM_MAX_FLUTTERBY:
 	launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_UNUSED_EXPLOSION_2 0x0 0xA 0xA 0x33D5 @;Light green
 	launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_CIRCLE_OF_LIGHT 0x0 0xC 0xC 0x33D5 @;Light green
 	launchtask AnimTask_pal_fade 0xa 0x5 PAL_BG 0x1 0x0 0xE 0x0 @;Black
-	launchtask AnimTask_DynamaxGrowth 0x5 0x1 0x1
 	launchtemplate BUTTERFLY TEMPLATE_TARGET | 2, 0x3, -30, -30, -20 @;Top left
 	launchtemplate BUTTERFLY TEMPLATE_TARGET | 2, 0x3, -30,  10,  20 @;Bottom left
 	launchtemplate BUTTERFLY TEMPLATE_TARGET | 2, 0x3,  30, -30, -20 @;Top right
@@ -29156,7 +29155,8 @@ COMEUPPANCE_RIGHT: objtemplate ANIM_TAG_SCRATCH ANIM_TAG_SCRATCH OAM_NORMAL_32x3
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 .pool
 ANIM_DOODLE:
-	goto ANIM_SECRETPOWER
+	goto ANIM_G_MAX_BEFUDDLE
+	endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 .pool

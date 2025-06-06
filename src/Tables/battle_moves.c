@@ -15179,18 +15179,18 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_DOODLE] =
 	{
-		.effect = EFFECT_SKILL_SWAP,
-		.power = 0,
-		.type = TYPE_NORMAL,
+		.effect = EFFECT_TRI_ATTACK,
+		.power = 100,
+		.type = TYPE_BUG,
 		.accuracy = 100,
 		.pp = 15,
-		.secondaryEffectChance = 0,
+		.secondaryEffectChance = 30,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
-		.flags = 0,
-		.z_move_power = 0,
-		.split = SPLIT_STATUS,
-		.z_move_effect = Z_EFFECT_SPDEF_UP_1
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 120,
+		.split = SPLIT_SPECIAL,
+		.z_move_effect = 0
 	},
 
 	[MOVE_DOUBLESHOCK] =
