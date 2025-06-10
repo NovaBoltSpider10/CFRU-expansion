@@ -774,7 +774,7 @@ static NPCPtr sOverworldTable4[] =
 	// create 255 OW tables
 	const struct EventObjectGraphicsInfo** const gOverworldTableSwitcher[255] =
 	{
-		(NPCPtr*) 0x8eb1000,
+		(NPCPtr*) 0x839FDB0,
 		sOverworldTable2,
 		sOverworldTable3,
 		sOverworldTable4,
@@ -783,7 +783,7 @@ static NPCPtr sOverworldTable4[] =
 	};
 	
 	const struct SpritePalette gObjectEventSpritePalettes11[] = {
-		{gObjectEventPallete_1, 0x1116},
+		{gObjectEventPallete_1, 0x1100},
 		{gObjectEventPallete_2, 0x1101},
 		{gObjectEventPallete_3, 0x1102},
 		{gObjectEventPallete_4, 0x1103},
