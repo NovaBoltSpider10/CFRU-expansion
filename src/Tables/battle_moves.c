@@ -11244,18 +11244,18 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_DECORATE] =
 	{
-		.effect = EFFECT_HELPING_HAND,
-		.power = 0,
-		.type = TYPE_FAIRY,
-		.accuracy = 0,
-		.pp = 15,
+		.effect = EFFECT_QUICK_ATTACK,
+		.power = 80,
+		.type = TYPE_STEEL,
+		.accuracy = 100,
+		.pp = 30,
 		.secondaryEffectChance = 0,
 		.target = MOVE_TARGET_SELECTED,
-		.priority = 0,
-		.flags = 0,
-		.split = SPLIT_STATUS,
-		.z_move_power = 0,
-		.z_move_effect = Z_EFFECT_RESET_STATS,
+		.priority = 2,
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 100,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
 	},
 
 	[MOVE_DRUMBEATING] =
@@ -11788,19 +11788,20 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_COACHING] =
 	{
-		.effect = EFFECT_HELPING_HAND,
-		.power = 0,
-		.type = TYPE_FIGHTING,
-		.accuracy = 0,
-		.pp = 10,
-		.secondaryEffectChance = 0,
-		.target = MOVE_TARGET_USER,
+		.effect = EFFECT_POISON_HIT,
+		.power = 100,
+		.type = TYPE_POISON,
+		.accuracy = 100,
+		.pp = 20,
+		.secondaryEffectChance = 10,
+		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
-		.flags = 0,
-		.z_move_power = 0,
-		.split = SPLIT_STATUS,
-		.z_move_effect = Z_EFFECT_RESET_STATS
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 140,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
 	},
+
 
 	[MOVE_FLIPTURN] =
 	{

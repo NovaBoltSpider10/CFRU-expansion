@@ -242,8 +242,6 @@ static const struct LevelUpMove sKakunaLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sBeedrillLevelUpLearnset[] = {
-	LEVEL_UP_MOVE( 0, MOVE_TWINEEDLE),
-	LEVEL_UP_MOVE( 1, MOVE_TWINEEDLE),
 	LEVEL_UP_MOVE( 1, MOVE_FURYATTACK),
 	LEVEL_UP_MOVE(11, MOVE_FURYATTACK),
 	LEVEL_UP_MOVE(14, MOVE_RAGE),

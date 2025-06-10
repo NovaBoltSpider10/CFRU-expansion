@@ -797,8 +797,7 @@
 		"MOVE_STEALTHROCK",
 		"MOVE_STICKYWEB",
 		"MOVE_SPIKES",
-		"MOVE_TOXICSPIKES",
-		"MOVE_COACHING"
+		"MOVE_TOXICSPIKES"
 	],
 
 	"gTypeChangeExceptionMoves": [

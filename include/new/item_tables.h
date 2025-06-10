@@ -2170,4 +2170,19 @@ extern const u8 DESC_CATCHING_CHARM[];
 extern const u8 DESC_HISUI_ROCK[];
 extern const u8 DESC_MASTERPIECE_TEACUP[];
 extern const u8 DESC_UNREMARKABLE_TEACUP[];
+extern const u8 DESC_BUTTERFRITE[];
+extern const u8 DESC_MACHAMPITE[];
+extern const u8 DESC_GENGARITE_X[];
+extern const u8 DESC_STARMITE[];
+extern const u8 DESC_LAPRASITE[];
+extern const u8 DESC_ARTICUNITE[];
+extern const u8 DESC_ZAPDOSITE[];
+extern const u8 DESC_MOLTRESITE[];
+extern const u8 DESC_DRAGONITITE[];
+extern const u8 DESC_CROBATITE[];
+extern const u8 DESC_BELLOSSOMITE[];
+extern const u8 DESC_RHYPERIORITE[];
+extern const u8 DESC_ELECTIVIRITE[];
+extern const u8 DESC_MAGMORTARITE[];
+
 #endif

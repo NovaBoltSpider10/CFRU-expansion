@@ -16740,26 +16740,7 @@ ANIM_BODY_PRESS:
 .pool
 @Credits to Skeli
 ANIM_DECORATE:
-	loadparticle ANIM_TAG_BLUE_STAR
-	loadparticle ANIM_TAG_MAGENTA_HEART
-	loadparticle ANIM_TAG_SPARKLE_2
-	playsound2 0xBC SOUND_PAN_ATTACKER
-	launchtask AnimTask_RockMonBackAndForth 0x5 0x3 bank_attacker 0x3 0x0
-	launchtemplate DECORATE_HEART TEMPLATE_TARGET | 2, 0x5 bank_target, -10, 0, 0x60 0x0
-	playsound2 0xcd SOUND_PAN_TARGET
-	pause 0x10
-	launchtemplate DECORATE_HEART TEMPLATE_TARGET | 2, 0x5 bank_target, 10, 10, 0x50 0x0
-	playsound2 0xcd SOUND_PAN_TARGET
-	pause 0x10
-	launchtemplate DECORATE_HEART TEMPLATE_TARGET | 2, 0x5 bank_target, 0, -15, 0x40 0x0
-	playsound2 0xcd SOUND_PAN_TARGET
-	pause 0x10
-	launchtemplate DECORATE_HEART TEMPLATE_TARGET | 2, 0x5 bank_target, -15, 16, 0x30 0x0
-	playsound2 0xcd SOUND_PAN_TARGET
-	pause 0x10
-	launchtemplate DECORATE_HEART TEMPLATE_TARGET | 2, 0x5 bank_target, -20, -14 0x20 0x0
-	playsound2 0xcd SOUND_PAN_TARGET
-	waitanimation
+	goto ANIM_CORKSCREW_CRASH
 	endanimation
 
 .align 2
@@ -18283,13 +18264,7 @@ CORROSIVE_GAS_SMOKE: objtemplate ANIM_TAG_PINK_CLOUD ANIM_TAG_PINK_CLOUD OAM_DOU
 .pool
 @Credits to Skeli
 ANIM_COACHING:
-	playsound2 0xA0 SOUND_PAN_ATTACKER
-	launchtask AnimTask_Splash 0x2 0x2 bank_attacker 0x1
-	waitanimation
-	playsound2 0xA0 SOUND_PAN_TARGET
-	launchtask AnimTask_pal_fade_complex 0x2 0x6 PAL_DEF 0x1 0x2 0x0 0xA 0x1E5D @;Orange
-	launchtask AnimTask_Splash 0x2 0x2 bank_target 0x1
-	waitanimation
+	goto ANIM_MAX_OOZE
 	endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -26863,7 +26838,6 @@ HAILSTORM_SINGLE_LARGER_ICE_ROCK: objtemplate ANIM_TAG_ICE_ROCK_SINGLE ANIM_TAG_
 @Credits to Skeli
 ANIM_MAX_OOZE:
 	loadparticle ANIM_TAG_POISON_BUBBLE
-	launchtask AnimTask_DynamaxGrowth 0x5 0x1 0x1
 	soundcomplex 0x77 SOUND_PAN_ATTACKER 0xd 0x3
 	launchtemplate OOZE_REVERSAL 0x2 0x2 0x1a 0x0
 	launchtemplate OOZE_REVERSAL 0x2 0x2 0x1a 0x2a

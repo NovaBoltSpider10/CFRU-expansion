@@ -1073,7 +1073,7 @@ The user raises\nall of its stats\nby using some of\nits HP.
 The higher the\nuser's Defense,\nthe more damage\nit will inflict.
 
 #org @DESC_DECORATE
-The user sharply\nraises the target's\nAttack and Sp. Atk\nby decorating it.
+The Ultimate Move.
 
 #org @DESC_DRUM_BEATING
 The user plays its\ndrum to attack.\nThe target's Speed\nstat is lowered.
@@ -1175,7 +1175,7 @@ The user controls\nthe target's item to\nattack. Fails if the\ntarget has no ite
 The user cloaks\nitself in acidic gas.\nIt melts away the\ntarget's held item.
 
 #org @DESC_COACHING
-The user coaches\nits ally, raising\nthe ally's Attack\nand Defense stats.
+The Ultimate Move.
 
 #org @DESC_FLIP_TURN
 After attacking,\nthe user switches\nplaces with a\nparty Pok\emon.
