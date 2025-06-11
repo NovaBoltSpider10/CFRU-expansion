@@ -85,54 +85,51 @@ static void CreateScriptedWildMon(u16 species, u8 level, u16 item, u16* specialM
 static const struct WildPokemonInfo* LoadProperMonsPointer(const struct WildPokemonHeader* header, const u8 type);
 static void StartRoamerBattle(void);
 
-#ifdef FLAG_SCALE_WILD_POKEMON_LEVELS
-static u8 GetLowestMonLevel(const struct Pokemon* const party);
-#endif
-
 static u8 ChooseWildMonLevel(const struct WildPokemon* wildPokemon)
 {
-	u8 min;
-	u8 max;
+	u8 min = wildPokemon->minLevel;
+	u8 max = wildPokemon->maxLevel;
 	u8 range;
 	u8 rand;
 	u8 fluteBonus;
 
-	//#ifdef FLAG_SCALE_WILD_POKEMON_LEVELS
-	//if (FlagGet(FLAG_SCALE_WILD_POKEMON_LEVELS))
-	if(VarGet(VAR_WILD_LEVEL_SCALING) == 0)
-	{
-		min = max = GetLowestMonLevel(gPlayerParty);
+#ifdef FLAG_SCALE_WILD_POKEMON_LEVELS
+    if (VarGet(VAR_WILD_LEVEL_SCALING) == 0)
+    {
+        min = max = GetLowestMonLevel(gPlayerParty);
 
-		#ifdef FLAG_HARD_LEVEL_CAP
-		u8 levelCap;
-		if (FlagGet(FLAG_HARD_LEVEL_CAP) && max >= (levelCap = GetCurrentLevelCap()))
-			min = max = levelCap;
-		#endif
-	}
-	else
-	//Make sure minimum level is less than maximum level
-	if (wildPokemon->maxLevel >= wildPokemon->minLevel)
-	{
-		min = wildPokemon->minLevel;
-		max = wildPokemon->maxLevel;
-	}
-	else
-	{
-		min = wildPokemon->maxLevel;
-		max = wildPokemon->minLevel;
-	}
+    #ifdef FLAG_HARD_LEVEL_CAP
+        u8 levelCap;
+        if (FlagGet(FLAG_HARD_LEVEL_CAP) && max >= (levelCap = GetCurrentLevelCap()))
+            min = max = levelCap;
+    #endif
+    }
+    else
+    {
+        if (wildPokemon->maxLevel >= wildPokemon->minLevel)
+        {
+            min = wildPokemon->minLevel;
+            max = wildPokemon->maxLevel;
+        }
+        else
+        {
+            min = wildPokemon->maxLevel;
+            max = wildPokemon->minLevel;
+        }
+    }
+#endif
+
 	range = max - min + 1;
 	rand = Random() % range;
 
-    switch (GetFluteEncounterRateModType()) {
-		case 2: //Black Flute
+	switch (GetFluteEncounterRateModType()) {
+		case 2: // Black Flute
 			fluteBonus = (Random() % 3 + 1);
 			max = MathMin(MAX_LEVEL, max + fluteBonus);
 			min = MathMin(MAX_LEVEL, min + fluteBonus);
 			break;
-		case 1: //White Flute
+		case 1: // White Flute
 			fluteBonus = (Random() % 3 + 1);
-
 			if (fluteBonus < max)
 				max -= fluteBonus;
 			else
@@ -144,14 +141,16 @@ static u8 ChooseWildMonLevel(const struct WildPokemon* wildPokemon)
 				min = 1;
 			break;
 	}
-	if(VarGet(VAR_WILD_LEVEL_SCALING) == 0)
+
+#ifdef FLAG_SCALE_WILD_POKEMON_LEVELS
+	if (VarGet(VAR_WILD_LEVEL_SCALING) == 0)
 	{
 		u16 level = 0;
 		for (int i = 0; i < gPlayerPartyCount; i++) {
 			level += gPlayerParty[i].level;
 		}
 		level /= gPlayerPartyCount;
-		if(min <= level && max <= level) {
+		if (min <= level && max <= level) {
 			min = level - 6;
 			max = level - 7;
 		}
@@ -162,34 +161,35 @@ static u8 ChooseWildMonLevel(const struct WildPokemon* wildPokemon)
 			max = 3;
 		}
 	}
+#endif
 
-	#ifdef FLAG_HARD_LEVEL_CAP
+#ifdef FLAG_HARD_LEVEL_CAP
 	extern u8 GetCurrentLevelCap(void); //Must be implemented yourself
 	if (FlagGet(FLAG_HARD_LEVEL_CAP))
 	{
 		u8 levelCap = GetCurrentLevelCap();
 		if (max > levelCap)
-			max = levelCap; //Prevent wild Pokemon above the level cap from appearing
+			max = levelCap;
 	}
-	#endif
+#endif
 
 	if (min > max)
 		max = min;
 
-	//Check ability for max level mon
+	// Ability bonus chance
 	if (!GetMonData(&gPlayerParty[0], MON_DATA_IS_EGG, NULL))
 	{
 		u8 ability = GetMonAbility(&gPlayerParty[0]);
 
-		#ifndef ABILITY_VITALSPIRIT
+#ifndef ABILITY_VITALSPIRIT
 		if (IsVitalSpiritAbility(ability, GetMonData(&gPlayerParty[0], MON_DATA_SPECIES, NULL)))
 			ability = ABILITY_PRESSURE;
-		#endif
+#endif
 
 		if (ability == ABILITY_HUSTLE
-		#ifdef ABILITY_VITALSPIRIT
+#ifdef ABILITY_VITALSPIRIT
 		|| ability == ABILITY_VITALSPIRIT
-		#endif
+#endif
 		|| ability == ABILITY_PRESSURE)
 		{
 			if (Random() % 2 == 0)
@@ -202,6 +202,7 @@ static u8 ChooseWildMonLevel(const struct WildPokemon* wildPokemon)
 
 	return min + rand;
 }
+
 
 #define MAP_ALTERING_CAVE ((1 << 8) | 122)
 

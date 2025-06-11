@@ -7,126 +7,127 @@ trainers_with_evs_table.h
 const struct TrainersWithEvs gTrainersWithEvsSpreads[] =
 {
 	[0] = {0}, //Empty Spread
-	[11] = {
+	[1] = {
 		.nature = NATURE_JOLLY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[12] = {
+	[2] = {
 		.nature = NATURE_TIMID,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[13] = {
+	[3] = {
 		.nature = NATURE_ADAMANT,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[14] = {
+	[4] = {
 		.nature = NATURE_MODEST,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[15] = {
+	[5] = {
 		.nature = NATURE_IMPISH,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[16] = {
+	[6] = {
 		.nature = NATURE_BOLD,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[17] = {
+	[7] = {
 		.nature = NATURE_CAREFUL,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[18] = {
+	[8] = {
 		.nature = NATURE_CALM,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[19] = {
+	[9] = {
 		.nature = NATURE_NAIVE,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[110] = {
+	[10] = {
 		.nature = NATURE_HASTY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[111] = {
+	[11] = {
 		.nature = NATURE_RASH,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[112] = {
+	[12] = {
 		.nature = NATURE_LONELY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[113] = {
+	[13] = {
 		.nature = NATURE_MILD,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[114] = {
+	[14] = {
 		.nature = NATURE_NAUGHTY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[115] = {
+	[15] = {
 		.nature = NATURE_BRAVE,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[116] = {
+	[16] = {
 		.nature = NATURE_QUIET,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[117] = {
+	[17] = {
 		.nature = NATURE_RELAXED,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[118] = {
+	[18] = {
 		.nature = NATURE_SASSY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
-	[119] = {
+	[19] = {
 		.nature = NATURE_BASHFUL,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_1,
 	},
 
+
 	[21] = {
-		.nature = NATURE_JOLLY,
-		.ivs = 31,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_2,
+	.nature = NATURE_JOLLY,
+	.ivs = 31,
+	.ball = TRAINER_EV_CLASS_BALL,
+	.ability = Ability_2,
 	},
 	[22] = {
 		.nature = NATURE_TIMID,
@@ -176,444 +177,239 @@ const struct TrainersWithEvs gTrainersWithEvsSpreads[] =
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[210] = {
+	[30] = {
 		.nature = NATURE_HASTY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[211] = {
+	[31] = {
 		.nature = NATURE_RASH,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[212] = {
+	[32] = {
 		.nature = NATURE_LONELY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[213] = {
+	[33] = {
 		.nature = NATURE_MILD,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[214] = {
+	[34] = {
 		.nature = NATURE_NAUGHTY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[215] = {
+	[35] = {
 		.nature = NATURE_BRAVE,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[216] = {
+	[36] = {
 		.nature = NATURE_QUIET,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[217] = {
+	[37] = {
 		.nature = NATURE_RELAXED,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[218] = {
+	[38] = {
 		.nature = NATURE_SASSY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
-	[219] = {
+	[39] = {
 		.nature = NATURE_BASHFUL,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_2,
 	},
 
-	[31] = {
+
+	[41] = {
 		.nature = NATURE_JOLLY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[32] = {
+	[42] = {
 		.nature = NATURE_TIMID,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[33] = {
+	[43] = {
 		.nature = NATURE_ADAMANT,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[34] = {
+	[44] = {
 		.nature = NATURE_MODEST,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[35] = {
+	[45] = {
 		.nature = NATURE_IMPISH,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[36] = {
+	[46] = {
 		.nature = NATURE_BOLD,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[37] = {
+	[47] = {
 		.nature = NATURE_CAREFUL,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[38] = {
+	[48] = {
 		.nature = NATURE_CALM,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[39] = {
+	[49] = {
 		.nature = NATURE_NAIVE,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[310] = {
+	[50] = {
 		.nature = NATURE_HASTY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[311] = {
+	[51] = {
 		.nature = NATURE_RASH,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[312] = {
+	[52] = {
 		.nature = NATURE_LONELY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[313] = {
+	[53] = {
 		.nature = NATURE_MILD,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[314] = {
+	[54] = {
 		.nature = NATURE_NAUGHTY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[315] = {
+	[55] = {
 		.nature = NATURE_BRAVE,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[316] = {
+	[56] = {
 		.nature = NATURE_QUIET,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[317] = {
+	[57] = {
 		.nature = NATURE_RELAXED,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[318] = {
+	[58] = {
 		.nature = NATURE_SASSY,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
-	[319] = {
+	[59] = {
 		.nature = NATURE_BASHFUL,
 		.ivs = 31,
 		.ball = TRAINER_EV_CLASS_BALL,
 		.ability = Ability_Hidden,
 	},
 
-
-#ifdef UNBOUND
-	//Special Spreads
-	[124] =
-	{	//Rayquaza
-		.nature = NATURE_JOLLY,
-		.ivs = 31,
-		.hpEv = 0,
-		.defEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.spdEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[125] =
-	{	//Hitmontop
-		.nature = NATURE_IMPISH,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[126] =
-	{	//Insane Jax Arcanine
-		.nature = NATURE_TIMID,
-		.ivs = 31,
-		.hpEv = 0,
-		.spAtkEv = 0,
-		.defEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[127] =
-	{	//A-Golem
-		.nature = NATURE_ADAMANT,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_Hidden,
-	},
-	[128] =
-	{	//Benjamin Flygon/Volcarona
-		.nature = NATURE_NAIVE,
-		.ivs = 31,
-		.atkEv = 0,
-		.spAtkEv = 0,
-		.spdEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_Hidden,
-	},
-	[129] =
-	{	//Attack Boosting Stakataka - Ability_1
-        .nature = NATURE_LONELY,
-        .ivs = 31, //15 Def
-        .hpEv = 0,
-        .atkEv = 0,
-        .spDefEv = 0,
-        .ball = TRAINER_EV_CLASS_BALL,
-        .ability = Ability_1,
-    },
-	[130] =
-	{	//Anabelle Insane Mawile
-        .nature = NATURE_ADAMANT,
-        .ivs = 31,
-        .hpEv = 172,
-        .atkEv = 0,
-        .spdEv = 84,
-        .ball = TRAINER_EV_CLASS_BALL,
-        .ability = Ability_2, //Initimidate
-    },
-	[131] =
-	{	//Marlon Aegislash
-        .nature = NATURE_BRAVE,
-        .ivs = 31,
-        .hpEv = 0,
-        .atkEv = 0,
-        .spAtkEv = 0,
-        .ball = TRAINER_EV_CLASS_BALL,
-        .ability = Ability_1, //Stance Change
-    },
-	[132] =
-	{	//Galavan's Insane Mega Ampharos: Hidden Power Grass
-		.nature = NATURE_MODEST,
-		.ivs = 31,
-		.hpEv = 244,
-		.spdEv = 12,
-		.spAtkEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_Hidden,
-	},
-	[133] =
-	{	//Galavan's Insane Metagross: 0 IVs Speed Min Speed
-		.nature = NATURE_BRAVE,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[134] =
-	{	//Necrozma-DM Autotomize Set
-		.nature = NATURE_ADAMANT,
-		.ivs = 31,
-		.hpEv = 136,
-		.atkEv = 0,
-		.spdEv = 120,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[135] =
-	{	//Physically offensive BH Set, Ability 1
-		.nature = NATURE_JOLLY,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spdEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[136] =
-	{	//Physically offensive BH Set, Ability Hidden
-		.nature = NATURE_JOLLY,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spdEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_Hidden,
-	},
-	[137] =
-	{	//VGC Doubles GeoXern
-		.nature = NATURE_MODEST,
-		.ivs = 31,
-		.defEv = 140,
-		.spdEv = 116,
-		.spAtkEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[138] =
-	{	//Mixed offensive BH Set Physically Oriented, Ability 1
-		.nature = NATURE_JOLLY,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spdEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[139] =
-	{	//Specially offensive BH Set, Ability 1
-		.nature = NATURE_MODEST,
-		.ivs = 31,
-		.hpEv = 0,
-		.defEv = 0,
-		.spdEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[140] =
-	{	//Mixed offensive BH Set Specially Oriented, Ability 1
-		.nature = NATURE_TIMID,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spdEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-	[141] =
-	{	//Mixed offensive BH Set Physically Oriented, Ability 1
-		.nature = NATURE_JOLLY,
-		.ivs = 31,
-		.hpEv = 0,
-		.atkEv = 0,
-		.defEv = 0,
-		.spdEv = 0,
-		.spAtkEv = 0,
-		.spDefEv = 0,
-		.ball = TRAINER_EV_CLASS_BALL,
-		.ability = Ability_1,
-	},
-#endif
 };
 #endif
 
 #ifndef UNBOUND //Modify this
 const u8 gBaseIVsByTrainerClass[NUM_TRAINER_CLASSES] =
 {
-	[CLASS_YOUNGSTER] = 5,
-	[CLASS_BUG_CATCHER] = 1,
-	[CLASS_LASS] =  5,
-	[CLASS_SAILOR] = 10,
-	[CLASS_CAMPER] = 5,
-	[CLASS_PICNICKER] =  5,
-	[CLASS_POKEMANIAC] = 10,
-	[CLASS_SUPER_NERD] = 15,
-	[CLASS_HIKER] = 10,
-	[CLASS_BIKER] = 10,
-	[CLASS_BURGLAR] = 10,
-	[CLASS_ENGINEER] = 10,
-	[CLASS_FISHERMAN] = 10,
-	[CLASS_SWIMMER_M] = 10,
-	[CLASS_CUE_BALL] = 10,
-	[CLASS_GAMBLER] = 10,
-	[CLASS_BEAUTY] =  10,
-	[CLASS_SWIMMER_F] =  10,
-	[CLASS_PSYCHIC] = 15,
-	[CLASS_ROCKER] = 10,
-	[CLASS_JUGGLER] = 10,
-	[CLASS_TAMER] = 20,
-	[CLASS_BIRD_KEEPER] = 10,
-	[CLASS_BLACK_BELT] = 15,
-	[CLASS_RIVAL] = 25,
-	[CLASS_SCIENTIST] = 15,
+	[CLASS_YOUNGSTER] = 31,
+	[CLASS_BUG_CATCHER] = 31,
+	[CLASS_LASS] = 31,
+	[CLASS_SAILOR] = 31,
+	[CLASS_CAMPER] = 31,
+	[CLASS_PICNICKER] = 31,
+	[CLASS_POKEMANIAC] = 31,
+	[CLASS_SUPER_NERD] = 31,
+	[CLASS_HIKER] = 31,
+	[CLASS_BIKER] = 31,
+	[CLASS_BURGLAR] = 31,
+	[CLASS_ENGINEER] = 31,
+	[CLASS_FISHERMAN] = 31,
+	[CLASS_SWIMMER_M] = 31,
+	[CLASS_CUE_BALL] = 31,
+	[CLASS_GAMBLER] = 31,
+	[CLASS_BEAUTY] = 31,
+	[CLASS_SWIMMER_F] = 31,
+	[CLASS_PSYCHIC] = 31,
+	[CLASS_ROCKER] = 31,
+	[CLASS_JUGGLER] = 31,
+	[CLASS_TAMER] = 31,
+	[CLASS_BIRD_KEEPER] = 31,
+	[CLASS_BLACK_BELT] = 31,
+	[CLASS_RIVAL] = 31,
+	[CLASS_SCIENTIST] = 31,
 	[CLASS_BOSS] = 31,
 	[CLASS_LEADER] = 31,
-	[CLASS_TEAM_ROCKET] = 15,
-	[CLASS_COOLTRAINER] = 25,
+	[CLASS_TEAM_ROCKET] = 31,
+	[CLASS_COOLTRAINER] = 31,
 	[CLASS_ELITE_4] = 31,
-	[CLASS_GENTLEMAN] = 15,
+	[CLASS_GENTLEMAN] = 31,
 	[CLASS_RIVAL_2] = 31,
 	[CLASS_CHAMPION] = 31,
-	[CLASS_CHANNELER] = 10,
-	[CLASS_TWINS] =  5,
-	[CLASS_COOL_COUPLE] = 25,
-	[CLASS_YOUNG_COUPLE] = 15,
-	[CLASS_CRUSH_KIN] = 15,
-	[CLASS_SIS_AND_BRO] =  10,
+	[CLASS_CHANNELER] = 31,
+	[CLASS_TWINS] = 31,
+	[CLASS_COOL_COUPLE] = 31,
+	[CLASS_YOUNG_COUPLE] = 31,
+	[CLASS_CRUSH_KIN] = 31,
+	[CLASS_SIS_AND_BRO] = 31,
 	[CLASS_PKMN_PROF] = 31,
 	[CLASS_PLAYER] = 31,
-	[CLASS_CRUSH_GIRL] = 15,
-	[CLASS_TUBER] = 5,
-	[CLASS_PKMN_BREEDER] = 15,
-	[CLASS_PKMN_RANGER] = 20,
-	[CLASS_AROMA_LADY] =  10,
-	[CLASS_RUIN_MANIAC] = 10,
-	[CLASS_LADY] =  20,
-	[CLASS_PAINTER] =  10,
+	[CLASS_CRUSH_GIRL] = 31,
+	[CLASS_TUBER] = 31,
+	[CLASS_PKMN_BREEDER] = 31,
+	[CLASS_PKMN_RANGER] = 31,
+	[CLASS_AROMA_LADY] = 31,
+	[CLASS_RUIN_MANIAC] = 31,
+	[CLASS_LADY] = 31,
+	[CLASS_PAINTER] = 31,
 };
 #else //For Pokemon Unbound
 const u8 gBaseIVsByTrainerClass[NUM_TRAINER_CLASSES] =
