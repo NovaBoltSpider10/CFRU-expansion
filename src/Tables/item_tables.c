@@ -920,6 +920,8 @@ const u16 gItemsByType[ITEMS_COUNT] =
 	[ITEM_RHYPERIORITE]    = ITEM_TYPE_MEGA_STONE,
 	[ITEM_ELECTIVIRITE]    = ITEM_TYPE_MEGA_STONE,
 	[ITEM_MAGMORTARITE]    = ITEM_TYPE_MEGA_STONE,
+	[ITEM_KINGLERITE]      = ITEM_TYPE_MEGA_STONE,
+	[ITEM_SNORLAXITE]      = ITEM_TYPE_MEGA_STONE,
 	[ITEM_RED_ORB] = ITEM_TYPE_PRIMAL_ORB,
 	[ITEM_BLUE_ORB] = ITEM_TYPE_PRIMAL_ORB,
 
@@ -14490,38 +14492,38 @@ const struct Item gItemData[] =
 
 
     {
-        .name = {_S, _h, _i, _n, _y, _SPACE, _S, _p, _a, _c, _e, _1, _2, _END},
-        .itemId = ITEM_SHINY_SPACE12,
-        .price = 0,
-        .holdEffect = 0,
-        .holdEffectParam = 0,
-        .description = gText_ItemNone,
-        .importance = 0,
-        .unk19 = 0,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = FieldUseFunc_OakStopsYou,
-        .battleUsage = 0,
-        .battleUseFunc = NULL,
-        .secondaryId = 0
-    },
+	.name = {_K, _i, _n, _g, _l, _e, _r, _i, _t, _e, _END},
+	.itemId = ITEM_KINGLERITE,
+	.price = 0,
+	.holdEffect = ITEM_EFFECT_MEGA_STONE,
+	.holdEffectParam = 0,
+	.description = DESC_KINGLERITE,
+	.importance = 0,
+	.unk19 = 0,
+	.pocket = POCKET_ITEMS,
+	.type = ITEM_USE_BAG_MENU,
+	.fieldUseFunc = FieldUseFunc_OakStopsYou,
+	.battleUsage = 0,
+	.battleUseFunc = NULL,
+	.secondaryId = 0
+},
+{
+	.name = {_S, _n, _o, _r, _l, _a, _x, _i, _t, _e, _END},
+	.itemId = ITEM_SNORLAXITE,
+	.price = 0,
+	.holdEffect = ITEM_EFFECT_MEGA_STONE,
+	.holdEffectParam = 0,
+	.description = DESC_SNORLAXITE,
+	.importance = 0,
+	.unk19 = 0,
+	.pocket = POCKET_ITEMS,
+	.type = ITEM_USE_BAG_MENU,
+	.fieldUseFunc = FieldUseFunc_OakStopsYou,
+	.battleUsage = 0,
+	.battleUseFunc = NULL,
+	.secondaryId = 0
+},
 
-    {
-        .name = {_S, _h, _i, _n, _y, _SPACE, _S, _p, _a, _c, _e, _1, _3, _END},
-        .itemId = ITEM_SHINY_SPACE13,
-        .price = 0,
-        .holdEffect = 0,
-        .holdEffectParam = 0,
-        .description = gText_ItemNone,
-        .importance = 0,
-        .unk19 = 0,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = FieldUseFunc_OakStopsYou,
-        .battleUsage = 0,
-        .battleUseFunc = NULL,
-        .secondaryId = 0
-    },
 
     {
         .name = {_S, _h, _i, _n, _y, _SPACE, _S, _p, _a, _c, _e, _1, _4, _END},

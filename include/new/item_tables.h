@@ -2184,5 +2184,7 @@ extern const u8 DESC_BELLOSSOMITE[];
 extern const u8 DESC_RHYPERIORITE[];
 extern const u8 DESC_ELECTIVIRITE[];
 extern const u8 DESC_MAGMORTARITE[];
+extern const u8 DESC_KINGLERITE[];
+extern const u8 DESC_SNORLAXITE[];
 
 #endif

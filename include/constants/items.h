@@ -834,10 +834,12 @@ enum
 #define ITEM_RHYPERIORITE         0x312
 #define ITEM_ELECTIVIRITE         0x313
 #define ITEM_MAGMORTARITE         0x314
+#define ITEM_KINGLERITE           0x315
+#define ITEM_SNORLAXITE           0x316
 
 enum
 {
-	ITEM_FREE_SPACE1 = 0x314, //These are reserved for future use
+	ITEM_FREE_SPACE1 = 0x317, //These are reserved for future use
 	ITEM_FREE_SPACE2,
 	ITEM_FREE_SPACE3,
     ITEM_SHINY_SPACE1,
