@@ -134,8 +134,8 @@ static const struct LevelUpMove sCharizardLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sSquirtleLevelUpLearnset[] = {
-	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
-	LEVEL_UP_MOVE( 4, MOVE_TAILWHIP),
+	LEVEL_UP_MOVE( 1, MOVE_GIGATONHAMMER),
+	LEVEL_UP_MOVE( 4, MOVE_GIGATONHAMMER),
 	LEVEL_UP_MOVE( 7, MOVE_WATERGUN),
 	LEVEL_UP_MOVE(10, MOVE_WITHDRAW),
 	LEVEL_UP_MOVE(13, MOVE_BUBBLE),

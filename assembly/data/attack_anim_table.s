@@ -29227,7 +29227,8 @@ ANIM_FLOWERTRICK:
 .pool
 @Credits to 
 ANIM_GIGATONHAMMER:
-	goto ANIM_HEAVYSLAM
+	goto ANIM_HYDROCANNON
+	endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 .pool
