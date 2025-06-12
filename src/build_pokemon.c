@@ -131,7 +131,7 @@ extern const species_t gRandomizerSpeciesBanList[];
 extern const species_t gSetPerfectXIvList[];
 extern const species_t gDeerlingForms[];
 extern const species_t gSawsbuckForms[];
-extern const species_t gVivillonForms[];
+extern const species_t gVivillonForms[];//
 extern const species_t gFurfrouForms[];
 extern const species_t gFlabebeForms[];
 extern const species_t gFloetteForms[];
