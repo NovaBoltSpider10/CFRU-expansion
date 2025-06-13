@@ -11128,7 +11128,7 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_TEATIME] =
 	{
-		.effect = EFFECT_PSYCH_UP,
+		.effect = EFFECT_TEATIME,
 		.power = 100,
 		.type = TYPE_GHOST,
 		.accuracy = 100,

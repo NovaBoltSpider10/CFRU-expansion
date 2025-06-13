@@ -6200,7 +6200,7 @@ BattleScript_SetTerrainReturn:
 
 .global BS_244_Teatime
 BS_244_Teatime:
-	goto BS_STANDARD_HIT
+	goto SpectralThiefBS
 
 @;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
