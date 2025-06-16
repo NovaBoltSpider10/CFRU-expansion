@@ -10008,18 +10008,18 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_SPOTLIGHT] =
 	{
-		.effect = EFFECT_FOLLOW_ME,
-		.power = 0,
-		.type = TYPE_NORMAL,
-		.accuracy = 0,
-		.pp = 15,
-		.secondaryEffectChance = 0,
+		.effect = EFFECT_DEFENSE_DOWN_HIT,
+		.power = 100,
+		.type = TYPE_PSYCHIC,
+		.accuracy = 100,
+		.pp = 10,
+		.secondaryEffectChance = 100,
 		.target = MOVE_TARGET_SELECTED,
-		.priority = 3,
-		.flags = FLAG_PROTECT_AFFECTED | FLAG_MAGIC_COAT_AFFECTED,
-		.z_move_power = 0,
-		.split = SPLIT_STATUS,
-		.z_move_effect = Z_EFFECT_SPDEF_UP_1
+		.priority = 0,
+		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+		.z_move_power = 175,
+		.split = SPLIT_PHYSICAL,
+		.z_move_effect = 0
 	},
 
 	[MOVE_STOMPINGTANTRUM] =

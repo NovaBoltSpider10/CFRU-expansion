@@ -28,7 +28,56 @@ struct DynamaxTrainerSlide
 
 static const struct TrainerSlide sTrainerSlides[] =
 {
-	{},
+		// Rival Blue
+		{0x2E7, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL}, // TRAINER_BLUE_ROUTE22
+		{0x2E8, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL}, // TRAINER_BLUE_NUGGET_BRIDGE
+		{0x2E9, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL}, // TRAINER_BLUE_SS_ANNE
+		{0x2EA, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL}, // TRAINER_BLUE_POKEMON_TOWER
+		{0x2EB, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL}, // TRAINER_BLUE_SILPH_CO
+		{0x2EC, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL}, // TRAINER_BLUE_ROUTE22B
+
+		// Team Rocket Boss
+		{0x2ED, sTextGiovanniFirstMonDown, sTextGiovanniLastSwitchIn, NULL}, // TRAINER_GIOVANNI_GAME_CORNER
+		{0x2EE, sTextGiovanniFirstMonDown, sTextGiovanniLastSwitchIn, NULL}, // TRAINER_GIOVANNI_SILPH_CO
+
+		// Pokemon League
+		{0x2EF, sTextBrockFirstMonDown, sTextBrockLastSwitchIn, NULL},     // TRAINER_BROCK
+		{0x2F0, sTextMistyFirstMonDown, sTextMistyLastSwitchIn, NULL},     // TRAINER_MISTY
+		{0x2F1, sTextLtSurgeFirstMonDown, sTextLtSurgeLastSwitchIn, NULL}, // TRAINER_LT_SURGE
+		{0x2F2, sTextErikaFirstMonDown, sTextErikaLastSwitchIn, NULL},     // TRAINER_ERIKA
+		{0x2F3, sTextSabrinaFirstMonDown, sTextSabrinaLastSwitchIn, NULL}, // TRAINER_SABRINA
+		{0x2F4, sTextKogaFirstMonDown, sTextKogaLastSwitchIn, NULL},       // TRAINER_KOGA
+		{0x2F5, sTextBlaineFirstMonDown, sTextBlaineLastSwitchIn, NULL},   // TRAINER_BLAINE
+		{0x2F6, sTextGiovanniFirstMonDown, sTextGiovanniLastSwitchIn, NULL}, // TRAINER_GIOVANNI
+
+		// Elite Four and Champion
+		{0x2F7, sTextLoreleiFirstMonDown, sTextLoreleiLastSwitchIn, NULL}, // TRAINER_LORELEI
+		{0x2F8, sTextBrunoFirstMonDown, sTextBrunoLastSwitchIn, NULL},     // TRAINER_BRUNO
+		{0x2F9, sTextAgathaFirstMonDown, sTextAgathaLastSwitchIn, NULL},   // TRAINER_AGATHA
+		{0x2FA, sTextLanceFirstMonDown, sTextLanceLastSwitchIn, NULL},     // TRAINER_LANCE
+		{0x2FB, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL},       // TRAINER_CHAMPION_BLUE
+
+		// Pokemon League Postgame (Rematches)
+		{0x2FC, sTextBrockFirstMonDown, sTextBrockLastSwitchIn, NULL},     // TRAINER_BROCK_REMATCH
+		{0x2FD, sTextMistyFirstMonDown, sTextMistyLastSwitchIn, NULL},     // TRAINER_MISTY_REMATCH
+		{0x2FE, sTextLtSurgeFirstMonDown, sTextLtSurgeLastSwitchIn, NULL}, // TRAINER_LT_SURGE_REMATCH
+		{0x2FF, sTextErikaFirstMonDown, sTextErikaLastSwitchIn, NULL},     // TRAINER_ERIKA_REMATCH
+		{0x300, sTextSabrinaFirstMonDown, sTextSabrinaLastSwitchIn, NULL}, // TRAINER_SABRINA_REMATCH
+		{0x301, sTextKogaFirstMonDown, sTextKogaLastSwitchIn, NULL},       // TRAINER_KOGA_REMATCH
+		{0x302, sTextBlaineFirstMonDown, sTextBlaineLastSwitchIn, NULL},   // TRAINER_BLAINE_REMATCH
+		{0x303, sTextGiovanniFirstMonDown, sTextGiovanniLastSwitchIn, NULL}, // TRAINER_GIOVANNI_REMATCH
+
+		{0x304, sTextLoreleiFirstMonDown, sTextLoreleiLastSwitchIn, NULL}, // TRAINER_LORELEI_REMATCH
+		{0x305, sTextBrunoFirstMonDown, sTextBrunoLastSwitchIn, NULL},     // TRAINER_BRUNO_REMATCH
+		{0x306, sTextAgathaFirstMonDown, sTextAgathaLastSwitchIn, NULL},   // TRAINER_AGATHA_REMATCH
+		{0x307, sTextLanceFirstMonDown, sTextLanceLastSwitchIn, NULL},     // TRAINER_LANCE_REMATCH
+		{0x308, sTextBlueFirstMonDown, sTextBlueLastSwitchIn, NULL},       // TRAINER_CHAMPION_BLUE_REMATCH
+
+		{0x309, sTextGreenFirstMonDown, sTextGreenLastSwitchIn, NULL},     // TRAINER_GREEN
+
+
+
+
 
 	#ifdef UNBOUND //For Pokemon Unbound - Feel free to remove
 	{0x6, sText_MirskleFirstMonDown, NULL, NULL},
