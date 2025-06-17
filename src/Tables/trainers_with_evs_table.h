@@ -6,7 +6,12 @@ trainers_with_evs_table.h
 
 const struct TrainersWithEvs gTrainersWithEvsSpreads[] =
 	{
-		[0] = {0}, // Empty Spread
+		[0] = {
+			.nature = NATURE_BASHFUL,
+			.ivs = 31,
+			.ball = TRAINER_EV_CLASS_BALL,
+			.ability = Ability_1,
+		},
 		[1] = {
 			.nature = NATURE_JOLLY,
 			.ivs = 31,
