@@ -490,6 +490,8 @@ const struct FlingStruct gFlingTable[ITEMS_COUNT] =
 	[ITEM_RHYPERIORITE]    = {80, 0},
 	[ITEM_ELECTIVIRITE]    = {80, 0},
 	[ITEM_MAGMORTARITE]    = {80, 0},
+	[ITEM_MEWNITE]    = {80, 0},
+
 
 };
 
@@ -922,6 +924,7 @@ const u16 gItemsByType[ITEMS_COUNT] =
 	[ITEM_MAGMORTARITE]    = ITEM_TYPE_MEGA_STONE,
 	[ITEM_KINGLERITE]      = ITEM_TYPE_MEGA_STONE,
 	[ITEM_SNORLAXITE]      = ITEM_TYPE_MEGA_STONE,
+	[ITEM_MEWNITE]      = ITEM_TYPE_MEGA_STONE,
 	[ITEM_RED_ORB] = ITEM_TYPE_PRIMAL_ORB,
 	[ITEM_BLUE_ORB] = ITEM_TYPE_PRIMAL_ORB,
 
@@ -14526,21 +14529,22 @@ const struct Item gItemData[] =
 
 
     {
-        .name = {_S, _h, _i, _n, _y, _SPACE, _S, _p, _a, _c, _e, _1, _4, _END},
-        .itemId = ITEM_SHINY_SPACE14,
-        .price = 0,
-        .holdEffect = 0,
-        .holdEffectParam = 0,
-        .description = gText_ItemNone,
-        .importance = 0,
-        .unk19 = 0,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = FieldUseFunc_OakStopsYou,
-        .battleUsage = 0,
-        .battleUseFunc = NULL,
-        .secondaryId = 0
-    },
+	.name = {_M, _e, _w, _n, _i, _t, _e, _END},
+	.itemId = ITEM_MEWNITE,
+	.price = 0,
+	.holdEffect = ITEM_EFFECT_MEGA_STONE,
+	.holdEffectParam = 0,
+	.description = DESC_MEWNITE,
+	.importance = 0,
+	.unk19 = 0,
+	.pocket = POCKET_ITEMS,
+	.type = ITEM_USE_BAG_MENU,
+	.fieldUseFunc = FieldUseFunc_OakStopsYou,
+	.battleUsage = 0,
+	.battleUseFunc = NULL,
+	.secondaryId = 0
+},
+
 
     {
         .name = {_S, _h, _i, _n, _y, _SPACE, _S, _p, _a, _c, _e, _1, _5, _END},

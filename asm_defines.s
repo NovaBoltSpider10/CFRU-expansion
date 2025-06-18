@@ -4130,6 +4130,7 @@
 .equ ITEM_MAGMORTARITE,         0x2D3
 .equ ITEM_KINGLERITE,         0x2D4
 .equ ITEM_SNORLAXITE,         0x2D5
+.equ ITEM_MEWNITE,         0x2D6
 
 
 @@@@@@@@@@@@@@@ MOVE EFFECTS
