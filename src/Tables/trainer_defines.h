@@ -778,7 +778,6 @@
 #define TRAINER_SABRINA_REMATCH          0x300
 #define TRAINER_KOGA_REMATCH             0x301
 #define TRAINER_BLAINE_REMATCH           0x302
-#define TRAINER_GIOVANNI_REMATCH         0x303
 
 #define TRAINER_LORELEI_REMATCH          0x304
 #define TRAINER_BRUNO_REMATCH            0x305
