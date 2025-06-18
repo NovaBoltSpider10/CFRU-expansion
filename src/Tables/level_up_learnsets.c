@@ -24025,5 +24025,6 @@ const struct LevelUpMove* const gLevelUpLearnsets[] =
 	[SPECIES_RHYPERIOR_MEGA]   = sRhyperiorLevelUpLearnset,
 	[SPECIES_ELECTIVIRE_MEGA]  = sElectivireLevelUpLearnset,
 	[SPECIES_MAGMORTAR_MEGA]   = sMagmortarLevelUpLearnset,
+	[SPECIES_MEW_MEGA] = sMewLevelUpLearnset,
 
 };
