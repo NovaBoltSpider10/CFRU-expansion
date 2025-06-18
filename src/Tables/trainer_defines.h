@@ -787,3 +787,10 @@
 
 #define TRAINER_GREEN                    0x309
 
+#define TRAINER_NAOMI                    0x30A
+#define TRAINER_ROLANDO                  0x30B
+#define TRAINER_GEORGE                   0x30C
+#define TRAINER_ALEXA                    0x30D
+#define TRAINER_RITCHIE                  0x30E
+#define TRAINER_CAROLINE                 0x30F
+#define TRAINER_RAY_TYRA                 0x311
