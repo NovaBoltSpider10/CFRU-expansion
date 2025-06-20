@@ -3230,11 +3230,8 @@ SpectralThiefBS_SkipSteal:
 	goto BS_HIT_FROM_DAMAGE_CALC
 
 PlaySpectBoost:
-	attackanimation
-	waitanimation
 	setbyte FORM_COUNTER 0x0
 	callasm ToggleSpectralThiefByte
-	playstatchangeanimation BANK_ATTACKER, 0xFF, STAT_ANIM_UP | STAT_ANIM_IGNORE_ABILITIES
 	callasm ToggleSpectralThiefByte
 	setword BATTLE_STRING_LOADER SpectralThiefString
 	printstring 0x184

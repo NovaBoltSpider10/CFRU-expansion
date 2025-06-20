@@ -12163,185 +12163,189 @@ struct TrainerMonItemCustomMoves sParty_Green[] = {
     },
 };
 
-struct TrainerMonItemCustomMoves sParty_Naomi[] = {
+struct TrainerMonItemCustomMoves sParty_Akash[] = {
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_GOLEM,
-        .heldItem = ITEM_CUSTAP_BERRY,
-        .moves = {MOVE_EARTHQUAKE, MOVE_STONEEDGE, MOVE_STEALTHROCK, MOVE_EXPLOSION},
-    },
-    {
-        .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_CLOYSTER,
-        .heldItem = ITEM_KINGS_ROCK,
-        .moves = {MOVE_HYDROPUMP, MOVE_ICICLESPEAR, MOVE_ROCKBLAST, MOVE_SHELLSMASH},
-    },
-    {
-        .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_MACHAMP,
-        .heldItem = ITEM_FLAME_ORB,
-        .moves = {MOVE_FACADE, MOVE_CLOSECOMBAT, MOVE_EARTHQUAKE, MOVE_MACHPUNCH},
-    },
-    {
-        .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_NINETALES,
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_FIREBLAST, MOVE_SOLARBEAM, MOVE_NASTYPLOT, MOVE_SCORCHINGSANDS},
+        .lvl = 62,
+        .species = SPECIES_GLIMMORA,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_TOXICSPIKES, MOVE_POWERGEM, MOVE_SLUDGEWAVE, MOVE_MORTALSPIN},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_PORYGON_Z,
-        .heldItem = ITEM_NORMALIUM_Z,
-        .moves = {MOVE_THUNDERBOLT, MOVE_ICEBEAM, MOVE_RECOVER, MOVE_CONVERSION},
+        .species = SPECIES_MAWILE_MEGA,
+        .heldItem = ITEM_MAWILITE,
+        .moves = {MOVE_PLAYROUGH, MOVE_IRONHEAD, MOVE_SUCKERPUNCH, MOVE_SWORDSDANCE},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_PINSIR,
-        .heldItem = ITEM_PINSIRITE,
-        .moves = {MOVE_DOUBLEEDGE, MOVE_SWORDSDANCE, MOVE_QUICKATTACK, MOVE_CLOSECOMBAT},
+        .species = SPECIES_AMPHAROS_MEGA,
+        .heldItem = ITEM_AMPHAROSITE,
+        .moves = {MOVE_THUNDERBOLT, MOVE_DRAGONPULSE, MOVE_FOCUSBLAST, MOVE_AGILITY},
     },
-};
-
-struct TrainerMonItemCustomMoves sParty_Rolando[] = {
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_NIDOKING,
+        .lvl = 62,
+        .species = SPECIES_TYPHLOSION,
+        .heldItem = ITEM_CHOICE_SPECS,
+        .moves = {MOVE_ERUPTION, MOVE_FLAMETHROWER, MOVE_FOCUSBLAST, MOVE_EXTRASENSORY},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_MARSHADOW,
         .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_SLUDGEWAVE, MOVE_ICEBEAM, MOVE_EARTHPOWER, MOVE_STEALTHROCK},
+        .moves = {MOVE_SPECTRALTHIEF, MOVE_CLOSECOMBAT, MOVE_SHADOWSNEAK, MOVE_ICEPUNCH},
     },
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_VILEPLUME,
+        .lvl = 62,
+        .species = SPECIES_ETERNATUS_ETERNAMAX,
         .heldItem = ITEM_BLACK_SLUDGE,
-        .moves = {MOVE_GIGADRAIN, MOVE_SLUDGEBOMB, MOVE_STRENGTHSAP, MOVE_LEECHSEED},
-    },
-    {
-        .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_SYLVEON,
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_HYPERVOICE, MOVE_CALMMIND, MOVE_PROTECT, MOVE_WISH},
-    },
-    {
-        .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_DODRIO,
-        .heldItem = ITEM_FLYINIUM_Z,
-        .moves = {MOVE_DOUBLEEDGE, MOVE_BRAVEBIRD, MOVE_SWORDSDANCE, MOVE_DRILLRUN},
-    },
-    {
-        .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_JYNX,
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_ICEBEAM, MOVE_PSYCHIC, MOVE_NASTYPLOT, MOVE_LOVELYKISS},
-    },
-    {
-        .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_KINGLER,
-        .heldItem = ITEM_KINGLERITE,
-        .moves = {MOVE_PSYCHOCUT, MOVE_NIGHTSLASH, MOVE_SWORDSDANCE, MOVE_AQUACUTTER},
+        .moves = {MOVE_DYNAMAXCANNON, MOVE_FLAMETHROWER, MOVE_SLUDGEBOMB, MOVE_RECOVER},
     },
 };
 
-struct TrainerMonItemCustomMoves sParty_George[] = {
+
+struct TrainerMonItemCustomMoves sParty_Arvind[] = {
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_ARBOK,
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_TOXICSPIKES, MOVE_TOXIC, MOVE_GUNKSHOT, MOVE_CRUNCH},
-    },
-    {
-        .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_KINGDRA,
+        .lvl = 62,
+        .species = SPECIES_GRENINJA,
         .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_RAINDANCE, MOVE_WAVECRASH, MOVE_HURRICANE, MOVE_DRACOMETEOR},
-    },
-    {
-        .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_DEWGONG,
-        .heldItem = ITEM_CHOICE_BAND,
-        .moves = {MOVE_TRIPLEAXEL, MOVE_LIQUIDATION, MOVE_FLIPTURN},
+        .moves = {MOVE_HYDROPUMP, MOVE_ICEBEAM, MOVE_DARKPULSE, MOVE_UTURN},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_RATICATE,
-        .heldItem = ITEM_NORMALIUM_Z,
-        .moves = {MOVE_DOUBLEEDGE, MOVE_UTURN, MOVE_STOMPINGTANTRUM, MOVE_SWORDSDANCE},
-    },
-    {
-        .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_MAGNEZONE,
+        .species = SPECIES_CHARIZARD,
         .heldItem = ITEM_CHOICE_SPECS,
-        .moves = {MOVE_THUNDERBOLT, MOVE_VOLTSWITCH, MOVE_FLASHCANNON, MOVE_OVERHEAT},
+        .moves = {MOVE_FIREBLAST, MOVE_SOLARBEAM, MOVE_AIRSLASH, MOVE_FOCUSBLAST},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_KANGASKHAN,
-        .heldItem = ITEM_KANGASKHANITE,
-        .moves = {MOVE_FAKEOUT, MOVE_DOUBLEEDGE, MOVE_POWERUPPUNCH, MOVE_CRUNCH},
+        .species = SPECIES_GENGAR,
+        .heldItem = ITEM_GENGARITE,
+        .moves = {MOVE_SHADOWBALL, MOVE_SLUDGEBOMB, MOVE_FOCUSBLAST, MOVE_DESTINYBOND},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_SCOPE_LENS,
+        .moves = {MOVE_NIGHTSLASH, MOVE_PSYCHOCUT, MOVE_SWORDSDANCE, MOVE_SUCKERPUNCH},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_LUXRAY,
+        .heldItem = ITEM_CHOICE_BAND,
+        .moves = {MOVE_WILDCHARGE, MOVE_CRUNCH, MOVE_ICEFANG, MOVE_SUPERPOWER},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_LUCARIO,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_CLOSECOMBAT, MOVE_METEORMASH, MOVE_EXTREMESPEED, MOVE_SWORDSDANCE},
     },
 };
 
-struct TrainerMonItemCustomMoves sParty_Alexa[] = {
+
+static const struct TrainerMonItemCustomMoves sParty_Ved[] = {
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_VENOMOTH,
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_TOXICSPIKES, MOVE_QUIVERDANCE, MOVE_BUGBUZZ, MOVE_SLUDGEWAVE},
+        .lvl = 8,
+        .species = SPECIES_RAYQUAZA_MEGA,
+        .heldItem = ITEM_NONE, // Mega via Dragon Ascent
+        .moves = {MOVE_DRAGONASCENT, MOVE_EXTREMESPEED, MOVE_EARTHQUAKE, MOVE_VCREATE},
     },
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_POLIWRATH,
-        .heldItem = ITEM_CHOICE_BAND,
-        .moves = {MOVE_WAVECRASH, MOVE_CLOSECOMBAT, MOVE_KNOCKOFF, MOVE_AQUAJET},
+        .lvl = 8,
+        .species = SPECIES_RAYQUAZA_MEGA,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DRAGONASCENT, MOVE_OUTRAGE, MOVE_FLAMETHROWER, MOVE_SURF},
     },
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_BELLOSSOM,
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_QUIVERDANCE, MOVE_GIGADRAIN, MOVE_SLEEPPOWDER, MOVE_STRENGTHSAP},
+        .lvl = 8,
+        .species = SPECIES_RAYQUAZA_MEGA,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DRAGONASCENT, MOVE_THUNDERBOLT, MOVE_ICEBEAM, MOVE_EXTREMESPEED},
     },
     {
         .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_SEAKING,
-        .heldItem = ITEM_WATERIUM_Z,
-        .moves = {MOVE_WAVECRASH, MOVE_MEGAHORN, MOVE_SWORDSDANCE, MOVE_AQUAJET},
+        .lvl = 8,
+        .species = SPECIES_RAYQUAZA_MEGA,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE, MOVE_CRUNCH},
     },
     {
         .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_MAGMORTAR,
-        .heldItem = ITEM_CHOICE_SPECS,
-        .moves = {MOVE_FIREBLAST, MOVE_AURASPHERE, MOVE_THUNDERBOLT, MOVE_SCORCHINGSANDS},
+        .lvl = 8,
+        .species = SPECIES_RAYQUAZA_MEGA,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DRAGONASCENT, MOVE_HYPERBEAM, MOVE_EXTREMESPEED, MOVE_HURRICANE},
     },
     {
         .iv = 0,
-        .lvl = 62,
-        .species = SPECIES_GYARADOS,
-        .heldItem = ITEM_GYARADOSITE,
-        .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_SUBSTITUTE, MOVE_DRAGONDANCE},
+        .lvl = 8,
+        .species = SPECIES_RAYQUAZA_MEGA,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DRAGONASCENT, MOVE_REST, MOVE_SLEEPTALK, MOVE_BULKUP},
     },
 };
+
+
+static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_COSMOEM,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_COSMOEM,
+        .heldItem = ITEM_EVIOLITE,
+        .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_COSMOEM,
+        .heldItem = ITEM_LAGGING_TAIL,
+        .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_COSMOEM,
+        .heldItem = ITEM_SAFETY_GOGGLES,
+        .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_COSMOEM,
+        .heldItem = ITEM_ROCKY_HELMET,
+        .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+    {
+        .iv = 0,
+        .lvl = 62,
+        .species = SPECIES_COSMOEM,
+        .heldItem = ITEM_BLACK_SLUDGE,
+        .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+    },
+};
+
 
 
 struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
@@ -12390,50 +12394,51 @@ struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
 };
 
 
-struct TrainerMonItemCustomMoves sParty_Caroline[] = {
+static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_SANDSLASH,
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_SPIKES, MOVE_STEALTHROCK, MOVE_EARTHQUAKE, MOVE_STONEEDGE},
+        .lvl = 62,
+        .species = SPECIES_PSYDUCK,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICEBEAM, MOVE_CALMMIND},
     },
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_HYPNO,
+        .lvl = 62,
+        .species = SPECIES_KLEFKI,
         .heldItem = ITEM_LIGHT_CLAY,
-        .moves = {MOVE_PSYCHICNOISE, MOVE_DARKPULSE, MOVE_REFLECT, MOVE_LIGHTSCREEN},
+        .moves = {MOVE_THUNDERWAVE, MOVE_REFLECT, MOVE_LIGHTSCREEN, MOVE_SPIKES},
     },
     {
         .iv = 0,
-        .lvl = 61,
-        .species = SPECIES_VICTREEBEL,
+        .lvl = 62,
+        .species = SPECIES_MR_MIME,
         .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_SUNNYDAY, MOVE_POWERWHIP, MOVE_SLUDGEWAVE, MOVE_WEATHERBALL},
+        .moves = {MOVE_PSYCHIC, MOVE_DAZZLINGGLEAM, MOVE_THUNDERBOLT, MOVE_CALMMIND},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_HITMONCHAN,
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_DRAINPUNCH, MOVE_KNOCKOFF, MOVE_BULKUP, MOVE_RAPIDSPIN},
+        .species = SPECIES_MIMIKYU,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_SHADOWCLAW, MOVE_PLAYROUGH, MOVE_SHADOWSNEAK, MOVE_SWORDSDANCE},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_GOLDUCK,
-        .heldItem = ITEM_PSYCHIUM_Z,
-        .moves = {MOVE_NASTYPLOT, MOVE_HYDROPUMP, MOVE_ICEBEAM, MOVE_PSYCHIC},
+        .species = SPECIES_WISHIWASHI,
+        .heldItem = ITEM_WATERIUM_Z,
+        .moves = {MOVE_SOAK, MOVE_SURF, MOVE_BATONPASS, MOVE_RECOVER},
     },
     {
         .iv = 0,
         .lvl = 62,
-        .species = SPECIES_SLOWBRO,
-        .heldItem = ITEM_SLOWBRONITE,
-        .moves = {MOVE_SCALD, MOVE_BODYPRESS, MOVE_IRONDEFENSE, MOVE_SLACKOFF},
+        .species = SPECIES_SURSKIT,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_BUBBLE, MOVE_STICKYWEB, MOVE_QUIVERDANCE, MOVE_PROTECT},
     },
 };
+
 
 
 
@@ -12448,9 +12453,9 @@ struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
     {
         .iv = 0,
         .lvl = 61,
-        .species = SPECIES_FLAREON,
-        .heldItem = ITEM_TOXIC_ORB,
-        .moves = {MOVE_FACADE, MOVE_FLAREBLITZ, MOVE_QUICKATTACK, MOVE_TRAILBLAZE},
+        .species = SPECIES_LICKILICKY,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_FACADE, MOVE_BODYSLAM, MOVE_REST, MOVE_SLEEPTALK},
     },
     {
         .iv = 0,

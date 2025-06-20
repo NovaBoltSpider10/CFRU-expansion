@@ -13118,60 +13118,60 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Green},
     },
 
-    [TRAINER_NAOMI] = {
+    [TRAINER_AKASH] = {
         .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
-        .trainerClass = CLASS_COOLTRAINER,
+        .trainerClass = CLASS_PKMN_TRAINER_1,
         .encounterMusic = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .gender = 1, // 0 IF MALE
-        .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        .trainerName = {_N, _a, _o, _m, _i, _END},
+        .gender = 0, // 0 IF MALE
+        .trainerPic = TRAINER_PIC_BROCK,
+        .trainerName = {_A, _k, _a, _s, _h, _END},
         .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .partySize = 6,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
-        .party = {.ItemCustomMoves = sParty_Naomi},
+        .party = {.ItemCustomMoves = sParty_Akash},
     },
 
-    [TRAINER_ROLANDO] = {
+    [TRAINER_ARVIND] = {
         .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
-        .trainerClass = CLASS_COOLTRAINER,
-        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .gender = 0,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        .trainerName = {_R, _o, _l, _a, _n, _d, _o, _END},
-        .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
-        .doubleBattle = FALSE,
-        .partySize = 6,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
-        .party = {.ItemCustomMoves = sParty_Rolando},
-    },
-
-    [TRAINER_GEORGE] = {
-        .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
-        .trainerClass = CLASS_COOLTRAINER,
-        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .gender = 0,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        .trainerName = {_G, _e, _o, _r, _g, _e, _END},
-        .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
-        .doubleBattle = FALSE,
-        .partySize = 6,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
-        .party = {.ItemCustomMoves = sParty_George},
-    },
-
-    [TRAINER_ALEXA] = {
-        .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
-        .trainerClass = CLASS_COOLTRAINER,
-        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_COOL,
+        .trainerClass = CLASS_LADY,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .gender = 1,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        .trainerName = {_A, _l, _e, _x, _a, _END},
+        .trainerPic = TRAINER_PIC_PARASOL_LADY,
+        .trainerName = {_A, _r, _v, _i, _n, _d, _END},
         .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .partySize = 6,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
-        .party = {.ItemCustomMoves = sParty_Alexa},
+        .party = {.ItemCustomMoves = sParty_Arvind},
+    },
+
+    [TRAINER_VED] = {
+        .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
+        .trainerClass = CLASS_BURGLAR,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .gender = 0,
+        .trainerPic = TRAINER_PIC_BURGLAR,
+        .trainerName = {_V, _e, _d, _END},
+        .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
+        .doubleBattle = FALSE,
+        .partySize = 6,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
+        .party = {.ItemCustomMoves = sParty_Ved},
+    },
+
+    [TRAINER_SYED] = {
+        .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
+        .trainerClass = CLASS_BIKER,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_INTENSE,
+        .gender = 0,
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = {_S, _y, _e, _d, _END},
+        .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
+        .doubleBattle = FALSE,
+        .partySize = 6,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
+        .party = {.ItemCustomMoves = sParty_Syed},
     },
 
     [TRAINER_RITCHIE] = {
@@ -13188,18 +13188,18 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Ritchie},
     },
 
-    [TRAINER_CAROLINE] = {
+    [TRAINER_KARTHIKEYA] = {
         .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
-        .trainerClass = CLASS_COOLTRAINER,
+        .trainerClass = CLASS_GAMBLER,
         .encounterMusic = TRAINER_ENCOUNTER_MUSIC_COOL,
-        .gender = 1,
-        .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        .trainerName = {_C, _a, _r, _o, _l, _i, _n, _e, _END},
+        .gender = 0,
+        .trainerPic = TRAINER_PIC_GAMBLER,
+        .trainerName = {_K, _a, _r, _t, _h, _i, _k, _e, _y, _a, _END},
         .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .partySize = 6,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
-        .party = {.ItemCustomMoves = sParty_Caroline},
+        .party = {.ItemCustomMoves = sParty_Karthikeya},
     },
 
     [TRAINER_RAY_TYRA] = {

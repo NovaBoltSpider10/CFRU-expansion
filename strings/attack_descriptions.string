@@ -686,7 +686,7 @@ If the target has\nalready used its\nmove this turn, it\nnullifies the effect\no
 The user attacks the\ntarget with sound\nwaves of deafening\nchatter. This\nconfuses the target.
 
 #org @DESC_CONFIDE
-The user tells the\nfoe a secret and it\nloses concentration.\nThis lowers Sp. Atk.
+The Ultimate Move.
 
 #org @DESC_WATERSHURIKEN
 The user throws stars\nat the foe 2 to 5\ntimes in a row. This\nalways strikes first.
@@ -1248,7 +1248,7 @@ The user rampages\nand spews vicious\nflames for two to\nthree turns.
 The user slams into\nthe target, hurting\nitself a little. This\nmove strikes first.
 
 #org @DESC_CHLOROBLAST
-The user launches its\namassed chlorophyll\nat the foe. This also\nhurts the user.
+The Ultimate Move.
 
 #org @DESC_MOUNTAIN_GALE
 The user hurls giant\nchunks of ice at\nthe foe that may\ncause it to flinch.
@@ -1551,7 +1551,7 @@ Great spin attack\nthat can eliminate\nharzards. May also\npoisons foe Pok\emon.
 Inflicts damage and\nhas a 30[5B] chance of\npoison the target.
 
 #org @DESC_ORDERUP
-Boosts one of the\nusers stats based\non the\nTatsugiris form. 
+The Ultimate Move.
 
 #org @DESC_POPULATIONBOMB
 Performes a combo\nattack that hits\ntarget one to ten\ntimes in a row.

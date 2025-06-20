@@ -10432,11 +10432,7 @@ CHATTER_SINGNOTES: objtemplate ANIM_TAG_MUSIC_NOTES ANIM_TAG_MUSIC_NOTES OAM_DOU
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 .pool
 ANIM_CONFIDE:
-	loadparticle ANIM_TAG_CONFIDE @Confide Bubble
-	launchtask AnimTask_Splash 0x2 0x2 bank_attacker 0x3
-	launchtemplate CONFIDE_BUBBLE 0xb 0x2 0x0 0x64
-	playsound2 0xb3 SOUND_PAN_ATTACKER
-	waitanimation
+	GOTO ANIM_INFERNO_OVERDRIVE
 	endanimation
 
 .align 2
@@ -19142,57 +19138,7 @@ ANIM_WAVE_CRASH:
 
 @Credits to Skeli
 ANIM_CHLOROBLAST:
-	loadparticle ANIM_TAG_THIN_RING
-	loadparticle ANIM_TAG_HYDRO_PUMP
-	launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_THIN_RING 0x0 0xA 0xA CHLOROBLAST_FADE_COLOUR
-	launchtask AnimTask_BlendParticle 0x5 0x5 ANIM_TAG_HYDRO_PUMP 0x0 0xC 0xC CHLOROBLAST_FADE_COLOUR
-	launchtask AnimTask_pal_fade 0xa 0x5 PAL_BG 0x2 0x0 0x10 0x0 @;Black
-	launchtask AnimTask_pal_fade 0xa 0x5 PAL_ATK 0x2 0x0 0x10 CHLOROBLAST_FADE_COLOUR
-	launchtask AnimTask_BlendNonAttackerPalettes 0x2 0x4 0x2 0x0 0x10 0x0 @;Black
-	playsound2 0x85 SOUND_PAN_ATTACKER
-	launchtemplate Template_ThinRingShrinking TEMPLATE_ABOVE | 8, 0x4 0x0 0x0 0x0 0x0
-	pause 0xe
-	launchtemplate Template_ThinRingShrinking TEMPLATE_ABOVE | 8, 0x4 0x0 0x0 0x0 0x0
-	pause 0xe
-	launchtemplate Template_ThinRingShrinking TEMPLATE_ABOVE | 8, 0x4 0x0 0x0 0x0 0x0
-	waitanimation
-	launchtask AnimTask_AllBanksInvisibleExceptAttackerAndTarget 0xA 0x0
-	loadBG1 BG_CHLOROBLAST
-	waitbgfadeout
-	launchtask AnimTask_pal_fade 0xa 0x5 PAL_DEF 0x0 0x10 0x0 0x0 @;Black
-	pause 0x10 
-	launchtask AnimTask_move_bank 0x2 0x5 bank_attacker 0x0 0x4 0x4A 0x1 
-	launchsoundtask SoundTask_LoopSEAdjustPanning 0x7 0xf0, 0xFF00 | SOUND_PAN_ATTACKER, SOUND_PAN_TARGET, 0x1 0x17 0x0 0x5 
-	launchtask AnimTask_screen_shake 0x5 0x3, 5, 1, 67
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	launchtask AnimTask_move_bank 0x5 0x5 bank_target 0x4 0x0 0x4A 0x1
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	call MAX_GEYSER_SHOT
-	waitanimation
-	pause 0x5
-	launchtask AnimTask_BlendNonAttackerPalettes 0x2 0x4 0x2 0x0 0x0 0x0 @;From Black
-	launchtask AnimTask_pal_fade 0xa 0x5 PAL_ATK 0x0 0x10 0x0 CHLOROBLAST_FADE_COLOUR
-	loaddefaultBG
-	waitbgfadeout
-	launchtask AnimTask_AllBanksVisible 0xA 0x0
-	pokespritefromBG side_target
-	waitbgfadein
-	launchtask AnimTask_pal_fade 0xa 0x5 PAL_ALL 0x2 0x0 0x0 0x0 @;From Black
+	goto ANIM_GIGAVOLT_HAVOC
 	endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -29687,7 +29633,8 @@ ANIM_NOXIOUSTORQUE:
 .pool
 @Credits to -
 ANIM_ORDERUP:
-	goto ANIM_CHIPAWAY
+	goto ANIM_SUBZERO_SLAMMER
+	endanimation
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 .pool
