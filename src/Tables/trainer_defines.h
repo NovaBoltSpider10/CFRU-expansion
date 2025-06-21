@@ -795,5 +795,18 @@
 #define TRAINER_KARTHIKEYA               0x30F
 #define TRAINER_RAY_TYRA                 0x311
 
-#define TRAINER_YELLOW                   0x312
-#define TRAINER_SAPPHIRE                 0x313
+#define TRAINER_YELLOW1                  0x312
+#define TRAINER_YELLOW2                  0x313
+#define TRAINER_YELLOW3                  0x314
+#define TRAINER_YELLOW4                  0x315
+
+#define TRAINER_SAPPHIRE1                0x316
+#define TRAINER_SAPPHIRE2                0x317
+#define TRAINER_SAPPHIRE3                0x318
+#define TRAINER_SAPPHIRE4                0x319
+#define TRAINER_SAPPHIRE5                0x31A
+#define TRAINER_SAPPHIRE6                0x31B
+#define TRAINER_SAPPHIRE7                0x31C
+#define TRAINER_SAPPHIRE8                0x31D
+#define TRAINER_SAPPHIRE9                0x31E
+

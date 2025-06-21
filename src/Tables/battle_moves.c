@@ -4817,7 +4817,7 @@ const struct BattleMove gBattleMoves[] =
 	[MOVE_MISTBALL] =
 	{
 		.effect = EFFECT_SPECIAL_ATTACK_DOWN_HIT,
-		.power = 70,
+		.power = 90,
 		.type = TYPE_PSYCHIC,
 		.accuracy = 100,
 		.pp = 5,
@@ -5031,9 +5031,9 @@ const struct BattleMove gBattleMoves[] =
 		.power = 100,
 		#endif
 		.type = TYPE_STEEL,
-		.accuracy = 90,
+		.accuracy = 100,
 		.pp = 10,
-		.secondaryEffectChance = 20,
+		.secondaryEffectChance = 30,
 		.target = MOVE_TARGET_SELECTED,
 		.priority = 0,
 		.flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
@@ -5377,12 +5377,12 @@ const struct BattleMove gBattleMoves[] =
 		.type = TYPE_WATER,
 		.accuracy = 85,
 		.pp = 10,
-		.secondaryEffectChance = 30,
+		.secondaryEffectChance = 50,
 		.target = MOVE_TARGET_BOTH,
 		.priority = 0,
 		.flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
 		.z_move_power = 175,
-		.split = SPLIT_SPECIAL,
+		.split = SPLIT_PHYSICAL,
 		.z_move_effect = 0
 	},
 
@@ -5756,10 +5756,10 @@ const struct BattleMove gBattleMoves[] =
 
 	[MOVE_PSYCHOBOOST] =
 	{
-		.effect = EFFECT_OVERHEAT,
-		.power = 140,
+		.effect = EFFECT_HIT,
+		.power = 120,
 		.type = TYPE_PSYCHIC,
-		.accuracy = 90,
+		.accuracy = 85,
 		.pp = 5,
 		.secondaryEffectChance = 100,
 		.target = MOVE_TARGET_SELECTED,
@@ -8402,7 +8402,7 @@ const struct BattleMove gBattleMoves[] =
 	{
 		.effect = EFFECT_HIT,
 		#ifdef GEN_6_POWER_NERFS
-		.power = 110,
+		.power = 120,
 		#else
 		.power = 120,
 		#endif
@@ -9085,7 +9085,7 @@ const struct BattleMove gBattleMoves[] =
 	[MOVE_DRAGONASCENT] =
 	{
 		.effect = EFFECT_SUPERPOWER,
-		.power = 120,
+		.power = 130,
 		.type = TYPE_FLYING,
 		.accuracy = 100,
 		.pp = 5,

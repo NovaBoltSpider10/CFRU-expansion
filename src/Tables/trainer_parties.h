@@ -12488,7 +12488,7 @@ struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
 };
 
 
-struct TrainerMonItemCustomMoves sParty_Yellow[] = {
+struct TrainerMonItemCustomMoves sParty_Yellow1[] = {
     {
         .iv = 2,
         .lvl = 100,
@@ -12497,7 +12497,7 @@ struct TrainerMonItemCustomMoves sParty_Yellow[] = {
         .moves = {MOVE_STEALTHROCK, MOVE_ICEBEAM, MOVE_THUNDERWAVE, MOVE_STICKYWEB},
     },
     {
-        .iv = 3,
+        .iv = 10,
         .lvl = 100,
         .species = SPECIES_PIKACHU_CAP_PARTNER,
         .heldItem = ITEM_LIGHT_BALL,
@@ -12533,13 +12533,156 @@ struct TrainerMonItemCustomMoves sParty_Yellow[] = {
     },
 };
 
-struct TrainerMonItemCustomMoves sParty_Sapphire[] = {
+struct TrainerMonItemCustomMoves sParty_Yellow2[] = {
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_PIKACHU_CAP_PARTNER,
+        .heldItem = ITEM_LIGHT_BALL,
+        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_AERODACTYLITE,
+        .moves = {MOVE_STONEEDGE, MOVE_BRAVEBIRD, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 2,
+        .lvl = 100,
+        .species = SPECIES_NINETALES,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_FIREBLAST, MOVE_SOLARBEAM, MOVE_PSYCHIC, MOVE_NASTYPLOT},
+    },
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_PINSIR,
+        .heldItem = ITEM_CHOICE_SCARF,
+        .moves = {MOVE_MEGAHORN, MOVE_CLOSECOMBAT, MOVE_EARTHQUAKE, MOVE_KNOCKOFF},
+    },
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_VICTREEBEL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_POWERWHIP, MOVE_POISONJAB, MOVE_SWORDSDANCE, MOVE_SUCKERPUNCH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+};
+
+struct TrainerMonItemCustomMoves sParty_Yellow3[] = {
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_HEADSMASH, MOVE_BRAVEBIRD, MOVE_STEALTHROCK, MOVE_TAILWIND},
+    },
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_PINSIR,
+        .heldItem = ITEM_PINSIRITE,
+        .moves = {MOVE_DOUBLEEDGE, MOVE_MEGAHORN, MOVE_SWORDSDANCE, MOVE_QUICKATTACK},
+    },
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_VICTREEBEL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_POWERWHIP, MOVE_POISONJAB, MOVE_SWORDSDANCE, MOVE_SUCKERPUNCH},
+    },
+    {
+        .iv = 2,
+        .lvl = 100,
+        .species = SPECIES_NINETALES,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_FIREBLAST, MOVE_SOLARBEAM, MOVE_PSYCHIC, MOVE_NASTYPLOT},
+    },
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_PIKACHU_CAP_PARTNER,
+        .heldItem = ITEM_LIGHT_BALL,
+        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+};
+
+struct TrainerMonItemCustomMoves sParty_Yellow4[] = {
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_AERODACTYL,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_HEADSMASH, MOVE_BRAVEBIRD, MOVE_STEALTHROCK, MOVE_TAILWIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GYARADOS,
+        .heldItem = ITEM_GYARADOSITE,
+        .moves = {MOVE_WAVECRASH, MOVE_CRUNCH, MOVE_DRAGONDANCE, MOVE_SUBSTITUTE},
+    },
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_PINSIR,
+        .heldItem = ITEM_CHOICE_SCARF,
+        .moves = {MOVE_MEGAHORN, MOVE_CLOSECOMBAT, MOVE_EARTHQUAKE, MOVE_KNOCKOFF},
+    },
+    {
+        .iv = 2,
+        .lvl = 100,
+        .species = SPECIES_NINETALES,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_FIREBLAST, MOVE_SOLARBEAM, MOVE_PSYCHIC, MOVE_NASTYPLOT},
+    },
+    {
+        .iv = 1,
+        .lvl = 100,
+        .species = SPECIES_VICTREEBEL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_POWERWHIP, MOVE_POISONJAB, MOVE_SWORDSDANCE, MOVE_SUCKERPUNCH},
+    },
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_PIKACHU_CAP_PARTNER,
+        .heldItem = ITEM_LIGHT_BALL,
+        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
+    },
+};
+
+
+struct TrainerMonItemCustomMoves sParty_Sapphire1[] = {
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
     {
         .iv = 3,
         .lvl = 100,
         .species = SPECIES_METAGROSS,
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_STEALTHROCK, MOVE_SHIFTGEAR},
+        .heldItem = ITEM_METAGROSSITE,
+        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_EARTHQUAKE, MOVE_SHIFTGEAR},
     },
     {
         .iv = 4,
@@ -12569,11 +12712,369 @@ struct TrainerMonItemCustomMoves sParty_Sapphire[] = {
         .heldItem = ITEM_LIFE_ORB,
         .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
     },
+};
+
+struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_METAGROSS,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_STEALTHROCK, MOVE_SHIFTGEAR},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_LATIAS,
+        .heldItem = ITEM_LATIASITE,
+        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+    },
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_DEOXYS_ATTACK,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOBOOST, MOVE_CLOSECOMBAT, MOVE_EXTREMESPEED, MOVE_ICEBEAM},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_RAYQUAZA,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
+};
+
+struct TrainerMonItemCustomMoves sParty_Sapphire3[] = {
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_RAYQUAZA,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_LATIAS,
+        .heldItem = ITEM_SOUL_DEW,
+        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+    },
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_DEOXYS_ATTACK,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOBOOST, MOVE_CLOSECOMBAT, MOVE_EXTREMESPEED, MOVE_ICEBEAM},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_METAGROSS,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_STEALTHROCK, MOVE_SHIFTGEAR},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+};
+
+struct TrainerMonItemCustomMoves sParty_Sapphire4[] = {
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_METAGROSS,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_STEALTHROCK, MOVE_SHIFTGEAR},
+    },
     {
         .iv = 3,
         .lvl = 100,
         .species = SPECIES_SWAMPERT,
         .heldItem = ITEM_SWAMPERTITE,
         .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_ICEPUNCH, MOVE_RAINDANCE},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_LATIAS,
+        .heldItem = ITEM_SOUL_DEW,
+        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+    },
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_DEOXYS_ATTACK,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOBOOST, MOVE_CLOSECOMBAT, MOVE_EXTREMESPEED, MOVE_ICEBEAM},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_RAYQUAZA,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+};
+
+
+struct TrainerMonItemCustomMoves sParty_Sapphire5[] = {
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_CAMERUPT,
+        .heldItem = ITEM_CAMERUPTITE,
+        .moves = {MOVE_FIREBLAST, MOVE_EARTHPOWER, MOVE_STEALTHROCK, MOVE_ANCIENTPOWER},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_NIGHTSLASH, MOVE_SUCKERPUNCH, MOVE_CLOSECOMBAT, MOVE_SWORDSDANCE},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_MANECTRIC,
+        .heldItem = ITEM_CHOICE_SPECS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_VOLTSWITCH, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GALLADE,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOCUT, MOVE_SACREDSWORD, MOVE_SWORDSDANCE, MOVE_NIGHTSLASH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
+};
+
+
+struct TrainerMonItemCustomMoves sParty_Sapphire6[] = {
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_CAMERUPT,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_FIREBLAST, MOVE_EARTHPOWER, MOVE_STEALTHROCK, MOVE_SPIKES},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_ABSOLITE,
+        .moves = {MOVE_NIGHTSLASH, MOVE_SUCKERPUNCH, MOVE_PLAYROUGH, MOVE_CLOSECOMBAT},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_MANECTRIC,
+        .heldItem = ITEM_CHOICE_SPECS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_VOLTSWITCH, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GALLADE,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOCUT, MOVE_SACREDSWORD, MOVE_SWORDSDANCE, MOVE_NIGHTSLASH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
+};
+
+
+struct TrainerMonItemCustomMoves sParty_Sapphire7[] = {
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_CAMERUPT,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_FIREBLAST, MOVE_EARTHPOWER, MOVE_STEALTHROCK, MOVE_SPIKES},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_NIGHTSLASH, MOVE_SUCKERPUNCH, MOVE_CLOSECOMBAT, MOVE_SWORDSDANCE},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_MANECTRIC,
+        .heldItem = ITEM_MANECTITE,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_VOLTSWITCH, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GALLADE,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOCUT, MOVE_SACREDSWORD, MOVE_SWORDSDANCE, MOVE_NIGHTSLASH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
+};
+
+
+struct TrainerMonItemCustomMoves sParty_Sapphire8[] = {
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_CAMERUPT,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_FIREBLAST, MOVE_EARTHPOWER, MOVE_STEALTHROCK, MOVE_SPIKES},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_NIGHTSLASH, MOVE_SUCKERPUNCH, MOVE_CLOSECOMBAT, MOVE_SWORDSDANCE},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_MANECTRIC,
+        .heldItem = ITEM_CHOICE_SPECS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_VOLTSWITCH, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GALLADE,
+        .heldItem = ITEM_GALLADITE,
+        .moves = {MOVE_PSYCHOCUT, MOVE_SACREDSWORD, MOVE_SWORDSDANCE, MOVE_NIGHTSLASH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+    },
+};
+
+
+struct TrainerMonItemCustomMoves sParty_Sapphire9[] = {
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_CAMERUPT,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_FIREBLAST, MOVE_EARTHPOWER, MOVE_STEALTHROCK, MOVE_SPIKES},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_NIGHTSLASH, MOVE_SUCKERPUNCH, MOVE_CLOSECOMBAT, MOVE_SWORDSDANCE},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_MANECTRIC,
+        .heldItem = ITEM_CHOICE_SPECS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_VOLTSWITCH, MOVE_OVERHEAT},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_GALLADE,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOCUT, MOVE_SACREDSWORD, MOVE_SWORDSDANCE, MOVE_NIGHTSLASH},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_SWAMPERTITE,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_RAINDANCE, MOVE_ICEPUNCH},
     },
 };
