@@ -12486,3 +12486,94 @@ struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .moves = {MOVE_BODYSLAM, MOVE_WOODHAMMER, MOVE_CURSE, MOVE_SLACKOFF},
     },
 };
+
+
+struct TrainerMonItemCustomMoves sParty_Yellow[] = {
+    {
+        .iv = 2,
+        .lvl = 100,
+        .species = SPECIES_MEW,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_STEALTHROCK, MOVE_ICEBEAM, MOVE_THUNDERWAVE, MOVE_STICKYWEB},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_PIKACHU_CAP_PARTNER,
+        .heldItem = ITEM_LIGHT_BALL,
+        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
+    },
+    {
+        .iv = 8,
+        .lvl = 100,
+        .species = SPECIES_ARTICUNO,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_FREEZEDRY, MOVE_HURRICANE, MOVE_SUBSTITUTE, MOVE_ROOST},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_ZAPDOS,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_HURRICANE, MOVE_VOLTSWITCH, MOVE_ROOST},
+    },
+    {
+        .iv = 0,
+        .lvl = 100,
+        .species = SPECIES_MOLTRES,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_FIREBLAST, MOVE_BRAVEBIRD, MOVE_UTURN, MOVE_ROOST},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_MEWTWO,
+        .heldItem = ITEM_MEWTWONITE_Y,
+        .moves = {MOVE_EXPANDINGFORCE, MOVE_FIREBLAST, MOVE_FOCUSBLAST, MOVE_NASTYPLOT},
+    },
+};
+
+struct TrainerMonItemCustomMoves sParty_Sapphire[] = {
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_METAGROSS,
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_STEALTHROCK, MOVE_SHIFTGEAR},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_LATIAS,
+        .heldItem = ITEM_SOUL_DEW,
+        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+    },
+    {
+        .iv = 10,
+        .lvl = 100,
+        .species = SPECIES_DEOXYS_ATTACK,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_PSYCHOBOOST, MOVE_CLOSECOMBAT, MOVE_EXTREMESPEED, MOVE_ICEBEAM},
+    },
+    {
+        .iv = 4,
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_RAYQUAZA,
+        .heldItem = ITEM_LIFE_ORB,
+        .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+    },
+    {
+        .iv = 3,
+        .lvl = 100,
+        .species = SPECIES_SWAMPERT,
+        .heldItem = ITEM_SWAMPERTITE,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_ICEPUNCH, MOVE_RAINDANCE},
+    },
+};

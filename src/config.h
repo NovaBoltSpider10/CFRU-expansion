@@ -299,7 +299,7 @@ enum //These vars need to be one after the other (hence the enum)
 //#define OLD_EXPLOSION_BOOST //Uncomment this line to make Exploding moves halve the target's defense
 //#define OLD_HIDDEN_POWER_BP //Uncomment this line for Hidden Power to have its Base Power calculated from the Pokemon's IVs
 //#define PORTAL_POWER //Uncomment this line to enable Hoopa-Unbound's special ability in Pokemon Unbound, Portal Power (reduces power of non-contact moves by 25%)
-//#define OLD_SOUL_DEW_EFFECT //Uncomment this line if you want the Soul Dew to double Latios + Latias' Sp. Atk & Sp. Def
+#define OLD_SOUL_DEW_EFFECT //Uncomment this line if you want the Soul Dew to double Latios + Latias' Sp. Atk & Sp. Def
 //#define OLD_PARENTAL_BOND_DAMAGE //Uncomment this line to make the second hit of Parental Bond do 50% of the original damage instead of 25%
 #define GEN_6_POWER_NERFS //Comment out for moves that had powers nerfed in Gen 6 to retain their original base powers.
 #define GEN_7_POWER_NERFS //Comment out for Sucker Punch to retain its original base power.

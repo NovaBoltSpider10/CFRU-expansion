@@ -13216,4 +13216,33 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_RayTyra},
     },
 
+    [TRAINER_YELLOW] = {
+        .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
+        .trainerClass = CLASS_PKMN_TRAINER_1,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .gender = 0,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        .trainerName = {_Y, _e, _l, _l, _o, _w, _END},
+        .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
+        .doubleBattle = FALSE,
+        .partySize = 6,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
+        .party = {.ItemCustomMoves = sParty_Yellow},
+    },
+    
+    [TRAINER_SAPPHIRE] = {
+        .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
+        .trainerClass = CLASS_PKMN_TRAINER_1,
+        .encounterMusic = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .gender = 0,
+        .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
+        .trainerName = {_S, _a, _p, _p, _h, _i, _r, _e, _END},
+        .items = {ITEM_MEGA_RING, ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE},
+        .doubleBattle = FALSE,
+        .partySize = 6,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART,
+        .party = {.ItemCustomMoves = sParty_Sapphire},
+    },
+
+
 };

@@ -794,3 +794,6 @@
 #define TRAINER_RITCHIE                  0x30E
 #define TRAINER_KARTHIKEYA               0x30F
 #define TRAINER_RAY_TYRA                 0x311
+
+#define TRAINER_YELLOW                   0x312
+#define TRAINER_SAPPHIRE                 0x313
