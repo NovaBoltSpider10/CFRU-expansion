@@ -342,3 +342,4 @@ gEventObjectGraphicsInfo_g5  0x0839FDC4
 gEventObjectGraphicsInfo_g6  0x0839FDC8
 gEventObjectGraphicsInfo_g7  0x0839FDCC
 gEventObjectGraphicsInfo_g72 0x0839FED0
+gEventObjectGraphicsInfo_ultra 0x0839FFF8

@@ -27,6 +27,7 @@ extern const u8 g5Tiles[];
 extern const u8 g6Tiles[];
 extern const u8 g7Tiles[];
 extern const u8 g72Tiles[];
+extern const u8 ultraTiles[];
 
 
 
@@ -170,6 +171,19 @@ static const struct SpriteFrameImage gEventObjectPicTable_g72[] =
     overworld_frame(g72Tiles, 2, 4, 6),
     overworld_frame(g72Tiles, 2, 4, 7),
     overworld_frame(g72Tiles, 2, 4, 8),
+};
+
+static const struct SpriteFrameImage gEventObjectPicTable_ultra[] =
+{
+    overworld_frame(ultraTiles, 8, 8, 0),
+    overworld_frame(ultraTiles, 8, 8, 1),
+    overworld_frame(ultraTiles, 8, 8, 2),
+    overworld_frame(ultraTiles, 8, 8, 3),
+    overworld_frame(ultraTiles, 8, 8, 4),
+    overworld_frame(ultraTiles, 8, 8, 5),
+    overworld_frame(ultraTiles, 8, 8, 6),
+    overworld_frame(ultraTiles, 8, 8, 7),
+    overworld_frame(ultraTiles, 8, 8, 8),
 };
 
 
@@ -355,4 +369,22 @@ const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_g72 =
 
 
 
-
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ultra =
+{
+    .tileTag = 0xFFFF,
+    .paletteTag1 = 0x1158,
+    .paletteTag2 = EVENT_OBJ_PAL_TAG_NONE,
+    .size = (64 * 64) / 2,
+    .width = 64,
+    .height = 64,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .gender = MALE,
+    .oam = gEventObjectBaseOam_64x64,
+    .subspriteTables = gEventObjectSpriteOamTables_64x64,
+    .anims = gEventObjectImageAnimTable_Standard,
+    .images = gEventObjectPicTable_ultra,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
