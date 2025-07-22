@@ -625,13 +625,7 @@ EventScript_UseSurf_CheckAnswer:
 	if equal _goto EventScript_SurfEnd
 	lockall
 	msgbox 0x81BDFD7 MSG_KEEPOPEN
-	checkflag 0x4BD
-	if equal _goto EventScript_FollowerMonWasOn
 
-EventScript_FollowerMonWasOn:
-	setflag 0xA07
-	callasm CreateSparkleSprite
-	hidefollowermon
 
 EventScript_UseSurf_SkipAsk:
 	lockall

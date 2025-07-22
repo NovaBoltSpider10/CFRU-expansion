@@ -10769,7 +10769,7 @@ struct TrainerMonItemCustomMoves sParty_Brock[] = {
         .iv = 3,
         .lvl = 14,
         .species = SPECIES_ONIX,
-        .heldItem = ITEM_LEFTOVERS,
+        .heldItem = ITEM_ROCKIUM_Z,
         .moves = {MOVE_ROCKTOMB, MOVE_BULLDOZE, MOVE_CURSE, MOVE_NONE},
     },
 };
@@ -10794,7 +10794,7 @@ struct TrainerMonItemCustomMoves sParty_NuggetBlue[] = {
         .lvl = 23,
         .species = SPECIES_KADABRA,
         .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_PSYBEAM, MOVE_SHOCKWAVE, MOVE_DISARMINGVOICE, MOVE_NASTYPLOT},
+        .moves = {MOVE_PSYBEAM, MOVE_SHOCKWAVE, MOVE_DISARMINGVOICE, MOVE_CALMMIND},
     },
     {
         .iv = 0,
@@ -11225,7 +11225,7 @@ struct TrainerMonItemCustomMoves sParty_Blaine[] = {
         .iv = 3,
         .lvl = 57,
         .species = SPECIES_RAPIDASH,
-        .heldItem = ITEM_LIFE_ORB,
+        .heldItem = ITEM_FIRIUM_Z,
         .moves = {MOVE_FLAREBLITZ, MOVE_SOLARBLADE, MOVE_SWORDSDANCE, MOVE_HIGHHORSEPOWER}, // corrected to HIGHHORSEPOWER
     },
     {
@@ -11606,7 +11606,7 @@ struct TrainerMonItemCustomMoves sParty_BrockRematch[] = {
         .iv = 3,
         .lvl = 77,
         .species = SPECIES_AERODACTYL,
-        .heldItem = ITEM_LIFE_ORB,
+        .heldItem = ITEM_ROCKIUM_Z,
         .moves = {MOVE_HEADSMASH, MOVE_BRAVEBIRD, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
     },
     {
@@ -11645,7 +11645,7 @@ struct TrainerMonItemCustomMoves sParty_MistyRematch[] = {
         .iv = 4,
         .lvl = 77,
         .species = SPECIES_VAPOREON,
-        .heldItem = ITEM_LEFTOVERS,
+        .heldItem = ITEM_WATERIUM_Z,
         .moves = {MOVE_SCALD, MOVE_CALMMIND, MOVE_WISH, MOVE_PROTECT},
     },
     {
@@ -11692,7 +11692,7 @@ struct TrainerMonItemCustomMoves sParty_LtSurgeRematch[] = {
         .iv = 4,
         .lvl = 77,
         .species = SPECIES_JOLTEON,
-        .heldItem = ITEM_LIFE_ORB,
+        .heldItem = ITEM_ELECTRIUM_Z,
         .moves = {MOVE_RISINGVOLTAGE, MOVE_CALMMIND, MOVE_ALLURINGVOICE, MOVE_SHADOWBALL},
     },
     {
@@ -11859,7 +11859,7 @@ struct TrainerMonItemCustomMoves sParty_BlaineRematch[] = {
         .iv = 3,
         .lvl = 77,
         .species = SPECIES_RAPIDASH,
-        .heldItem = ITEM_LIFE_ORB,
+        .heldItem = ITEM_FIRIUM_Z,
         .moves = {MOVE_FLAREBLITZ, MOVE_SOLARBLADE, MOVE_SWORDSDANCE, MOVE_HIGHHORSEPOWER}, // corrected to HIGHHORSEPOWER
     },
     {
@@ -12341,7 +12341,7 @@ struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .iv = 0,
         .lvl = 62,
         .species = SPECIES_COSMOEM,
-        .heldItem = ITEM_BLACK_SLUDGE,
+        .heldItem = ITEM_LEFTOVERS,
         .moves = {MOVE_COSMICPOWER, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     },
 };
