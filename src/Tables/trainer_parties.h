@@ -11513,18 +11513,18 @@ struct TrainerMonItemCustomMoves sParty_Lance[] = {
         .moves = {MOVE_WAVECRASH, MOVE_DRACOMETEOR, MOVE_AGILITY, MOVE_FOCUSENERGY},
     },
     {
-        .iv = 4,
+        .iv = 3,
         .lvl = 74,
         .species = SPECIES_DRAGONITE,
         .heldItem = ITEM_DRAGONIUM_Z,
-        .moves = {MOVE_DRACOMETEOR, MOVE_HURRICANE, MOVE_FIREBLAST, MOVE_ROOST},
+        .moves = {MOVE_DRAGONCLAW, MOVE_DUALWINGBEAT, MOVE_DRAGONDANCE, MOVE_ROOST},
     },
     {
-        .iv = 3,
+        .iv = 4,
         .lvl = 75,
         .species = SPECIES_DRAGONITE,
         .heldItem = ITEM_DRAGONITITE,
-        .moves = {MOVE_DRAGONCLAW, MOVE_DUALWINGBEAT, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+        .moves = {MOVE_DRAGONPULSE, MOVE_AEROBLAST, MOVE_FIREBLAST, MOVE_ROOST},
     },
 };
 
@@ -12057,18 +12057,18 @@ struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
         .moves = {MOVE_WAVECRASH, MOVE_DRACOMETEOR, MOVE_AGILITY, MOVE_FOCUSENERGY},
     },
     {
-        .iv = 4,
+        .iv = 3,
         .lvl = 84,
         .species = SPECIES_DRAGONITE,
         .heldItem = ITEM_DRAGONIUM_Z,
-        .moves = {MOVE_DRACOMETEOR, MOVE_HURRICANE, MOVE_FIREBLAST, MOVE_ROOST},
+        .moves = {MOVE_DRAGONCLAW, MOVE_DUALWINGBEAT, MOVE_DRAGONDANCE, MOVE_ROOST},
     },
     {
-        .iv = 3,
+        .iv = 4,
         .lvl = 85,
         .species = SPECIES_DRAGONITE,
         .heldItem = ITEM_DRAGONITITE,
-        .moves = {MOVE_DRAGONCLAW, MOVE_DUALWINGBEAT, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+        .moves = {MOVE_DRAGONPULSE, MOVE_AEROBLAST, MOVE_FIREBLAST, MOVE_ROOST},
     },
 };
 
@@ -12689,7 +12689,7 @@ struct TrainerMonItemCustomMoves sParty_Sapphire1[] = {
         .lvl = 100,
         .species = SPECIES_LATIAS,
         .heldItem = ITEM_SOUL_DEW,
-        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+        .moves = {MOVE_MISTBALL, MOVE_DRAGONPULSE, MOVE_CALMMIND, MOVE_RECOVER},
     },
     {
         .iv = 10,
@@ -12727,7 +12727,7 @@ struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
         .lvl = 100,
         .species = SPECIES_LATIAS,
         .heldItem = ITEM_LATIASITE,
-        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+        .moves = {MOVE_MISTBALL, MOVE_DRAGONPULSE, MOVE_CALMMIND, MOVE_RECOVER},
     },
     {
         .iv = 10,
@@ -12779,7 +12779,7 @@ struct TrainerMonItemCustomMoves sParty_Sapphire3[] = {
         .lvl = 100,
         .species = SPECIES_LATIAS,
         .heldItem = ITEM_SOUL_DEW,
-        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+        .moves = {MOVE_MISTBALL, MOVE_DRAGONPULSE, MOVE_CALMMIND, MOVE_RECOVER},
     },
     {
         .iv = 10,
@@ -12824,7 +12824,7 @@ struct TrainerMonItemCustomMoves sParty_Sapphire4[] = {
         .lvl = 100,
         .species = SPECIES_LATIAS,
         .heldItem = ITEM_SOUL_DEW,
-        .moves = {MOVE_MISTBALL, MOVE_DRACOMETEOR, MOVE_CALMMIND, MOVE_RECOVER},
+        .moves = {MOVE_MISTBALL, MOVE_DRAGONPULSE, MOVE_CALMMIND, MOVE_RECOVER},
     },
     {
         .iv = 10,
