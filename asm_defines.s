@@ -4118,12 +4118,12 @@
 .equ ITEM_BUTTERFRITE,          0x2C6
 .equ ITEM_MACHAMPITE,           0x2C7
 .equ ITEM_GENGARITE_X,          0x2C8
-.equ ITEM_STARMITE,             0x2C9
+.equ ITEM_STARMINITE,             0x2C9
 .equ ITEM_LAPRASITE,            0x2CA
 .equ ITEM_ARTICUNITE,           0x2CB
 .equ ITEM_ZAPDOSITE,            0x2CC
 .equ ITEM_MOLTRESITE,           0x2CD
-.equ ITEM_DRAGONITITE,          0x2CE
+.equ ITEM_DRAGONINITE,          0x2CE
 .equ ITEM_CROBATITE,            0x2CF
 .equ ITEM_BELLOSSOMITE,         0x2D0
 .equ ITEM_RHYPERIORITE,         0x2D1

@@ -823,12 +823,12 @@ enum
 #define ITEM_BUTTERFRITE          0x307
 #define ITEM_MACHAMPITE           0x308
 #define ITEM_GENGARITE_X          0x309
-#define ITEM_STARMITE             0x30A
+#define ITEM_STARMINITE             0x30A
 #define ITEM_LAPRASITE            0x30B
 #define ITEM_ARTICUNITE           0x30C
 #define ITEM_ZAPDOSITE            0x30D
 #define ITEM_MOLTRESITE           0x30E
-#define ITEM_DRAGONITITE          0x30F
+#define ITEM_DRAGONINITE          0x30F
 #define ITEM_CROBATITE            0x310
 #define ITEM_BELLOSSOMITE         0x311
 #define ITEM_RHYPERIORITE         0x312

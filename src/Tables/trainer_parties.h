@@ -11523,7 +11523,7 @@ struct TrainerMonItemCustomMoves sParty_Lance[] = {
         .iv = 4,
         .lvl = 75,
         .species = SPECIES_DRAGONITE,
-        .heldItem = ITEM_DRAGONITITE,
+        .heldItem = ITEM_DRAGONINITE,
         .moves = {MOVE_DRAGONPULSE, MOVE_AEROBLAST, MOVE_FIREBLAST, MOVE_ROOST},
     },
 };
@@ -11593,7 +11593,7 @@ struct TrainerMonItemCustomMoves sParty_BrockRematch[] = {
         .lvl = 77,
         .species = SPECIES_KABUTOPS,
         .heldItem = ITEM_WHITE_HERB,
-        .moves = {MOVE_STONEEDGE, MOVE_LIQUIDATION, MOVE_SHELLSMASH, MOVE_AQUAJET},
+        .moves = {MOVE_STONEEDGE, MOVE_WAVECRASH, MOVE_SHELLSMASH, MOVE_AQUAJET},
     },
     {
         .iv = 3,
@@ -11659,14 +11659,14 @@ struct TrainerMonItemCustomMoves sParty_MistyRematch[] = {
         .iv = 4,
         .lvl = 78,
         .species = SPECIES_STARMIE,
-        .heldItem = ITEM_STARMITE,
-        .moves = {MOVE_HYDROPUMP, MOVE_PSYCHIC, MOVE_CALMMIND, MOVE_RECOVER},
+        .heldItem = ITEM_STARMINITE,
+        .moves = {MOVE_WAVECRASH, MOVE_ZENHEADBUTT, MOVE_BULKUP, MOVE_AQUAJET},
     },
 };
 
 
 
-struct TrainerMonItemCustomMoves sParty_LtSurgeRematch[] = {
+struct TrainerMonItemCustomMoves sParty_Rematch[] = {
     {
         .iv = 4,
         .lvl = 77,
@@ -12067,7 +12067,7 @@ struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
         .iv = 4,
         .lvl = 85,
         .species = SPECIES_DRAGONITE,
-        .heldItem = ITEM_DRAGONITITE,
+        .heldItem = ITEM_DRAGONINITE,
         .moves = {MOVE_DRAGONPULSE, MOVE_AEROBLAST, MOVE_FIREBLAST, MOVE_ROOST},
     },
 };
@@ -12229,7 +12229,7 @@ struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_GENGAR,
         .heldItem = ITEM_GENGARITE,
-        .moves = {MOVE_SHADOWBALL, MOVE_SLUDGEBOMB, MOVE_FOCUSBLAST, MOVE_DESTINYBOND},
+        .moves = {MOVE_SHADOWBALL, MOVE_DARKPULSE, MOVE_FOCUSBLAST, MOVE_DESTINYBOND},
     },
     {
         .iv = 0,
