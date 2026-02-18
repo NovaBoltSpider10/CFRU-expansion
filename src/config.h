@@ -156,7 +156,7 @@ enum //These vars need to be one after the other (hence the enum)
 #define CREATE_WITH_X_PERFECT_IVS 6 //Change this to the number of set 31 IVs you'd like Pokemon defined in gSetPerfectXIvList to have.
 #define CREATE_ROAMER_WITH_X_PERFECT_IVS 6 //Change this to the number of set 31 IVs you'd like roaming pokemon to have.
 #define EGG_HATCH_LEVEL 1 //The level eggs hatch at
-#define AI_TRY_TO_KILL_RATE 50 //In battles against a trainer with AI flags of 1, the AI will try to use a move to knock out the opponents XX percent of the time
+#define AI_TRY_TO_KILL_RATE 100 //In battles against a trainer with AI flags of 1, the AI will try to use a move to knock out the opponents XX percent of the time
 #define BIKE_ENCOUNTER_PERCENT 60 //Biking through grass or in caves only has this percentage of the encounter rate (vanilla FR is 80)
 
 /*===== Metatile Behaviours =====*/
@@ -317,7 +317,7 @@ enum //These vars need to be one after the other (hence the enum)
 //#define FLAT_EXP_FORMULA //Uncomment this line to use a Flat Exp calculation formula (Gens 2 - 4, 6)
 #define GEN_7_BASE_EXP_YIELD //Base Exp Yield is read from gBaseExpBySpecies to use larger values that match Gen 7
 #define CAPTURE_EXPERIENCE //Experience is awared upon capturing Pokemon.
-#define EXP_AFFECTION_BOOST //Pokemon with friendship >= 220 gain boosted experience
+//#define EXP_AFFECTION_BOOST //Pokemon with friendship >= 220 gain boosted experience
 
 /*===== Other Battle Options =====*/
 //#define NO_GHOST_BATTLES //Uncomment this line to disable the Ghost battle feature from Pokemon Tower in Lavender town
@@ -344,7 +344,7 @@ enum //These vars need to be one after the other (hence the enum)
 #define TAKE_WILD_MON_ITEM_ON_CAPTURE //Items held by Wild Pokemon when caught can be placed in the bag at the player's request
 //#define PAYDAY_MONEY_CAP //Pay Day and G-Max Gold Rush should cap at $99999 per battle
 #define QUICK_CLAW_PROCING_ALWAYS_ALLOWS_FLEEING //Fleeing from wild battles will never fail the turn a Quick Claw activates
-#define FROSTBITE //Replaces the Freeze status condition with the Frostbite status condition from PLA
+//#define FROSTBITE //Replaces the Freeze status condition with the Frostbite status condition from PLA
 
 //Save stuff
 #define VAR_R_BUTTON_MODE 0x5150
