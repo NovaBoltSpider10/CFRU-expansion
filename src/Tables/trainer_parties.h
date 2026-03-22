@@ -10839,28 +10839,28 @@ struct TrainerMonItemCustomMoves sParty_Misty[] = {
 struct TrainerMonItemCustomMoves sParty_AnneBlue[] = {
     {
         .iv = 3,
-        .lvl = 27,
+        .lvl = 31,
         .species = SPECIES_FEAROW,
         .heldItem = ITEM_SCOPE_LENS,
         .moves = {MOVE_DUALWINGBEAT, MOVE_THIEF, MOVE_ROOST, MOVE_FOCUSENERGY},
     },
     {
         .iv = 3,
-        .lvl = 27,
+        .lvl = 31,
         .species = SPECIES_RATICATE,
         .heldItem = ITEM_FLAME_ORB,
         .moves = {MOVE_UTURN, MOVE_HEADBUTT, MOVE_STOMPINGTANTRUM, MOVE_QUICKATTACK},
     },
     {
         .iv = 2,
-        .lvl = 27,
+        .lvl = 31,
         .species = SPECIES_KADABRA,
         .heldItem = ITEM_FOCUS_SASH,
         .moves = {MOVE_PSYSHOCK, MOVE_HEX, MOVE_DISARMINGVOICE, MOVE_NASTYPLOT},
     },
     {
         .iv = 4,
-        .lvl = 28,
+        .lvl = 32,
         .species = SPECIES_WARTORTLE,
         .heldItem = ITEM_WATERIUM_Z,
         .moves = {MOVE_SCALD, MOVE_ICEBEAM, MOVE_SHELLSMASH, MOVE_AURASPHERE},
@@ -10870,35 +10870,35 @@ struct TrainerMonItemCustomMoves sParty_AnneBlue[] = {
 struct TrainerMonItemCustomMoves sParty_LtSurge[] = {
     {
         .iv = 4,
-        .lvl = 26,
-        .species = SPECIES_VOLTORB,
+        .lvl = 31,
+        .species = SPECIES_ELECTRODE,
         .heldItem = ITEM_TERRAIN_EXTENDER,
         .moves = {MOVE_DISCHARGE, MOVE_REFLECT, MOVE_LIGHTSCREEN, MOVE_VOLTSWITCH},
     },
     {
         .iv = 4,
-        .lvl = 26,
-        .species = SPECIES_MAGNEMITE,
+        .lvl = 31,
+        .species = SPECIES_MAGNETON,
         .heldItem = ITEM_CHOICE_SPECS,
         .moves = {MOVE_DISCHARGE, MOVE_MIRRORSHOT, MOVE_VOLTSWITCH, MOVE_NONE},
     },
     {
         .iv = 4,
-        .lvl = 26,
+        .lvl = 31,
         .species = SPECIES_JOLTEON,
         .heldItem = ITEM_LIFE_ORB,
         .moves = {MOVE_DISCHARGE, MOVE_SHADOWBALL, MOVE_CALMMIND, MOVE_ALLURINGVOICE},
     },
     {
         .iv = 4,
-        .lvl = 26,
+        .lvl = 31,
         .species = SPECIES_RAICHU,
         .heldItem = ITEM_LIFE_ORB,
         .moves = {MOVE_DISCHARGE, MOVE_SURF, MOVE_NASTYPLOT, MOVE_GRASSKNOT},
     },
     {
         .iv = 0,
-        .lvl = 27,
+        .lvl = 32,
         .species = SPECIES_ELECTABUZZ,
         .heldItem = ITEM_ELECTRIUM_Z,
         .moves = {MOVE_THUNDERBOLT, MOVE_BULKUP, MOVE_TRAILBLAZE, MOVE_BRICKBREAK},
@@ -11666,7 +11666,7 @@ struct TrainerMonItemCustomMoves sParty_MistyRematch[] = {
 
 
 
-struct TrainerMonItemCustomMoves sParty_Rematch[] = {
+struct TrainerMonItemCustomMoves sParty_LtSurgeRematch[] = {
     {
         .iv = 4,
         .lvl = 77,
