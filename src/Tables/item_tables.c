@@ -7468,7 +7468,7 @@ const struct Item gItemData[] =
 		.secondaryId = 0
 	},
 	{
-		.name = {_M, _e, _g, _a, _SPACE, _R, _i, _n, _g, _END},
+		.name = {_M, _e, _g, _a, _SPACE, _B, _r, _a, _c, _e, _l, _e, _t, _END},
 		.itemId = ITEM_MEGA_RING,
 		.price = 0,
 		.holdEffect = 0,

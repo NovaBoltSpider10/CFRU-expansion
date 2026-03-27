@@ -100,3 +100,92 @@ This is it! This is where the real\nbattle begins, [PLAYER_NAME]!
 Not yet! It's time I showed you what\nwe're really made of!
 
 #endif
+
+
+
+
+
+
+#org @sTextBlueFirstMonDown
+Tch - lucky shot!\pDon't get cocky!\p 
+
+#org @sTextBlueLastSwitchIn
+Don't think you've won yet!\p 
+
+#org @sTextGiovanniFirstMonDown
+Impressive[.]\pBut this is far from over.\p 
+
+#org @sTextGiovanniLastSwitchIn
+My final trump card[.]\pPrepare yourself!\p 
+
+#org @sTextBrockFirstMonDown
+Ow ow ow ow ow[.]\p 
+
+#org @sTextBrockLastSwitchIn
+Ah ha ha!\pIt itches!\pIt itches!\p 
+
+#org @sTextMistyFirstMonDown
+Looks like you're not just\nsomeone who gets in the way[.]\p 
+
+#org @sTextMistyLastSwitchIn
+Hmm[.]\pYou're pretty good[.]\p 
+
+#org @sTextLtSurgeFirstMonDown
+It's not over yet.\pIt's just beginning!\p 
+
+#org @sTextLtSurgeLastSwitchIn
+Oh, last one!\pNever give up!\p 
+
+#org @sTextErikaFirstMonDown
+Don't go easy on me.\pGive me everything you've got!\p 
+
+#org @sTextErikaLastSwitchIn
+Wow, that's a bit harsh!\p 
+
+#org @sTextKogaFirstMonDown
+Ooooof[.]\p 
+
+#org @sTextKogaLastSwitchIn
+One Pokémon left?\pHa ha ha!\pI've been counting on this one\nfrom the very beginning!\p 
+
+#org @sTextBlaineFirstMonDown
+I'll show you the spirit of my\nGym!\p 
+
+#org @sTextBlaineLastSwitchIn
+We can still do it!\p 
+
+#org @sTextSabrinaFirstMonDown
+What will happen after this?\pI already know.\p 
+
+#org @sTextSabrinaLastSwitchIn
+Was the future I saw[.]wrong?\p 
+
+#org @sTextLoreleiFirstMonDown
+Hmph[.]\pNot bad.\pLet's see how long you last.\p 
+
+#org @sTextLoreleiLastSwitchIn
+Let's see how you handle absolute\nzero!\p 
+
+#org @sTextBrunoFirstMonDown
+Fight as hard as you can 'til you\nfaint!\p 
+
+#org @sTextBrunoLastSwitchIn
+We're standing firm!\p 
+
+#org @sTextAgathaFirstMonDown
+Heh[.]\pDon't get cocky, child.\p 
+
+#org @sTextAgathaLastSwitchIn
+This one will haunt you, child.\p 
+
+#org @sTextLanceFirstMonDown
+All right!\pThis is exciting!\p 
+
+#org @sTextLanceLastSwitchIn
+I never give up, no matter what.\pYou must be the same?\p 
+
+#org @sTextGreenFirstMonDown
+Come on!\pGo!\p 
+
+#org @sTextGreenLastSwitchIn
+Show me what I came for!\pShow me Mewtwo!\p 
