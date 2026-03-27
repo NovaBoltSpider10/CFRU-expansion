@@ -122,7 +122,7 @@
 #define BATTLE_TERRAIN_INSIDE_4	       	0xC // Used by gym leaders  TODO: More interesting graphic here
 #define BATTLE_TERRAIN_INSIDE_5	       	0xD
 #define BATTLE_TERRAIN_INSIDE_6       	0xE
-#define BATTLE_TERRAIN_LORLEI       	0xF
+#define BATTLE_TERRAIN_LORELEI       	0xF
 #define BATTLE_TERRAIN_BRUNO 			0x10
 #define BATTLE_TERRAIN_AGATHA       	0x11
 #define BATTLE_TERRAIN_LANCE 			0x12
@@ -284,6 +284,7 @@ struct TrainerMonItemCustomMoves
     u16 heldItem;
     u16 moves[4];
 	u16 teraType;
+	bool8 shiny;
 };
 
 union TrainerMonPtr

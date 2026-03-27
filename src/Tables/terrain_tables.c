@@ -202,7 +202,7 @@ const struct TerrainTableStruct gTerrainTable[] =
 		},
 
 #ifndef UNBOUND
-	[BATTLE_TERRAIN_LORLEI + 4] =
+	[BATTLE_TERRAIN_LORELEI + 4] =
 		{
 			.camouflageType = TYPE_ICE,
 			.secretPowerEffect = MOVE_EFFECT_FREEZE,

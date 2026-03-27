@@ -822,11 +822,25 @@ enum
 #define ITEM_TERA_ORB 0x306
 #define ITEM_PORTABLE_PC 0x307
 //Unused Items
-#define ITEM_FREE_SPACE1 0x308 //These are reserved for future use
-#define ITEM_FREE_SPACE2 0x309
-#define ITEM_FREE_SPACE3 0x30A
+#define ITEM_BUTTERFRITE          0x308
+#define ITEM_MACHAMPITE           0x309
+#define ITEM_GENGARITE_X          0x30A
+#define ITEM_STARMINITE           0x30B
+#define ITEM_LAPRASITE            0x30C
+#define ITEM_ARTICUNITE           0x30D
+#define ITEM_ZAPDOSITE            0x30E
+#define ITEM_MOLTRESITE           0x30F
+#define ITEM_DRAGONINITE          0x310
+#define ITEM_CROBATITE            0x311
+#define ITEM_BELLOSSOMITE         0x312
+#define ITEM_RHYPERIORITE         0x313
+#define ITEM_ELECTIVIRITE         0x314
+#define ITEM_MAGMORTARITE         0x315
+#define ITEM_KINGLERITE           0x316
+#define ITEM_SNORLAXITE           0x317
+#define ITEM_MEWNITE              0x318
 
-#define ITEMS_COUNT (ITEM_FREE_SPACE3 + 1)
+#define ITEMS_COUNT (ITEM_MEWNITE + 1)
 
 //For Pokemon Unbound
 #ifdef UNBOUND

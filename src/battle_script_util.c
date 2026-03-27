@@ -1483,25 +1483,7 @@ void AbilityChangeBSFunc(void)
 			}
 			break;
 
-		case MOVE_DOODLE:
-			if (defAbility == ABILITY_NONE
-			||  IsDynamaxed(gBankTarget)
-			||  *defAbilityLoc == *atkAbilityLoc
-			||  gSpecialAbilityFlags[atkAbility].gEntrainmentBannedAbilitiesAttacker
-			||  gSpecialAbilityFlags[defAbility].gEntrainmentBannedAbilitiesTarget)
-				gBattlescriptCurrInstr = BattleScript_ButItFailed - 5;
-			else
-			{
-				*atkAbilityLoc = defAbility;
-				//SetTookAbilityFrom(gBankTarget, gBankAttacker); //Set after the first Ability pop up
-				gLastUsedAbility = atkAbility; //Original ability
-				ResetVarsForAbilityChange(gBankAttacker);
-				gBattleStringLoader = EntrainmentString;
-
-				if (gLastUsedAbility == ABILITY_TRUANT)
-					gDisableStructs[gBankAttacker].truantCounter = 0; //Reset counter
-			}
-			break;
+		
 	}
 
 	if (gBattlescriptCurrInstr != BattleScript_ButItFailed - 5)

@@ -145,7 +145,7 @@ TRAINER_PICS = {
     "ROCKET_GRUNT_M": 109,
     "COOLTRAINER_M": 110,
     "COOLTRAINER_F": 111,
-    "LORLEI": 112,
+    "LORELEI": 112,
     "BRUNO": 113,
     "AGATHA": 114,
     "LANCE": 115,

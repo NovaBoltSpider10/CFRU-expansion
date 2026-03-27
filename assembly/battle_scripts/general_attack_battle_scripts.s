@@ -3259,11 +3259,10 @@ SpectralThiefBS_SkipSteal:
 	goto BS_HIT_FROM_DAMAGE_CALC
 
 PlaySpectBoost:
-	attackanimation
-	waitanimation
+
 	setbyte FORM_COUNTER 0x0
 	callasm ToggleSpectralThiefByte
-	playstatchangeanimation BANK_ATTACKER, 0xFF, STAT_ANIM_UP | STAT_ANIM_IGNORE_ABILITIES
+
 	callasm ToggleSpectralThiefByte
 	setword BATTLE_STRING_LOADER SpectralThiefString
 	printstring 0x184
@@ -6258,7 +6257,7 @@ BattleScript_SetTerrainReturn:
 
 .global BS_244_Teatime
 BS_244_Teatime:
-	goto BS_STANDARD_HIT
+	goto SpectralThiefBS
 
 @;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 

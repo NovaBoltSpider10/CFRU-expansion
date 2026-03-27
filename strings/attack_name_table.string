@@ -1554,7 +1554,7 @@ Captivate
 Defog
 
 #org @NAME_ORIGIN_PULSE
-Origin Pulse
+SaphireFlood
 
 #org @NAME_CLIFF_BLADES
 Cliff Blades
@@ -1587,7 +1587,7 @@ Wring Out
 Kings Shield
 
 #org @NAME_PSYSTRIKE
-Psystrike
+PsychicCrush
 
 #org @NAME_AUTOTOMIZE
 Autotomize
@@ -1680,7 +1680,7 @@ Fell Stinger
 Noble Roar
 
 #org @NAME_DRAGON_RISE
-DragonAscent
+EmerldAscent
 
 #org @NAME_PARTING_SHOT
 Parting Shot
@@ -1695,7 +1695,7 @@ Core Enforce
 Chatter
 
 #org @NAME_CONFIDE
-Confide
+Fire Storm
 
 #org @NAME_WATER_STAR
 Water Star
@@ -2016,7 +2016,7 @@ After You
 Instruct
 
 #org @NAME_QUASH
-Quash
+Mach Cyclone
 
 #org @NAME_HAPPY_HOUR
 Happy Hour
@@ -2061,7 +2061,7 @@ Magic Powder
 Dragon Darts
 
 #org @NAME_TEATIME
-Teatime
+Phantom Rift
 
 #org @NAME_OCTOLOCK
 Octolock
@@ -2082,7 +2082,7 @@ Clang Soul
 Body Press
 
 #org @NAME_DECORATE
-Decorate
+Iron Crusher
 
 #org @NAME_DRUM_BEATING
 Drum Beating
@@ -2184,7 +2184,7 @@ Poltergeist
 Corrode Gas
 
 #org @NAME_COACHING
-Coaching
+Toxic Death
 
 #org @NAME_FLIP_TURN
 Flip Turn
@@ -2253,7 +2253,7 @@ Raging Fury
 Wave Crash
 
 #org @NAME_CHLOROBLAST
-Chloroblast
+ThunderStorm
 
 #org @NAME_MOUNTAIN_GALE
 MountainGale
@@ -2805,7 +2805,7 @@ CombatTorque
 Comeuppance
 
 #org @NAME_DOODLE
-Doodle
+Toxin Gale
 
 #org @NAME_DOUBLESHOCK
 Double Shock
@@ -2820,7 +2820,7 @@ Fillet Away
 Flower Trick
 
 #org @NAME_GIGATONHAMMER
-GigtonHammer
+Hydro Cannon
 
 #org @NAME_GLAIVERUSH
 Glaive Rush
@@ -2838,7 +2838,7 @@ Ice Spinner
 Jet Punch
 
 #org @NAME_KOWTOWCLEAVE
-KowtowKleave
+KowtowCleave
 
 #org @NAME_LASTRESPECTS
 LastRespects
@@ -2859,7 +2859,7 @@ Mortal Spin
 Nox Torque
 
 #org @NAME_ORDERUP
-Order Up
+Snow Storm
 
 #org @NAME_POPULATIONBOMB
 PopulaceBomb
@@ -2895,7 +2895,7 @@ Silk Trap
 Snowscape
 
 #org @NAME_SPICYEXTRACT
-SpicyExtract
+Inferno X
 
 #org @NAME_SPINOUT
 Spin Out

@@ -686,7 +686,7 @@ If the target has\nalready used its\nmove this turn, it\nnullifies the effect\no
 The user attacks the\ntarget with sound\nwaves of deafening\nchatter. This\nconfuses the target.
 
 #org @DESC_CONFIDE
-The user tells the\nfoe a secret and it\nloses concentration.\nThis lowers Sp. Atk.
+The Ultimate Move.
 
 #org @DESC_WATERSHURIKEN
 The user throws stars\nat the foe 2 to 5\ntimes in a row. This\nalways strikes first.
@@ -1007,7 +1007,7 @@ The user helps the\ntarget and makes it\nuse its move right\nafter the user.
 The user instructs\nthe target to use\nthe target's last\nmove again.
 
 #org @DESC_QUASH
-The user suppresses\nthe target and makes\nits move go last.
+The Ultimate Move.
 
 #org @DESC_HAPPYHOUR
 Using Happy Hour\ndoubles the amount\nof prize money\nreceived after\nbattle.
@@ -1052,7 +1052,7 @@ The user scatters\nmagic powder that\nchanges the target\ninto a Psychic-type.
 The user attacks\ntwice. If there\nare two targets,\neach is hit once.
 
 #org @DESC_TEATIME
-All Pok\emon on the\nfield have teatime.\nEach Pok\emon eats\nits held Berry.
+The Ultimate Move.
 
 #org @DESC_OCTOLOCK
 The user traps the\nfoe and makes its\nDefense and Sp. Def\nfall each turn.
@@ -1073,7 +1073,7 @@ The user raises\nall of its stats\nby using some of\nits HP.
 The higher the\nuser's Defense,\nthe more damage\nit will inflict.
 
 #org @DESC_DECORATE
-The user sharply\nraises the target's\nAttack and Sp. Atk\nby decorating it.
+The Ultimate Move.
 
 #org @DESC_DRUM_BEATING
 The user plays its\ndrum to attack.\nThe target's Speed\nstat is lowered.
@@ -1175,7 +1175,7 @@ The user controls\nthe target's item to\nattack. Fails if the\ntarget has no ite
 The user cloaks\nitself in acidic gas.\nIt melts away the\ntarget's held item.
 
 #org @DESC_COACHING
-The user coaches\nits ally, raising\nthe ally's Attack\nand Defense stats.
+The Ultimate Move.
 
 #org @DESC_FLIP_TURN
 After attacking,\nthe user switches\nplaces with a\nparty Pok\emon.
@@ -1248,7 +1248,7 @@ The user rampages\nand spews vicious\nflames for two to\nthree turns.
 The user slams into\nthe target, hurting\nitself a little. This\nmove strikes first.
 
 #org @DESC_CHLOROBLAST
-The user launches its\namassed chlorophyll\nat the foe. This also\nhurts the user.
+The Ultimate Move.
 
 #org @DESC_MOUNTAIN_GALE
 The user hurls giant\nchunks of ice at\nthe foe that may\ncause it to flinch.
@@ -1497,7 +1497,7 @@ Inflicts damage and\nhas a 30[5B] chance of\nparalyze the target.
 Retaliates the\nopponent that last\ninflicted damage\non it.
 
 #org @DESC_DOODLE
-Changes Abilities\nof the user and its\nally to that of\nthe target.
+The Ultimate Move.
 
 #org @DESC_DOUBLESHOCK
 Discharges all the\nelectricity from\nits body to perform\na strongest attack.
@@ -1551,7 +1551,7 @@ Great spin attack\nthat can eliminate\nharzards. May also\npoisons foe Pok\emon.
 Inflicts damage and\nhas a 30[5B] chance of\npoison the target.
 
 #org @DESC_ORDERUP
-Boosts one of the\nusers stats based\non the\nTatsugiris form. 
+The Ultimate Move.
 
 #org @DESC_POPULATIONBOMB
 Performes a combo\nattack that hits\ntarget one to ten\ntimes in a row.
@@ -1587,7 +1587,7 @@ Protect itself from\ndamage. Also lowers\nSpeed stat if foe\nmakes contact.
 Summons snowstorm.\nThis boosts the\nDefense stats of\nIce-types.
 
 #org @DESC_SPICYEXTRACT
-Emits an incredibly\nspicy extract. Ups\ntarget's Attack and\nlower it's Defense.
+The Ultimate Move.
 
 #org @DESC_SPINOUT
 User spins furiously\nagainst foe\ninflicting damage.\nAlso lower Speed.

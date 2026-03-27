@@ -1207,7 +1207,10 @@ static u8 CreateNPCTrainerParty(struct Pokemon* const party, const u16 trainerId
 				u16 correctMiniorForm = GetMiniorCoreFromPersonality(mon->personality);
 				SetMonData(mon, MON_DATA_SPECIES, &correctMiniorForm); //Prevents problems with it changing forms after lowering its shields
 			}
-
+			if (trainer->party.ItemCustomMoves[i].shiny)
+{
+    ForceMonShiny(mon);
+}
 			//Caluate stats and set to full health
 			CalculateMonStatsNew(mon);
 			HealMon(mon);

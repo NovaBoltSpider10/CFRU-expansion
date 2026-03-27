@@ -744,4 +744,69 @@
 #define TRAINER_CHAMPION_REMATCH_BULBASAUR       740
 #define TRAINER_CHAMPION_REMATCH_CHARMANDER      741
 #define TRAINER_CUE_BALL_PAXTON                  742
-#define TRAINERS_COUNT (TRAINER_CUE_BALL_PAXTON + 1)
+#define TRAINER_BLUE_ROUTE22             0x2E7
+#define TRAINER_BLUE_NUGGET_BRIDGE       0x2E8
+#define TRAINER_BLUE_SS_ANNE             0x2E9
+#define TRAINER_BLUE_POKEMON_TOWER       0x2EA
+#define TRAINER_BLUE_SILPH_CO            0x2EB
+#define TRAINER_BLUE_ROUTE22B            0x2EC
+
+#define TRAINER_GIOVANNI_GAME_CORNER     0x2ED
+#define TRAINER_GIOVANNI_SILPH_CO        0x2EE
+
+#define TRAINER_BROCK                    0x2EF
+#define TRAINER_MISTY                    0x2F0
+#define TRAINER_LT_SURGE                 0x2F1
+#define TRAINER_ERIKA                    0x2F2
+#define TRAINER_SABRINA                  0x2F3
+#define TRAINER_KOGA                     0x2F4
+#define TRAINER_BLAINE                   0x2F5
+#define TRAINER_GIOVANNI                 0x2F6
+
+#define TRAINER_LORELEI                  0x2F7
+#define TRAINER_BRUNO                    0x2F8
+#define TRAINER_AGATHA                   0x2F9
+#define TRAINER_LANCE                    0x2FA
+#define TRAINER_CHAMPION_BLUE            0x2FB
+
+#define TRAINER_BROCK_REMATCH            0x2FC
+#define TRAINER_MISTY_REMATCH            0x2FD
+#define TRAINER_LT_SURGE_REMATCH         0x2FE
+#define TRAINER_ERIKA_REMATCH            0x2FF
+#define TRAINER_SABRINA_REMATCH          0x300
+#define TRAINER_KOGA_REMATCH             0x301
+#define TRAINER_BLAINE_REMATCH           0x302
+
+#define TRAINER_LORELEI_REMATCH          0x304
+#define TRAINER_BRUNO_REMATCH            0x305
+#define TRAINER_AGATHA_REMATCH           0x306
+#define TRAINER_LANCE_REMATCH            0x307
+#define TRAINER_CHAMPION_BLUE_REMATCH    0x308
+
+#define TRAINER_GREEN                    0x309
+
+#define TRAINER_AKASH                    0x30A
+#define TRAINER_ARVIND                   0x30B
+#define TRAINER_VED                      0x30C
+#define TRAINER_SYED                     0x30D
+#define TRAINER_RITCHIE                  0x30E
+#define TRAINER_KARTHIKEYA               0x30F
+#define TRAINER_RAY_TYRA                 0x311
+
+#define TRAINER_YELLOW1                  0x312
+#define TRAINER_YELLOW2                  0x313
+#define TRAINER_YELLOW3                  0x314
+#define TRAINER_YELLOW4                  0x315
+
+#define TRAINER_SAPPHIRE1                0x316
+#define TRAINER_SAPPHIRE2                0x317
+#define TRAINER_SAPPHIRE3                0x318
+#define TRAINER_SAPPHIRE4                0x319
+#define TRAINER_SAPPHIRE5                0x31A
+#define TRAINER_SAPPHIRE6                0x31B
+#define TRAINER_SAPPHIRE7                0x31C
+#define TRAINER_SAPPHIRE8                0x31D
+#define TRAINER_SAPPHIRE9                0x31E
+
+
+#define TRAINERS_COUNT (TRAINER_SAPPHIRE9 + 1)
