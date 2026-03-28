@@ -253,6 +253,8 @@ struct TrainerMonNoItemDefaultMoves
     u16 lvl;
     u16 species;
 	u16 _;
+		bool8 shiny;
+
 };
 
 struct TrainerMonItemDefaultMoves
@@ -261,6 +263,8 @@ struct TrainerMonItemDefaultMoves
     u16 lvl;
     u16 species;
     u16 heldItem;
+		bool8 shiny;
+
 };
 
 struct TrainerMonNoItemCustomMoves
@@ -270,6 +274,8 @@ struct TrainerMonNoItemCustomMoves
     u16 species;
     u16 moves[4];
 	u16 _; // 0x0000
+		bool8 shiny;
+
 };
 
 struct TrainerMonItemCustomMoves
