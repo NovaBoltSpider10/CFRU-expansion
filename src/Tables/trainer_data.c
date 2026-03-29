@@ -1873,16 +1873,16 @@ const struct Trainer gTrainers[] = {
 	    .party = {.NoItemDefaultMoves = sParty_TrainerPicnickerAlicia}
 	},
 	[TRAINER_PICNICKER_CAITLIN] = {
-	    .partyFlags = 0,
+	    .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
 	    .trainerClass = CLASS_PICNICKER,
 	    .encounterMusic = TRAINER_ENCOUNTER_MUSIC_GIRL,
 	    .trainerPic = TRAINER_PIC_PICNICKER,
 	    .trainerName = {_C, _a, _i, _t, _l, _i, _n, _END},
-	    .items = {ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+	    .items = {ITEM_MEGA_RING, ITEM_NONE, ITEM_NONE, ITEM_NONE},
 	    .doubleBattle = FALSE,
 	    .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-	    .partySize = NELEMS(sParty_TrainerPicnickerCaitlin),
-	    .party = {.NoItemDefaultMoves = sParty_TrainerPicnickerCaitlin}
+	    .partySize = NELEMS(sParty_TrainerEliteFourLorelei),
+	    .party = {.ItemCustomMoves = sParty_TrainerEliteFourLorelei}
 	},
 	[TRAINER_PICNICKER_HEIDI] = {
 	    .partyFlags = 0,

@@ -5331,12 +5331,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_TrainerCooltrainerJulie[]
 static const struct TrainerMonItemCustomMoves sParty_TrainerEliteFourLorelei[] = {
     {
         .lvl = 52,
-        .species = SPECIES_DEWGONG,
+        .species = SPECIES_BLASTOISE,
         .ability = Ability_RandomAll,
         .nature = NATURE_MODEST,
         .ivSpread = {31, 31, 31, 31, 31, 31},
         .evSpread = {85, 85, 85, 85, 85, 85},
-        .heldItem = ITEM_NONE,
+        .heldItem = ITEM_BLASTOISINITE,
         .moves = {MOVE_ICEBEAM, MOVE_SURF, MOVE_HAIL, MOVE_SAFEGUARD},
         .teraType = TYPE_ICE,
     },
