@@ -13455,86 +13455,68 @@ static const struct TrainerMonItemCustomMoves sParty_Yellow1[] = {
         .nature = NATURE_TIMID,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_STEALTHROCK, MOVE_ICEBEAM, MOVE_THUNDERWAVE, MOVE_STICKYWEB},
+        .heldItem = ITEM_MEWNITE,
+        .moves = {MOVE_STICKYWEB, MOVE_STEALTHROCK, MOVE_THUNDERBOLT, MOVE_ICEBEAM},
         .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_PIKACHU_CAP_PARTNER,
-        .ability = Ability_1,
-        .nature = NATURE_HASTY,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIGHT_BALL,
-        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_ARTICUNO,
-        .ability = Ability_1,
-        .nature = NATURE_CALM,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_FREEZEDRY, MOVE_HURRICANE, MOVE_SUBSTITUTE, MOVE_ROOST},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_ZAPDOS,
-        .ability = Ability_1,
-        .nature = NATURE_MODEST,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_THUNDERBOLT, MOVE_HURRICANE, MOVE_VOLTSWITCH, MOVE_ROOST},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_MOLTRES,
-        .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_FIREBLAST, MOVE_BRAVEBIRD, MOVE_UTURN, MOVE_ROOST},
-        .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
         .species = SPECIES_MEWTWO,
         .ability = Ability_1,
-        .nature = NATURE_MODEST,
+        .nature = NATURE_MODEST, // same as before
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_MEWTWONITE_Y,
-        .moves = {MOVE_EXPANDINGFORCE, MOVE_FIREBLAST, MOVE_FOCUSBLAST, MOVE_NASTYPLOT},
+        .moves = {MOVE_EXPANDINGFORCE, MOVE_FIREBLAST, MOVE_FOCUSBLAST, MOVE_NASTYPLOT}, // same as before
         .teraType = TYPE_NORMAL,
-
     },
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Yellow2[] = {
     {
         .lvl = 100,
         .species = SPECIES_PIKACHU_CAP_PARTNER,
         .ability = Ability_1,
-        .nature = NATURE_HASTY,
+        .nature = NATURE_HASTY, // same
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIGHT_BALL,
-        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
+        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH}, // same
         .teraType = TYPE_NORMAL,
-
     },
+    {
+        .lvl = 100,
+        .species = SPECIES_ARTICUNO,
+        .ability = Ability_1,
+        .nature = NATURE_CALM, // same
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_ARTICUNITE,
+        .moves = {MOVE_AURORAVEIL, MOVE_BLIZZARD, MOVE_HURRICANE, MOVE_ROOST},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_ZAPDOS,
+        .ability = Ability_1,
+        .nature = NATURE_MODEST, // same
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_ZAPDOSITE,
+        .moves = {MOVE_THUNDER, MOVE_HURRICANE, MOVE_VOLTSWITCH, MOVE_WEATHERBALL},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_MOLTRES,
+        .ability = Ability_1,
+        .nature = NATURE_BASHFUL, // same
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_MOLTRESITE,
+        .moves = {MOVE_FIREBLAST, MOVE_BRAVEBIRD, MOVE_SCORCHINGSANDS, MOVE_ROOST},
+        .teraType = TYPE_NORMAL,
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Yellow2[] = {
     {
         .lvl = 100,
         .species = SPECIES_AERODACTYL,
@@ -13542,34 +13524,9 @@ static const struct TrainerMonItemCustomMoves sParty_Yellow2[] = {
         .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_AERODACTYLITE,
-        .moves = {MOVE_STONEEDGE, MOVE_BRAVEBIRD, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+        .heldItem = ITEM_AERODACTYLITE, // Mega Stone
+        .moves = {MOVE_STEALTHROCK, MOVE_TAILWIND, MOVE_HEADSMASH, MOVE_BRAVEBIRD},
         .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_NINETALES,
-        .ability = Ability_1,
-        .nature = NATURE_TIMID,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_FIREBLAST, MOVE_SOLARBEAM, MOVE_PSYCHIC, MOVE_NASTYPLOT},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_PINSIR,
-        .ability = Ability_1,
-        .nature = NATURE_JOLLY,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_CHOICE_SCARF,
-        .moves = {MOVE_MEGAHORN, MOVE_CLOSECOMBAT, MOVE_EARTHQUAKE, MOVE_KNOCKOFF},
-        .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
@@ -13578,10 +13535,9 @@ static const struct TrainerMonItemCustomMoves sParty_Yellow2[] = {
         .nature = NATURE_JOLLY,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_POWERWHIP, MOVE_POISONJAB, MOVE_SWORDSDANCE, MOVE_SUCKERPUNCH},
+        .heldItem = ITEM_MEGA_RING, // placeholder Mega Stone
+        .moves = {MOVE_GIGADRAIN, MOVE_SLUDGEBOMB, MOVE_STRENGTH, MOVE_SLEEPPOWDER},
         .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
@@ -13590,10 +13546,42 @@ static const struct TrainerMonItemCustomMoves sParty_Yellow2[] = {
         .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
+        .heldItem = ITEM_GYARADOSITE,
+        .moves = {MOVE_WAVECRASH, MOVE_CRUNCH, MOVE_DRAGONDANCE, MOVE_TEMPERFLARE},
         .teraType = TYPE_NORMAL,
-
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_PINSIR,
+        .ability = Ability_1,
+        .nature = NATURE_JOLLY,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_PINSIRITE,
+        .moves = {MOVE_MEGAHORN, MOVE_DOUBLEEDGE, MOVE_SWORDSDANCE, MOVE_CLOSECOMBAT},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_NINETALES,
+        .ability = Ability_1,
+        .nature = NATURE_TIMID,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_MEGA_RING, // placeholder Mega Stone
+        .moves = {MOVE_FIREBLAST, MOVE_EXPANDINGFORCE, MOVE_NASTYPLOT, MOVE_SOLARBEAM},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_PIKACHU_CAP_PARTNER,
+        .ability = Ability_1,
+        .nature = NATURE_HASTY,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_LIGHT_BALL,
+        .moves = {MOVE_VOLTTACKLE, MOVE_FAKEOUT, MOVE_KNOCKOFF, MOVE_VOLTSWITCH},
+        .teraType = TYPE_NORMAL,
     },
 };
 
@@ -13750,15 +13738,25 @@ static const struct TrainerMonItemCustomMoves sParty_Yellow4[] = {
 static const struct TrainerMonItemCustomMoves sParty_Sapphire1[] = {
     {
         .lvl = 100,
+        .species = SPECIES_DEOXYS_ATTACK,
+        .ability = Ability_1,
+        .nature = NATURE_HASTY,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_FOCUS_SASH,
+        .moves = {MOVE_STEALTHROCK, MOVE_PSYCHOBOOST, MOVE_EXTREMESPEED, MOVE_UTURN},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
         .species = SPECIES_SWAMPERT,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+        .heldItem = ITEM_SWAMPERTITE,
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_ICEPUNCH, MOVE_RAINDANCE},
         .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
@@ -13770,70 +13768,6 @@ static const struct TrainerMonItemCustomMoves sParty_Sapphire1[] = {
         .heldItem = ITEM_METAGROSSITE,
         .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_EARTHQUAKE, MOVE_SHIFTGEAR},
         .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_LATIAS,
-        .ability = Ability_1,
-        .nature = NATURE_MODEST,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_SOUL_DEW,
-        .moves = {MOVE_MISTBALL, MOVE_DRAGONPULSE, MOVE_CALMMIND, MOVE_RECOVER},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_DEOXYS_ATTACK,
-        .ability = Ability_1,
-        .nature = NATURE_HASTY,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_PSYCHOBOOST, MOVE_CLOSECOMBAT, MOVE_EXTREMESPEED, MOVE_ICEBEAM},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_KYOGRE,
-        .ability = Ability_1,
-        .nature = NATURE_MODEST,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_BLUE_ORB,
-        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
-        .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_RAYQUAZA,
-        .ability = Ability_1,
-        .nature = NATURE_ADAMANT,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
-        .teraType = TYPE_NORMAL,
-
-    },
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
-    {
-        .lvl = 100,
-        .species = SPECIES_METAGROSS,
-        .ability = Ability_1,
-        .nature = NATURE_ADAMANT,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_FOCUS_SASH,
-        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_STEALTHROCK, MOVE_SHIFTGEAR},
-        .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
@@ -13845,19 +13779,6 @@ static const struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
         .heldItem = ITEM_LATIASITE,
         .moves = {MOVE_MISTBALL, MOVE_DRAGONPULSE, MOVE_CALMMIND, MOVE_RECOVER},
         .teraType = TYPE_NORMAL,
-
-    },
-    {
-        .lvl = 100,
-        .species = SPECIES_DEOXYS_ATTACK,
-        .ability = Ability_1,
-        .nature = NATURE_HASTY,
-        .ivSpread = {31,31,31,31,31,31},
-        .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LIFE_ORB,
-        .moves = {MOVE_PSYCHOBOOST, MOVE_CLOSECOMBAT, MOVE_EXTREMESPEED, MOVE_ICEBEAM},
-        .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
@@ -13869,7 +13790,6 @@ static const struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
         .heldItem = ITEM_BLUE_ORB,
         .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
         .teraType = TYPE_NORMAL,
-
     },
     {
         .lvl = 100,
@@ -13881,7 +13801,20 @@ static const struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
         .heldItem = ITEM_LIFE_ORB,
         .moves = {MOVE_DRAGONASCENT, MOVE_DRAGONCLAW, MOVE_DRAGONDANCE, MOVE_EARTHQUAKE},
         .teraType = TYPE_NORMAL,
+    },
+};
 
+static const struct TrainerMonItemCustomMoves sParty_Sapphire5[] = {
+    {
+        .lvl = 100,
+        .species = SPECIES_CAMERUPT,
+        .ability = Ability_1,
+        .nature = NATURE_MODEST,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_CAMERUPTITE, // Mega Stone
+        .moves = {MOVE_FIREBLAST, MOVE_EARTHPOWER, MOVE_STEALTHROCK, MOVE_ANCIENTPOWER},
+        .teraType = TYPE_NORMAL,
     },
     {
         .lvl = 100,
@@ -13890,10 +13823,53 @@ static const struct TrainerMonItemCustomMoves sParty_Sapphire2[] = {
         .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
-        .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_STEALTHROCK, MOVE_FLIPTURN},
+        .heldItem = ITEM_SWAMPERTITE, // Mega Stone
+        .moves = {MOVE_MUDDYWATER, MOVE_EARTHQUAKE, MOVE_ICEPUNCH, MOVE_RAINDANCE},
         .teraType = TYPE_NORMAL,
-
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_GALLADE,
+        .ability = Ability_1,
+        .nature = NATURE_ADAMANT,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_GALLADITE, // Mega Stone
+        .moves = {MOVE_PSYCHOCUT, MOVE_SACREDSWORD, MOVE_SWORDSDANCE, MOVE_NIGHTSLASH},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_MANECTRIC,
+        .ability = Ability_1,
+        .nature = NATURE_MODEST,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_MANECTITE, // Mega Stone
+        .moves = {MOVE_RISINGVOLTAGE, MOVE_FLAMETHROWER, MOVE_VOLTSWITCH, MOVE_SNARL},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_ABSOL,
+        .ability = Ability_1,
+        .nature = NATURE_ADAMANT,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_ABSOLITE, // Mega Stone
+        .moves = {MOVE_NIGHTSLASH, MOVE_PLAYROUGH, MOVE_SWORDSDANCE, MOVE_SUCKERPUNCH},
+        .teraType = TYPE_NORMAL,
+    },
+    {
+        .lvl = 100,
+        .species = SPECIES_KYOGRE,
+        .ability = Ability_1,
+        .nature = NATURE_MODEST,
+        .ivSpread = {31,31,31,31,31,31},
+        .evSpread = {0,0,0,0,0,0},
+        .heldItem = ITEM_BLUE_ORB,
+        .moves = {MOVE_ORIGINPULSE, MOVE_ICEBEAM, MOVE_THUNDER, MOVE_CALMMIND},
+        .teraType = TYPE_NORMAL,
     },
 };
 
