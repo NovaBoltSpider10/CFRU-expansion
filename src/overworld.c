@@ -1070,10 +1070,12 @@ void BattleSetup_StartTrainerBattle(void)
 	}
 	else
 	{
+		
 		if (gApproachingTrainerId == 2 || FlagGet(FLAG_TWO_OPPONENTS))
 			gBattleTypeFlags = (BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TWO_OPPONENTS | BATTLE_TYPE_TRAINER);
 		else
 			gBattleTypeFlags = (BATTLE_TYPE_TRAINER);
+		gBattleTypeFlags |= BATTLE_TYPE_MEGA_BRAWL;
 
 		if (FlagGet(FLAG_TAG_BATTLE))
 			gBattleTypeFlags |= (BATTLE_TYPE_DOUBLE | BATTLE_TYPE_INGAME_PARTNER /* | BATTLE_TYPE_MULTI*/);
