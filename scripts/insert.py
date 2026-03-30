@@ -48,6 +48,7 @@ EVENT_SCRIPTS = "eventscripts"
 SONGS = "songs"
 SPECIAL_INSERTS = 'special_inserts.asm'
 SPECIAL_INSERTS_OUT = 'build/special_inserts.bin'
+FREE_BYTE_REPLACEMENTS = 'free_bytereplacements'
 
 
 def ExtractPointer(byteList: [bytes]):
@@ -403,6 +404,67 @@ def main():
 
                     ReplaceBytes(rom, originalOffset, dataList.strip())
 
+
+        if os.path.isfile(FREE_BYTE_REPLACEMENTS):
+            print("Processing Free Byte Replacements...")
+            # Set to 0x1700000 to avoid your existing data at 10MB and 16MB
+            FREE_BYTE_SEARCH_START = 0x900000  
+            MINIMUM_FREE_LENGTH = 0x100        
+
+            def FindFreeSpace(rom: _io.BufferedReader, length: int, start: int) -> int:
+                print(f"  Searching for {length} free bytes starting at {hex(start)}...")
+                rom.seek(start)
+                data = rom.read() 
+                
+                # C-optimized search for 0xFF blocks
+                search_pattern = b'\xff' * length
+                relative_index = data.find(search_pattern)
+
+                # Fallback to searching for 0x00 blocks
+                if relative_index == -1:
+                    search_pattern = b'\x00' * length
+                    relative_index = data.find(search_pattern)
+
+                if relative_index == -1:
+                    raise Exception(f"No contiguous free space found for {length} bytes.")
+
+                found_at = start + relative_index
+                
+                # Word alignment
+                if found_at % 4 != 0:
+                    found_at += (4 - (found_at % 4))
+                
+                print(f"  [!] Found free space at {hex(found_at)}")
+                return found_at
+
+            with open(FREE_BYTE_REPLACEMENTS, 'r') as file:
+                for line_num, line in enumerate(file, 1):
+                    if line.strip().startswith('#') or line.strip() == '':
+                        continue
+                    try:
+                        parts = line.strip().split()
+                        label = parts[0]
+                        hexbytes = parts[1:]
+                        
+                        print(f"Inserting label: {label}")
+                        
+                        byte_data = bytes([int(x, 16) for x in hexbytes])
+                        insert_len = max(len(byte_data), MINIMUM_FREE_LENGTH)
+                        
+                        insert_at = FindFreeSpace(rom, insert_len, FREE_BYTE_SEARCH_START)
+                        
+                        rom.seek(insert_at)
+                        rom.write(byte_data)
+                        table[label] = insert_at
+                        
+                        # Increment search start for next item
+                        FREE_BYTE_SEARCH_START = insert_at + insert_len
+                        if FREE_BYTE_SEARCH_START % 4 != 0:
+                            FREE_BYTE_SEARCH_START += (4 - (FREE_BYTE_SEARCH_START % 4))
+                            
+                    except Exception as e:
+                        print(f"Error on line {line_num}: {e}")
+
         # Insert byte changes
         if os.path.isfile(BYTE_REPLACEMENT):
             with open(BYTE_REPLACEMENT, 'r') as replacelist:
@@ -428,6 +490,7 @@ def main():
 
                         newNumber = str(hex(newNumber)).split('0x')[1]
                         ReplaceBytes(rom, offset, newNumber) 
+
 
         # Read hooks from a file
         if os.path.isfile(HOOKS):

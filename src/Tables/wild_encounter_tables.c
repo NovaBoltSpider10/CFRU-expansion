@@ -94,8 +94,8 @@ const struct WildPokemonInfo gRoute1_LandMonsInfoNight = {15, gRoute1_LandMonsNi
 const struct WildPokemonHeader gWildMonMorningHeaders[] =
 {
 	{
-		.mapGroup = MAP_GROUP(ROUTE_1),
-		.mapNum = MAP_NUM(ROUTE_1),
+		.mapGroup = MAP_GROUP(NONE),
+		.mapNum = MAP_NUM(NONE),
 		.landMonsInfo = &gRoute1_LandMonsInfoMorning,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
@@ -114,8 +114,8 @@ const struct WildPokemonHeader gWildMonMorningHeaders[] =
 const struct WildPokemonHeader gWildMonDayHeaders[] =
 {
 	{
-		.mapGroup = MAP_GROUP(ROUTE_1),
-		.mapNum = MAP_NUM(ROUTE_1),
+		.mapGroup = MAP_GROUP(NONE),
+		.mapNum = MAP_NUM(NONE),
 		.landMonsInfo = &gRoute1_LandMonsInfoDay,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
@@ -134,8 +134,8 @@ const struct WildPokemonHeader gWildMonDayHeaders[] =
 const struct WildPokemonHeader gWildMonEveningHeaders[] =
 {
 	{
-		.mapGroup = MAP_GROUP(ROUTE_1),
-		.mapNum = MAP_NUM(ROUTE_1),
+		.mapGroup = MAP_GROUP(NONE),
+		.mapNum = MAP_NUM(NONE),
 		.landMonsInfo = &gRoute1_LandMonsInfoEvening,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
@@ -154,8 +154,8 @@ const struct WildPokemonHeader gWildMonEveningHeaders[] =
 const struct WildPokemonHeader gWildMonNightHeaders[] =
 {
 	{
-		.mapGroup = MAP_GROUP(ROUTE_1),
-		.mapNum = MAP_NUM(ROUTE_1),
+		.mapGroup = MAP_GROUP(NONE),
+		.mapNum = MAP_NUM(NONE),
 		.landMonsInfo = &gRoute1_LandMonsInfoNight,
 		.waterMonsInfo = NULL,
 		.rockSmashMonsInfo = NULL,
@@ -175,7 +175,7 @@ const struct WildPokemonHeader gWildMonNightHeaders[] =
 const struct SwarmData gSwarmTable[] =
 {
 	{
-		.mapName = MAPSEC_ROUTE_1,
+		.mapName = MAPSEC_NONE,
 		.species = SPECIES_FRIGIBAX,
 	},
 };
