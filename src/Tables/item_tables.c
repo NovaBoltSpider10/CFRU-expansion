@@ -14311,7 +14311,7 @@ const struct Item gItemData[] =
 	.secondaryId = 0
 },
 {
-	.name = {_S, _t, _a, _r, _m, _i, _t, _e, _END},
+.name = {_S, _t, _a, _r, _m, _i, _n, _i, _t, _e, _END},
 	.itemId = ITEM_STARMINITE,
 	.price = 0,
 	.holdEffect = ITEM_EFFECT_MEGA_STONE,
@@ -14391,7 +14391,7 @@ const struct Item gItemData[] =
 	.secondaryId = 0
 },
 {
-	.name = {_D, _r, _a, _g, _o, _n, _i, _t, _i, _t, _e, _END},
+	.name = {_D, _r, _a, _g, _o, _n, _i, _n, _i, _t, _e, _END},
 	.itemId = ITEM_DRAGONINITE,
 	.price = 0,
 	.holdEffect = ITEM_EFFECT_MEGA_STONE,

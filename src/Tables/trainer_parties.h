@@ -11404,7 +11404,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_CHOICE_SPECS,
-        .moves = {MOVE_FIREBLAST, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_FIREBLAST, MOVE_AIRSLASH, MOVE_FOCUSBLAST, MOVE_SOLARBEAM},
         .teraType = TYPE_NORMAL,
 
     },
@@ -11631,6 +11631,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lorelei[] = {
         .heldItem = ITEM_ROCKY_HELMET,
         .moves = {MOVE_SCALD, MOVE_FUTURESIGHT, MOVE_SLACKOFF, MOVE_TELEPORT},
         .teraType = TYPE_NORMAL,
+        .shiny = TRUE,
 
     },
     {
@@ -11694,6 +11695,7 @@ static const struct TrainerMonItemCustomMoves sParty_Bruno[] = {
         .heldItem = ITEM_FIGHTINIUM_Z,
         .moves = {MOVE_RAINDANCE, MOVE_WAVECRASH, MOVE_CLOSECOMBAT, MOVE_KNOCKOFF},
         .teraType = TYPE_NORMAL,
+        .shiny = TRUE,
 
     },
     {
@@ -11745,6 +11747,7 @@ static const struct TrainerMonItemCustomMoves sParty_Agatha[] = {
         .heldItem = ITEM_LIGHT_CLAY,
         .moves = {MOVE_REFLECT, MOVE_LIGHTSCREEN, MOVE_DARKPULSE, MOVE_PSYCHICNOISE},
         .teraType = TYPE_NORMAL,
+        .shiny = TRUE,
 
     },
     {
@@ -11818,7 +11821,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lance[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_FLAMECHARGE, MOVE_ACROBATICS, MOVE_BELLYDRUM, MOVE_EARTHQUAKE},
+        .moves = {MOVE_FLAMECHARGE, MOVE_ACROBATICS, MOVE_BELLYDRUM, MOVE_OUTRAGE},
         .teraType = TYPE_NORMAL,
 
     },
@@ -11830,7 +11833,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lance[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_EARTHQUAKE, MOVE_DRAGONDANCE},
+        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_OUTRAGE, MOVE_DRAGONDANCE},
         .teraType = TYPE_NORMAL,
 .shiny = TRUE,
     },
@@ -12087,7 +12090,7 @@ static const struct TrainerMonItemCustomMoves sParty_MistyRematch[] = {
         .lvl = 78,
         .species = SPECIES_STARMIE,
         .ability = Ability_1,
-        .nature = NATURE_MODEST,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_STARMINITE,
@@ -12454,7 +12457,7 @@ static const struct TrainerMonItemCustomMoves sParty_BlaineRematch[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_CHOICE_SPECS,
-        .moves = {MOVE_FIREBLAST, MOVE_NONE, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_FIREBLAST, MOVE_AIRSLASH, MOVE_FOCUSBLAST, MOVE_SOLARBEAM},
         .teraType = TYPE_NORMAL,
 
     },
@@ -12531,6 +12534,7 @@ static const struct TrainerMonItemCustomMoves sParty_LoreleiRematch[] = {
         .heldItem = ITEM_ROCKY_HELMET,
         .moves = {MOVE_SCALD, MOVE_FUTURESIGHT, MOVE_SLACKOFF, MOVE_TELEPORT},
         .teraType = TYPE_NORMAL,
+        .shiny = TRUE,
 
     },
     {
@@ -12594,6 +12598,7 @@ static const struct TrainerMonItemCustomMoves sParty_BrunoRematch[] = {
         .heldItem = ITEM_FIGHTINIUM_Z,
         .moves = {MOVE_RAINDANCE, MOVE_WAVECRASH, MOVE_CLOSECOMBAT, MOVE_KNOCKOFF},
         .teraType = TYPE_NORMAL,
+        .shiny = TRUE,
 
     },
     {
@@ -12645,6 +12650,7 @@ static const struct TrainerMonItemCustomMoves sParty_AgathaRematch[] = {
         .heldItem = ITEM_LIGHT_CLAY,
         .moves = {MOVE_REFLECT, MOVE_LIGHTSCREEN, MOVE_DARKPULSE, MOVE_PSYCHICNOISE},
         .teraType = TYPE_NORMAL,
+        .shiny = TRUE,
 
     },
     {
@@ -12718,7 +12724,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_FLAMECHARGE, MOVE_ACROBATICS, MOVE_BELLYDRUM, MOVE_EARTHQUAKE},
+        .moves = {MOVE_FLAMECHARGE, MOVE_ACROBATICS, MOVE_BELLYDRUM, MOVE_OUTRAGE},
         .teraType = TYPE_NORMAL,
 
     },
@@ -12730,7 +12736,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
-        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_EARTHQUAKE, MOVE_DRAGONDANCE},
+        .moves = {MOVE_WAVECRASH, MOVE_BOUNCE, MOVE_OUTRAGE, MOVE_DRAGONDANCE},
         .teraType = TYPE_NORMAL,
 .shiny = TRUE,
     },
