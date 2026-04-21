@@ -413,29 +413,45 @@ def main():
 
             def FindFreeSpace(rom: _io.BufferedReader, length: int, start: int) -> int:
                 print(f"  Searching for {length} free bytes starting at {hex(start)}...")
+
                 rom.seek(start)
-                data = rom.read() 
-                
-                # C-optimized search for 0xFF blocks
-                search_pattern = b'\xff' * length
-                relative_index = data.find(search_pattern)
 
-                # Fallback to searching for 0x00 blocks
-                if relative_index == -1:
-                    search_pattern = b'\x00' * length
-                    relative_index = data.find(search_pattern)
+                chunk_size = 1024 * 1024  # 1 MB chunks (tunable)
+                ff_run = 0
+                zero_run = 0
 
-                if relative_index == -1:
-                    raise Exception(f"No contiguous free space found for {length} bytes.")
+                pos = start
 
-                found_at = start + relative_index
-                
-                # Word alignment
-                if found_at % 4 != 0:
-                    found_at += (4 - (found_at % 4))
-                
-                print(f"  [!] Found free space at {hex(found_at)}")
-                return found_at
+                while True:
+                    chunk = rom.read(chunk_size)
+                    if not chunk:
+                        break
+
+                    for i, b in enumerate(chunk):
+                        if b == 0xFF:
+                            ff_run += 1
+                            zero_run = 0
+                        elif b == 0x00:
+                            zero_run += 1
+                            ff_run = 0
+                        else:
+                            ff_run = 0
+                            zero_run = 0
+
+                        # check both possible free types
+                        if ff_run >= length or zero_run >= length:
+                            found_at = pos + i - length + 1
+
+                            # word align
+                            if found_at % 4 != 0:
+                                found_at += (4 - (found_at % 4))
+
+                            print(f"  [!] Found free space at {hex(found_at)}")
+                            return found_at
+
+                    pos += len(chunk)
+
+                raise Exception(f"No contiguous free space found for {length} bytes.")
 
             with open(FREE_BYTE_REPLACEMENTS, 'r') as file:
                 for line_num, line in enumerate(file, 1):
@@ -778,6 +794,15 @@ def main():
         offsetIni.close()
 
         print('Inserted in ' + str(datetime.now() - startTime) + '.')
+
+        print("\n[*] Running try.py...")
+
+        result = subprocess.run([sys.executable, "try.py"])
+
+        if result.returncode == 0:
+            print("[✔] try.py finished successfully.")
+        else:
+            print("[✖] try.py failed.")
 
 
 if __name__ == '__main__':

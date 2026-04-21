@@ -14,6 +14,7 @@ build/*
 *.ss2
 *.ss3
 *.toml
+*.cheats
 Multi Target Moves Plan.txt
 generatedrepoints
 *__pycache__
@@ -32,3 +33,5 @@ Cover Art.png
 
 # pycache files
 *.pyc
+
+test.cheats

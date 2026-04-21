@@ -1101,6 +1101,31 @@ void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
                 }
         }
         #endif
+        if (k < MAX_MON_MOVES)
+{
+    const u8 cutFieldMoveIndex = FIELD_MOVE_CUT;
+
+    #ifndef DEBUG_HMS
+    if (HasBadgeToUseFieldMove(FIELD_MOVE_CUT)
+    && (
+        #ifdef FLAG_BOUGHT_ADM
+        FlagGet(FLAG_BOUGHT_ADM) ||
+        #endif
+        #ifdef FLAG_SANDBOX_MODE
+        FlagGet(FLAG_SANDBOX_MODE) ||
+        #endif
+        (CheckBagHasItem(ITEM_HM01_CUT, 1) > 0
+        && CanMonLearnTMTutor(&mons[slotId], ITEM_HM01_CUT, 0) == CAN_LEARN_MOVE)))
+    #endif
+    {
+        AppendToList(
+            sPartyMenuInternal->actions,
+            &sPartyMenuInternal->numActions,
+            MENU_FIELD_MOVES + cutFieldMoveIndex
+        );
+        ++k;
+    }
+}
 
 #ifdef FLAG_SANDBOX_MODE
 SKIP_FIELD_MOVES:
