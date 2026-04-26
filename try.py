@@ -4,7 +4,7 @@ import sys
 
 VANILLA = "vanilla.gba"     # A
 PATCHED = "patched.gba"     # B
-TARGET  = "test.gba"        # C
+TARGET  = "BlazingFireRedInferno.gba"        # C
 
 LOG_FILE = "uninstall_log.txt"
 

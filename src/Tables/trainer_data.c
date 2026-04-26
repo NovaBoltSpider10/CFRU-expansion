@@ -3745,16 +3745,16 @@ const struct Trainer gTrainers[] = {
 	    .party = {.NoItemDefaultMoves = sParty_TrainerBirdKeeperMarlon}
 	},
 	[TRAINER_BLACK_BELT_KOICHI] = {
-	    .partyFlags = PARTY_FLAG_HAS_ITEM,
+	    .partyFlags = PARTY_FLAG_CUSTOM_MOVES | PARTY_FLAG_HAS_ITEM,
 	    .trainerClass = CLASS_BLACK_BELT,
 	    .encounterMusic = TRAINER_ENCOUNTER_MUSIC_INTENSE,
 	    .trainerPic = TRAINER_PIC_BLACK_BELT,
 	    .trainerName = {_K, _o, _i, _c, _h, _i, _END},
-	    .items = {ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+	    .items = {ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE, ITEM_NONE},
 	    .doubleBattle = FALSE,
-	    .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+	    .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY | AI_SCRIPT_SETUP_FIRST_TURN | AI_SCRIPT_RISKY | AI_SCRIPT_HP_AWARE,
 	    .partySize = NELEMS(sParty_TrainerBlackBeltKoichi),
-	    .party = {.ItemDefaultMoves = sParty_TrainerBlackBeltKoichi}
+	    .party = {.ItemCustomMoves = sParty_TrainerBlackBeltKoichi}
 	},
 	[TRAINER_BLACK_BELT_MIKE] = {
 	    .partyFlags = PARTY_FLAG_HAS_ITEM,
@@ -4631,6 +4631,18 @@ const struct Trainer gTrainers[] = {
 	    .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
 	    .partySize = NELEMS(sParty_TrainerTeamRocketGrunt40),
 	    .party = {.NoItemDefaultMoves = sParty_TrainerTeamRocketGrunt40}
+	},
+	[TRAINER_TEAM_ROCKET_GRUNT_41] = {
+	    .partyFlags = 0,
+	    .trainerClass = CLASS_TEAM_ROCKET,
+	    .encounterMusic = TRAINER_ENCOUNTER_MUSIC_AQUA,
+	    .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+	    .trainerName = {_G, _r, _u, _n, _t, _END},
+	    .items = {ITEM_NONE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+	    .doubleBattle = FALSE,
+	    .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+	    .partySize = NELEMS(sParty_TrainerTeamRocketGrunt41),
+	    .party = {.NoItemDefaultMoves = sParty_TrainerTeamRocketGrunt41}
 	},
 	[TRAINER_COOLTRAINER_BERKE] = {
 	    .partyFlags = PARTY_FLAG_CUSTOM_MOVES,
@@ -8721,7 +8733,7 @@ const struct Trainer gTrainers[] = {
         .gender = 0,
         .trainerPic = TRAINER_PIC_GIOVANNI,
         .trainerName = {_G, _i, _o, _v, _a, _n, _n, _i, _END},
-        .items = {ITEM_Z_POWER_RING, ITEM_NONE, ITEM_NONE, ITEM_NONE},
+        .items = {ITEM_Z_POWER_RING, ITEM_MEGA_RING, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .partySize = 6,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_CHECK_GOOD_MOVE | AI_SCRIPT_SEMI_SMART | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY | AI_SCRIPT_SETUP_FIRST_TURN | AI_SCRIPT_RISKY | AI_SCRIPT_HP_AWARE,

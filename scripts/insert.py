@@ -9,7 +9,7 @@ import _io
 
 OFFSET_TO_PUT = 0xec0290
 SOURCE_ROM = "BPRE0.gba"
-ROM_NAME = "test.gba"
+ROM_NAME = "BlazingFireRedInferno.gba"
 
 if sys.platform.startswith('win'):
     PathVar = os.environ.get('Path')
