@@ -117,14 +117,14 @@ extern const struct EventObjectGraphicsInfo gFollowerMonGfxTable3[];
 extern const struct EventObjectGraphicsInfo gFollowerMonGfxTable4[];
 
 //Tiles
-#define gFollowingMonPic_0006_CharizardTiles ((u8*)0x090F3AB4)
-#define gFollowingMonPic_0012_ButterfreeTiles ((u8*)0x090F82B4)
-#define gFollowingMonPic_0015_BeedrillTiles ((u8*)0x090FA6B4)
-#define gFollowingMonPic_0018_PidgeotTiles ((u8*)0x090FCAB4)
-#define gFollowingMonPic_0093_HaunterTiles ((u8*)0x091352B4)
-#define gFollowingMonPic_0094_GengarTiles ((u8*)0x09135EB4)
-#define gFollowingMonPic_0123_ScytherTiles ((u8*)0x0914BAB4)
-#define gFollowingMonPic_0212_ScizorTiles ((u8*)0x09190AB4)
+#define gFollowingMonPic_0006_CharizardTiles ((u8*)0x090F3A00)
+#define gFollowingMonPic_0012_ButterfreeTiles ((u8*)0x090F8200)
+#define gFollowingMonPic_0015_BeedrillTiles ((u8*)0x090FA600)
+#define gFollowingMonPic_0018_PidgeotTiles ((u8*)0x090FCA00)
+#define gFollowingMonPic_0093_HaunterTiles ((u8*)0x09135200)
+#define gFollowingMonPic_0094_GengarTiles ((u8*)0x09135E00)
+#define gFollowingMonPic_0123_ScytherTiles ((u8*)0x0914BA00)
+#define gFollowingMonPic_0212_ScizorTiles ((u8*)0x09190A00)
 #define gFollowingMonPic_0001_BulbasaurTiles ((u8*)0x090EFE90)
 #define gFollowingMonPic_0002_IvysaurTiles ((u8*)0x090F0A90)
 #define gFollowingMonPic_0003_VenusaurTiles ((u8*)0x090F1690)

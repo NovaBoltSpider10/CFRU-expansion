@@ -11247,7 +11247,7 @@ static const struct TrainerMonItemCustomMoves sParty_SilphGiovanni[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
     {
-        .lvl = 50,
+        .lvl = 53,
         .species = SPECIES_HYPNO,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11259,7 +11259,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
 
     },
     {
-        .lvl = 50,
+        .lvl = 53,
         .species = SPECIES_NINETALES,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11271,7 +11271,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
 
     },
     {
-        .lvl = 50,
+        .lvl = 53,
         .species = SPECIES_MR_MIME,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11283,7 +11283,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
 
     },
     {
-        .lvl = 50,
+        .lvl = 53,
         .species = SPECIES_JYNX,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11295,7 +11295,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
 
     },
     {
-        .lvl = 50,
+        .lvl = 53,
         .species = SPECIES_ESPEON,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11307,7 +11307,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
 
     },
     {
-        .lvl = 51,
+        .lvl = 54,
         .species = SPECIES_ALAKAZAM,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11322,7 +11322,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sabrina[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
     {
-        .lvl = 52,
+        .lvl = 55,
         .species = SPECIES_BEEDRILL,
         .ability = Ability_1,
         .nature = NATURE_JOLLY,
@@ -11334,7 +11334,7 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
 
     },
     {
-        .lvl = 52,
+        .lvl = 55,
         .species = SPECIES_VENOMOTH,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -11346,7 +11346,7 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
 
     },
     {
-        .lvl = 52,
+        .lvl = 55,
         .species = SPECIES_MUK,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11358,7 +11358,7 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
 
     },
     {
-        .lvl = 52,
+        .lvl = 55,
         .species = SPECIES_TENTACRUEL,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -11370,7 +11370,7 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
 
     },
     {
-        .lvl = 52,
+        .lvl = 55,
         .species = SPECIES_ARBOK,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11382,7 +11382,7 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
 
     },
     {
-        .lvl = 53,
+        .lvl = 56,
         .species = SPECIES_CROBAT,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11397,7 +11397,7 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
     {
-        .lvl = 57,
+        .lvl = 58,
         .species = SPECIES_NINETALES,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11409,7 +11409,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
 
     },
     {
-        .lvl = 57,
+        .lvl = 58,
         .species = SPECIES_RAPIDASH,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11421,7 +11421,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
 
     },
     {
-        .lvl = 57,
+        .lvl = 58,
         .species = SPECIES_ARCANINE,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11433,7 +11433,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
 
     },
     {
-        .lvl = 57,
+        .lvl = 58,
         .species = SPECIES_FLAREON,
         .ability = Ability_1,
         .nature = NATURE_JOLLY,
@@ -11445,7 +11445,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
 
     },
     {
-        .lvl = 57,
+        .lvl = 58,
         .species = SPECIES_CHARIZARD,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -11457,7 +11457,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
 
     },
     {
-        .lvl = 58,
+        .lvl = 59,
         .species = SPECIES_MAGMORTAR,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
