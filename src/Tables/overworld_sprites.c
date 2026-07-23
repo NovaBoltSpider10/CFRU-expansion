@@ -27,6 +27,10 @@ extern const u8 g5Tiles[];
 extern const u8 g6Tiles[];
 extern const u8 g7Tiles[];
 extern const u8 g72Tiles[];
+extern const u8 g136Tiles[];
+extern const u8 g137Tiles[];
+extern const u8 g138Tiles[];
+extern const u8 g139Tiles[];
 extern const u8 ultraTiles[];
 
 
@@ -171,6 +175,58 @@ static const struct SpriteFrameImage gEventObjectPicTable_g72[] =
     overworld_frame(g72Tiles, 2, 4, 6),
     overworld_frame(g72Tiles, 2, 4, 7),
     overworld_frame(g72Tiles, 2, 4, 8),
+};
+
+static const struct SpriteFrameImage gEventObjectPicTable_g136[] =
+{
+    overworld_frame(g136Tiles, 4, 4, 0),
+    overworld_frame(g136Tiles, 4, 4, 1),
+    overworld_frame(g136Tiles, 4, 4, 2),
+    overworld_frame(g136Tiles, 4, 4, 3),
+    overworld_frame(g136Tiles, 4, 4, 4),
+    overworld_frame(g136Tiles, 4, 4, 5),
+    overworld_frame(g136Tiles, 4, 4, 6),
+    overworld_frame(g136Tiles, 4, 4, 7),
+    overworld_frame(g136Tiles, 4, 4, 8),
+};
+
+static const struct SpriteFrameImage gEventObjectPicTable_g137[] =
+{
+    overworld_frame(g137Tiles, 4, 4, 0),
+    overworld_frame(g137Tiles, 4, 4, 1),
+    overworld_frame(g137Tiles, 4, 4, 2),
+    overworld_frame(g137Tiles, 4, 4, 3),
+    overworld_frame(g137Tiles, 4, 4, 4),
+    overworld_frame(g137Tiles, 4, 4, 5),
+    overworld_frame(g137Tiles, 4, 4, 6),
+    overworld_frame(g137Tiles, 4, 4, 7),
+    overworld_frame(g137Tiles, 4, 4, 8),
+};
+
+static const struct SpriteFrameImage gEventObjectPicTable_g138[] =
+{
+    overworld_frame(g138Tiles, 4, 4, 0),
+    overworld_frame(g138Tiles, 4, 4, 1),
+    overworld_frame(g138Tiles, 4, 4, 2),
+    overworld_frame(g138Tiles, 4, 4, 3),
+    overworld_frame(g138Tiles, 4, 4, 4),
+    overworld_frame(g138Tiles, 4, 4, 5),
+    overworld_frame(g138Tiles, 4, 4, 6),
+    overworld_frame(g138Tiles, 4, 4, 7),
+    overworld_frame(g138Tiles, 4, 4, 8),
+};
+
+static const struct SpriteFrameImage gEventObjectPicTable_g139[] =
+{
+    overworld_frame(g139Tiles, 4, 4, 0),
+    overworld_frame(g139Tiles, 4, 4, 1),
+    overworld_frame(g139Tiles, 4, 4, 2),
+    overworld_frame(g139Tiles, 4, 4, 3),
+    overworld_frame(g139Tiles, 4, 4, 4),
+    overworld_frame(g139Tiles, 4, 4, 5),
+    overworld_frame(g139Tiles, 4, 4, 6),
+    overworld_frame(g139Tiles, 4, 4, 7),
+    overworld_frame(g139Tiles, 4, 4, 8),
 };
 
 static const struct SpriteFrameImage gEventObjectPicTable_ultra[] =
@@ -367,6 +423,86 @@ const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_g72 =
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
+
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_g136 =
+{
+    .tileTag = 0xFFFF,
+    .paletteTag1 = 0x1159,
+    .paletteTag2 = EVENT_OBJ_PAL_TAG_NONE,
+    .size = (32 * 32) / 2,
+    .width = 32,
+    .height = 32,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .gender = MALE,
+    .oam = gEventObjectBaseOam_32x32,
+    .subspriteTables = gEventObjectSpriteOamTables_32x32,
+    .anims = gEventObjectImageAnimTable_Standard,
+    .images = gEventObjectPicTable_g136,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_g137 =
+{
+    .tileTag = 0xFFFF,
+    .paletteTag1 = 0x115A,
+    .paletteTag2 = EVENT_OBJ_PAL_TAG_NONE,
+    .size = (32 * 32) / 2,
+    .width = 32,
+    .height = 32,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .gender = MALE,
+    .oam = gEventObjectBaseOam_32x32,
+    .subspriteTables = gEventObjectSpriteOamTables_32x32,
+    .anims = gEventObjectImageAnimTable_Standard,
+    .images = gEventObjectPicTable_g137,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_g138 =
+{
+    .tileTag = 0xFFFF,
+    .paletteTag1 = 0x115B,
+    .paletteTag2 = EVENT_OBJ_PAL_TAG_NONE,
+    .size = (32 * 32) / 2,
+    .width = 32,
+    .height = 32,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .gender = MALE,
+    .oam = gEventObjectBaseOam_32x32,
+    .subspriteTables = gEventObjectSpriteOamTables_32x32,
+    .anims = gEventObjectImageAnimTable_Standard,
+    .images = gEventObjectPicTable_g138,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_g139 =
+{
+    .tileTag = 0xFFFF,
+    .paletteTag1 = 0x115C,
+    .paletteTag2 = EVENT_OBJ_PAL_TAG_NONE,
+    .size = (32 * 32) / 2,
+    .width = 32,
+    .height = 32,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .gender = MALE,
+    .oam = gEventObjectBaseOam_32x32,
+    .subspriteTables = gEventObjectSpriteOamTables_32x32,
+    .anims = gEventObjectImageAnimTable_Standard,
+    .images = gEventObjectPicTable_g139,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
 
 
 const struct EventObjectGraphicsInfo gEventObjectGraphicsInfo_ultra =

@@ -2809,7 +2809,7 @@ u8 GetAdjustedInitialTransitionFlags(struct InitialPlayerAvatarState *playerStru
 		return PLAYER_AVATAR_FLAG_UNDERWATER;
 	#ifndef UNBOUND
 	else if (MetatileBehavior_IsSeafoamIsland(metatileBehavior))
-		return PLAYER_AVATAR_FLAG_ON_FOOT;
+		return PLAYER_AVATAR_STATE_NORMAL;
 	#endif
 	else if (MetatileBehavior_IsSurfableWaterOrUnderwater(metatileBehavior))
 		return PLAYER_AVATAR_FLAG_SURFING;

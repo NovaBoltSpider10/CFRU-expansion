@@ -339,4 +339,8 @@ egg_hatchingPal 0826012C
 
 
 gEventObjectGraphicsInfo_g72 0x0839FED0
+gEventObjectGraphicsInfo_g136 839FFD0
+gEventObjectGraphicsInfo_g137 839FFD4
+gEventObjectGraphicsInfo_g138 839FFD8
+gEventObjectGraphicsInfo_g139 839FFDC
 gEventObjectGraphicsInfo_ultra 0x0839FFF8

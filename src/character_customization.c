@@ -1508,6 +1508,10 @@ static NPCPtr sOverworldTable6[] =
 	extern const u16 g6Pal[];
 	extern const u16 g7Pal[];
 	extern const u16 g72Pal[];
+    extern const u16 g136Pal[];
+    extern const u16 g137Pal[];
+    extern const u16 g138Pal[];
+    extern const u16 g139Pal[];
 	extern const u16 ultraPal[];
 
 	static const struct SpritePalette gObjectEventSpritePalettes11[] = {
@@ -1596,6 +1600,10 @@ static NPCPtr sOverworldTable6[] =
 		{g7Pal, 0x1156},
 		{g72Pal, 0x1157},
 		{ultraPal, 0x1158},
+        {g136Pal, 0x1159},
+        {g137Pal, 0x115A},
+        {g138Pal, 0x115B},
+        {g139Pal, 0x115C},
 		{NULL, 0x11FF}
 	};
 

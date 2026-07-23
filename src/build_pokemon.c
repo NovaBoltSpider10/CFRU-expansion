@@ -1018,14 +1018,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon* const party, const u16 trainerId
 							SET_MOVES(trainer->party.ItemCustomMoves);
 						SetAbilityFromEnum(&party[i], trainer->party.ItemCustomMoves[i].ability, trainer->party.ItemCustomMoves[i].nature);
 						SetMonData(mon, MON_DATA_HELD_ITEM, &trainer->party.ItemCustomMoves[i].heldItem);
-						SetEVSpread(&party[i],
-							trainer->party.ItemCustomMoves[i].evSpread[0],
-							trainer->party.ItemCustomMoves[i].evSpread[1],
-							trainer->party.ItemCustomMoves[i].evSpread[2],
-							trainer->party.ItemCustomMoves[i].evSpread[3],
-							trainer->party.ItemCustomMoves[i].evSpread[4],
-							trainer->party.ItemCustomMoves[i].evSpread[5]
-						);
+						SetEVSpread(&party[i], 0, 0, 0, 0, 0, 0);
 						SetIVSpread(&party[i],
 							trainer->party.ItemCustomMoves[i].ivSpread[0],
 							trainer->party.ItemCustomMoves[i].ivSpread[1],

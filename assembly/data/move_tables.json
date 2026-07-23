@@ -1050,7 +1050,6 @@
 
 	"gSpecialAttackPhysicalDamageMoves": [
 		"MOVE_PSYSHOCK",
-		"MOVE_PSYSTRIKE",
 		"MOVE_SECRETSWORD"
 	],
 

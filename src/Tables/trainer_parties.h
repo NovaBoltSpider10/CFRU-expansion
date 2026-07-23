@@ -11472,7 +11472,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
     {
-        .lvl = 62,
+        .lvl = 64,
         .species = SPECIES_DUGTRIO,
         .ability = Ability_1,
         .nature = NATURE_JOLLY,
@@ -11484,7 +11484,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
 
     },
     {
-        .lvl = 62,
+        .lvl = 64,
         .species = SPECIES_MAROWAK,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11496,7 +11496,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
 
     },
     {
-        .lvl = 62,
+        .lvl = 64,
         .species = SPECIES_SANDSLASH,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11508,7 +11508,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
 
     },
     {
-        .lvl = 62,
+        .lvl = 64,
         .species = SPECIES_NIDOKING,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -11520,7 +11520,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
 
     },
     {
-        .lvl = 62,
+        .lvl = 64,
         .species = SPECIES_NIDOQUEEN,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -11532,7 +11532,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
 
     },
     {
-        .lvl = 63,
+        .lvl = 65,
         .species = SPECIES_RHYPERIOR,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11547,7 +11547,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Route22Blue[] = {
     {
-        .lvl = 64,
+        .lvl = 69,
         .species = SPECIES_RHYPERIOR,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11559,7 +11559,7 @@ static const struct TrainerMonItemCustomMoves sParty_Route22Blue[] = {
 
     },
     {
-        .lvl = 64,
+        .lvl = 69,
         .species = SPECIES_FEAROW,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11571,7 +11571,7 @@ static const struct TrainerMonItemCustomMoves sParty_Route22Blue[] = {
 
     },
     {
-        .lvl = 64,
+        .lvl = 69,
         .species = SPECIES_ALAKAZAM,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -11583,7 +11583,7 @@ static const struct TrainerMonItemCustomMoves sParty_Route22Blue[] = {
 
     },
     {
-        .lvl = 64,
+        .lvl = 69,
         .species = SPECIES_EXEGGUTOR,
         .ability = Ability_1,
         .nature = NATURE_CALM,
@@ -11595,7 +11595,7 @@ static const struct TrainerMonItemCustomMoves sParty_Route22Blue[] = {
 
     },
     {
-        .lvl = 64,
+        .lvl = 69,
         .species = SPECIES_ARCANINE,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -11607,7 +11607,7 @@ static const struct TrainerMonItemCustomMoves sParty_Route22Blue[] = {
 
     },
     {
-        .lvl = 65,
+        .lvl = 70,
         .species = SPECIES_BLASTOISE,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -12753,7 +12753,7 @@ static const struct TrainerMonItemCustomMoves sParty_AgathaRematch[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
     {
-        .lvl = 84,
+        .lvl = 89,
         .species = SPECIES_AERODACTYL,
         .ability = Ability_1,
         .nature = NATURE_JOLLY,
@@ -12765,7 +12765,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
 
     },
     {
-        .lvl = 84,
+        .lvl = 89,
         .species = SPECIES_CHARIZARD,
         .ability = Ability_1,
         .nature = NATURE_JOLLY,
@@ -12777,7 +12777,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
 
     },
     {
-        .lvl = 84,
+        .lvl = 89,
         .species = SPECIES_GYARADOS,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12789,7 +12789,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
 .shiny = TRUE,
     },
     {
-        .lvl = 84,
+        .lvl = 89,
         .species = SPECIES_KINGDRA,
         .ability = Ability_1,
         .nature = NATURE_BASHFUL,
@@ -12801,7 +12801,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
 
     },
     {
-        .lvl = 84,
+        .lvl = 89,
         .species = SPECIES_DRAGONITE,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12813,7 +12813,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
 
     },
     {
-        .lvl = 85,
+        .lvl = 90,
         .species = SPECIES_DRAGONITE,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -12828,7 +12828,7 @@ static const struct TrainerMonItemCustomMoves sParty_LanceRematch[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
     {
-        .lvl = 89,
+        .lvl = 94,
         .species = SPECIES_RHYPERIOR,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12840,7 +12840,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
 
     },
     {
-        .lvl = 89,
+        .lvl = 94,
         .species = SPECIES_FEAROW,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12852,7 +12852,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
 
     },
     {
-        .lvl = 89,
+        .lvl = 94,
         .species = SPECIES_ALAKAZAM,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -12864,7 +12864,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
 
     },
     {
-        .lvl = 89,
+        .lvl = 94,
         .species = SPECIES_EXEGGUTOR,
         .ability = Ability_1,
         .nature = NATURE_CALM,
@@ -12876,7 +12876,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
 
     },
     {
-        .lvl = 89,
+        .lvl = 94,
         .species = SPECIES_ARCANINE,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12888,7 +12888,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
 
     },
     {
-        .lvl = 90,
+        .lvl = 95,
         .species = SPECIES_BLASTOISE,
         .ability = Ability_1,
         .nature = NATURE_MODEST,
@@ -12903,7 +12903,7 @@ static const struct TrainerMonItemCustomMoves sParty_ChampionBlueRematch[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Green[] = {
     {
-        .lvl = 85,
+        .lvl = 89,
         .species = SPECIES_MAROWAK,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12915,7 +12915,7 @@ static const struct TrainerMonItemCustomMoves sParty_Green[] = {
 
     },
     {
-        .lvl = 85,
+        .lvl = 89,
         .species = SPECIES_LAPRAS,
         .ability = Ability_1,
         .nature = NATURE_CALM,
@@ -12927,7 +12927,7 @@ static const struct TrainerMonItemCustomMoves sParty_Green[] = {
 
     },
     {
-        .lvl = 85,
+        .lvl = 89,
         .species = SPECIES_KANGASKHAN,
         .ability = Ability_1,
         .nature = NATURE_ADAMANT,
@@ -12939,7 +12939,7 @@ static const struct TrainerMonItemCustomMoves sParty_Green[] = {
 
     },
     {
-        .lvl = 85,
+        .lvl = 89,
         .species = SPECIES_DITTO,
         .ability = Ability_1,
         .nature = NATURE_BASHFUL,
@@ -12951,7 +12951,7 @@ static const struct TrainerMonItemCustomMoves sParty_Green[] = {
 
     },
     {
-        .lvl = 85,
+        .lvl = 89,
         .species = SPECIES_ESPEON,
         .ability = Ability_1,
         .nature = NATURE_TIMID,
@@ -12963,7 +12963,7 @@ static const struct TrainerMonItemCustomMoves sParty_Green[] = {
 
     },
     {
-        .lvl = 86,
+        .lvl = 90,
         .species = SPECIES_VENUSAUR,
         .ability = Ability_1,
         .nature = NATURE_CALM,
@@ -12981,7 +12981,7 @@ static const struct TrainerMonItemCustomMoves sParty_Akash[] = {
         .lvl = 62,
         .species = SPECIES_GLIMMORA,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_FOCUS_SASH,
@@ -12993,7 +12993,7 @@ static const struct TrainerMonItemCustomMoves sParty_Akash[] = {
         .lvl = 62,
         .species = SPECIES_MAWILE,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_MAWILITE,
@@ -13005,7 +13005,7 @@ static const struct TrainerMonItemCustomMoves sParty_Akash[] = {
         .lvl = 62,
         .species = SPECIES_AMPHAROS,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_AMPHAROSITE,
@@ -13017,7 +13017,7 @@ static const struct TrainerMonItemCustomMoves sParty_Akash[] = {
         .lvl = 62,
         .species = SPECIES_TYPHLOSION,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_CHOICE_SPECS,
@@ -13029,7 +13029,7 @@ static const struct TrainerMonItemCustomMoves sParty_Akash[] = {
         .lvl = 62,
         .species = SPECIES_MARSHADOW,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIFE_ORB,
@@ -13039,9 +13039,9 @@ static const struct TrainerMonItemCustomMoves sParty_Akash[] = {
     },
     {
         .lvl = 62,
-        .species = SPECIES_ETERNATUS_ETERNAMAX,
+        .species = SPECIES_ETERNATUS,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_BLACK_SLUDGE,
@@ -13056,7 +13056,7 @@ static const struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_GRENINJA,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIFE_ORB,
@@ -13068,7 +13068,7 @@ static const struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_CHARIZARD,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_CHOICE_SPECS,
@@ -13080,7 +13080,7 @@ static const struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_GENGAR,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_GENGARITE,
@@ -13092,7 +13092,7 @@ static const struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_ABSOL,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SCOPE_LENS,
@@ -13104,7 +13104,7 @@ static const struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_LUXRAY,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_CHOICE_BAND,
@@ -13116,7 +13116,7 @@ static const struct TrainerMonItemCustomMoves sParty_Arvind[] = {
         .lvl = 62,
         .species = SPECIES_LUCARIO,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_FOCUS_SASH,
@@ -13206,7 +13206,7 @@ static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .lvl = 62,
         .species = SPECIES_COSMOEM,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
@@ -13218,7 +13218,7 @@ static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .lvl = 62,
         .species = SPECIES_COSMOEM,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_EVIOLITE,
@@ -13230,7 +13230,7 @@ static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .lvl = 62,
         .species = SPECIES_COSMOEM,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LAGGING_TAIL,
@@ -13242,7 +13242,7 @@ static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .lvl = 62,
         .species = SPECIES_COSMOEM,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SAFETY_GOGGLES,
@@ -13254,7 +13254,7 @@ static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .lvl = 62,
         .species = SPECIES_COSMOEM,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_ROCKY_HELMET,
@@ -13266,7 +13266,7 @@ static const struct TrainerMonItemCustomMoves sParty_Syed[] = {
         .lvl = 62,
         .species = SPECIES_COSMOEM,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
@@ -13281,7 +13281,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
         .lvl = 61,
         .species = SPECIES_TENTACRUEL,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_BLACK_SLUDGE,
@@ -13293,7 +13293,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
         .lvl = 61,
         .species = SPECIES_FEAROW,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SCOPE_LENS,
@@ -13305,7 +13305,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
         .lvl = 62,
         .species = SPECIES_RAICHU,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIFE_ORB,
@@ -13317,7 +13317,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
         .lvl = 62,
         .species = SPECIES_BUTTERFREE,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_BUGINIUM_Z,
@@ -13329,7 +13329,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
         .lvl = 61,
         .species = SPECIES_LEAFEON,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
@@ -13341,7 +13341,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ritchie[] = {
         .lvl = 62,
         .species = SPECIES_CHARIZARD,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_CHARIZARDITE_Y,
@@ -13356,7 +13356,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
         .lvl = 62,
         .species = SPECIES_PSYDUCK,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SITRUS_BERRY,
@@ -13368,7 +13368,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
         .lvl = 62,
         .species = SPECIES_KLEFKI,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_BOLD,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIGHT_CLAY,
@@ -13380,7 +13380,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
         .lvl = 62,
         .species = SPECIES_MR_MIME,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIFE_ORB,
@@ -13392,7 +13392,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
         .lvl = 62,
         .species = SPECIES_MIMIKYU,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIFE_ORB,
@@ -13404,7 +13404,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
         .lvl = 62,
         .species = SPECIES_WISHIWASHI,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_WATERIUM_Z,
@@ -13416,7 +13416,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karthikeya[] = {
         .lvl = 62,
         .species = SPECIES_SURSKIT,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_FOCUS_SASH,
@@ -13431,7 +13431,7 @@ static const struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .lvl = 61,
         .species = SPECIES_WIGGLYTUFF,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_MODEST,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIGHT_CLAY,
@@ -13443,7 +13443,7 @@ static const struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .lvl = 61,
         .species = SPECIES_PERSIAN,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SILK_SCARF,
@@ -13455,7 +13455,7 @@ static const struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .lvl = 61,
         .species = SPECIES_FARFETCHD,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LIFE_ORB,
@@ -13467,7 +13467,7 @@ static const struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .lvl = 61,
         .species = SPECIES_BLISSEY,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_CALM,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
@@ -13479,7 +13479,7 @@ static const struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .lvl = 61,
         .species = SPECIES_LICKILICKY,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_BOLD,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_LEFTOVERS,
@@ -13491,7 +13491,7 @@ static const struct TrainerMonItemCustomMoves sParty_RayTyra[] = {
         .lvl = 62,
         .species = SPECIES_SNORLAX,
         .ability = Ability_1,
-        .nature = NATURE_BASHFUL,
+        .nature = NATURE_ADAMANT,
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_SNORLAXITE,
@@ -13820,7 +13820,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sapphire1[] = {
         .ivSpread = {31,31,31,31,31,31},
         .evSpread = {0,0,0,0,0,0},
         .heldItem = ITEM_METAGROSSITE,
-        .moves = {MOVE_METEORMASH, MOVE_ZENHEADBUTT, MOVE_EARTHQUAKE, MOVE_SHIFTGEAR},
+        .moves = {MOVE_METEORMASH, MOVE_PSYCHICFANGS, MOVE_EARTHQUAKE, MOVE_SHIFTGEAR},
         .teraType = TYPE_NORMAL,
     },
     {
